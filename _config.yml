@@ -3,9 +3,9 @@ auto:        true
 server:      false
 server_port: 4000
 
-base-url:    ajlohman/
+# base-url:    ajlohman/
 site_name: 'Andrew Lohman'
-baseurl: 'ajlohman.github.com/'
+# baseurl: 'ajlohman.github.com/'
 
 # baseurl:    /ajlohman
 # url: 'http://ajlohman.github.com/ajlohman'
