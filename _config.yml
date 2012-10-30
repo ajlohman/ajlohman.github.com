@@ -1,0 +1,17 @@
+safe:        false
+auto:        true
+server:      false
+server_port: 4000
+
+base-url:    ajlohman/
+site_name: 'Andrew Lohman'
+baseurl: 'ajlohman.github.com/'
+
+# baseurl:    /ajlohman
+# url: 'http://ajlohman.github.com/ajlohman'
+# site_url: 'ajlohman.github.com/ajlohman'
+
+markdown: rdiscount
+permalink: /articles/:title
+pygments: true
+paginate: 5
