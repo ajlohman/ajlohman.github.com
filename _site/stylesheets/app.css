@@ -13,7 +13,12 @@
    Shared Styles
 ----------------------------------------- */
 body {
-	background: green;
+	background: #aaa;
+}
+
+.date {
+	text-align: center;
+	padding-bottom:2em;
 }
 
 
