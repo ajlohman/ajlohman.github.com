@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-dark
 number: 1
 title: Henry's Statement
 date: June 20, 2012
