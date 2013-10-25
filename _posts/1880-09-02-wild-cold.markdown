@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post-dark
 title: "Wild, Cold"
 date: September 2, 1880
 ---
