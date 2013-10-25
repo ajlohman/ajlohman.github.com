@@ -58,10 +58,6 @@ a:hover.link_white {
   /*border-bottom:2px #4f4f4f solid;*/
 }
 
-p a {
-  border-bottom: solid 2px #000;
-}
-
 
 strong {font-weight: bold;}
 em {font-style: italic;}
