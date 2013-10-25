@@ -264,6 +264,8 @@ img.header-shape  {
   background: rgba(51,153,153,1);
   color:#fff;
 }
+.featured-project-2 a {color:#37464f;text-decoration: none;}
+.featured-project-2 a:hover {color:#333333;text-decoration: none;}
 
 .featured-project-3 {
   background: #425863;
