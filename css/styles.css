@@ -471,8 +471,6 @@ li.shot-list:nth-child(5), li.shot-list:nth-child(10) {
   z-index:100;
 }
 
-.footer a:hover {color:#ffffff;border-bottom: solid 2px #ffffff;}
-
 .footer h2 {color:#ffffff;}
 
 .footer h2:after {
