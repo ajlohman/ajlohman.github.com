@@ -1,4 +1,3 @@
-
 /* Reset
 -------------------------------------------------- */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {display: block;}
@@ -263,7 +262,7 @@ img.header-shape  {
   color:#fff;
 }
 
-.featured-project-ac, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {
+.featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {
   width:70%;
   display: block;
   margin:0 auto 2em auto;
