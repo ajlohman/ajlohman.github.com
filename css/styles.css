@@ -246,31 +246,21 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
-.featured-project-ac {
-  background: #3C4E57;
-  color:#fff;
-}
+.featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
 
-.featured-project-1 {
-  background: rgba(220,59,59,1);
-  color:#fff;
-}
+.featured-project-1 {background: rgba(220,59,59,1);color:#fff;}
 .featured-project-1 a {color:#999;text-decoration: none;}
 .featured-project-1 a:hover {color:#333333;text-decoration: none;}
 
-.featured-project-2 {
-  background: rgba(51,153,153,1);
-  color:#fff;
-}
+.featured-project-2 {background: rgba(51,153,153,1);color:#fff;}
 .featured-project-2 a {color:#37464f;text-decoration: none;}
 .featured-project-2 a:hover {color:#333333;text-decoration: none;}
 
-.featured-project-3 {
-  background: #425863;
-  color:#fff;
-}
+.featured-project-3 {background: #425863;color:#fff;}
+.featured-project-3 a {color:#bdddce;text-decoration: none;}
+.featured-project-3 a:hover {color:#333333;text-decoration: none;}
 
 .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {
   width:70%;
