@@ -1,53 +1,189 @@
----
-layout: default
----
 
-<div style="background:#fff; width: 1024px; max-width: 100%; margin: 0 auto;">
-	<div class="row">
-		<div class="eight columns centered">
-		{% for post in paginator.posts %}
-		<h1>{{post.number}}</h1>
-		<h3><a href="{{post.url}}">{{post.title}}</a></h3>
-		<p class="date">{{post.date | date: "%B %d, %Y"}}</p>
-			<div class="row">
-				<div class="twelve columns">
-					{{post.content}}
-				</div>
-			</div>
-		{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew Lohman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of web designer Andrew Lohman">
+    <meta name="author" content="Andrew Lohman">
 
-		<div class="pagination">
-			<p>
-				{% if paginator.previous_page %}
-					{% if paginator.previous_page == 1 %}
-						<a href="/" class="previous">Previous</a>
-					{% else %}
-						<a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
-					{% endif %}
-				{% else %}
-					<span class="previous">Previous</span>
-				{% endif %}
-					<span class="page_number">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
-				{% if paginator.next_page %}
-					<a href="/page{{paginator.next_page}}" class="next">Next</a>
-				{% else %}
-					<span class="next">Next</span>
-				{% endif %}
-			</p>
-		</div>
+    <!-- styles -->
+    <link href="css/style.css" rel="stylesheet">
 
-		</div>
-		<div class="four columns">
-			<h4>Recent Writings</h4>
-			<p>From the archives of this journal:</p>
-			<ul class="disc">
-				{% for post in site.posts offset: 3 limit: 10 %}
-				<li><a href="{{post.url}}">{{post.title}}</a></li>
-				{% endfor %}
-			</ul>
+    <script type="text/javascript" src="//use.typekit.net/dsw7oia.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-	      <h4>About Edward Hyde</h4>
-	      <p>A night owl, citizen of London, of questionable character.</p>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	    </div>
-  </div>	
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/aj-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/aj-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/aj-72.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/aj-57.png"> 
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="logo"><img src="img/logo-v2.png" /></div>
+        <div class="intro">
+          <h1>Andrew Lohman</h1>
+          <p>I am a web designer, focused on crafting great experiences, making everything I touch better, smarter and easier to use. I specialize in responsive front-end design, HTML/CSS and web typography. <em>I believe simple is beautiful.</em></p>
+        </div>
+      </div>
+    </header>
+
+    <!-- featured project 1 -->
+    <!-- <section class="featured-project-ac">
+      <div class="container">
+        <img src="/wp-content/uploads/2013/10/feature-project-amini-v2.png" />
+        <h3>Amini & Conant</h3>
+        <p>A&C is a law firm based in Austin,TX. The team at A&C wanted to re-imagine the typical lawyer website experience and reach more clients with a responsive design. I had the pleasure of collaborating with <a href="http://dbln.co/" class="link_white">Dbln</a> and <a href="http://justinscottchildress.com/" class="link_white">Justin Childress</a> on this project. I was responsible for design and direction.</p>
+
+        <p>Visit the <a href="http://eatdrinkatx.com/" class="link_white">live</a> site.</p>
+      </div>
+    </section> -->
+
+    <!-- featured project 2 -->
+    <section class="featured-project-1">
+      <div class="container">
+        <img src="img/feature-project-eatdrinkatx-v2.png" />
+        <h3>Eat Drink ATX</h3>
+        <p>A little something to help people find great places to eat and drink in Austin,TX. Collaboration with <a href="http://dribbble.com/diggs00" class="link_white">David Baker</a> and <a href="http://dribbble.com/jonathanbowden" class="link_white">Jonathan Bowden</a>. David Baker created the logo and icons. I was responsible for design and development.</p>
+
+        <p>View this project on <a href="http://dribbble.com/ajlohman/projects/121629-Eat-Drink-ATX" class="link_white">Dribbble</a> or visit the <a href="http://eatdrinkatx.com/" class="link_white">live</a> site.</p>
+      </div>
+    </section>
+
+
+    <!-- featured project 3 -->
+    <section class="featured-project-2">
+      <div class="container">
+        <img src="img/feature-project-nosh.png" />
+        <h3>Nosh catering</h3>
+        <p>Nosh is a catering company located in Wellington, New Zealand. I worked with them to build a responsive website to showcase their offerings. Some elements of the site have changed since it was first launched but my overall vision is still intact. I was responsible for design and development.</p>
+
+        <p>Visit the <a href="http://nosh.co.nz/" class="link_white">live</a> site.</p>
+      </div>
+    </section>
+
+    <!-- featured project 4 -->
+    <section class="featured-project-3">
+      <div class="container">
+        <img src="img/feature-project-typecast.png" />
+        <h3>Just things</h3>
+        <p><a href="http://typecast.com/" class="link_white">Typecast</a> conducted a typography contest during the <a href="http://2012.buildconf.com/" class="link_white">Build</a> conference. This was my entry which ended up <a href="http://typecast.com/blog/our-first-contest-winners" class="link_white">winning</a> best overall award for this quote. The entries were judged by <a href="http://elliotjaystocks.com/" class="link_white">Elliot Jay Stocks</a>, <a href="http://trentwalton.com/" class="link_white">Trent Walton</a>, and <a href="http://nicewebtype.com/" class="link_white">Tim Brown</a>.</p>
+
+        <p>View this project on <a href="http://dribbble.com/shots/815492-Just-Things-Wilson-Miner?list=users" class="link_white">Dribbble</a> or visit the <a href="http://andrewlohman.com/just-things/" class="link_white">live</a> version.</p>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <div class="container">
+      <section class="title-projects">
+        <!-- <span class="icon"><i class="icon-pencil"></i></span> -->
+        <h2>More projects</h2>
+        <!-- <h3>Some work. Some play. Some work in progress. All designed and coded with love.</h3> -->
+        <!-- Brought to you by <a href="http://dribbble.com/ajlohman">Dribbble.</a> -->
+      </section>
+    </div>
+
+    <div>
+      <section class="projects">
+        <div class="feature-examples">
+          <ul id="shotsByPlayerId" class="shotList"></ul>
+        </div>
+      </section>
+    </div>
+    
+
+    <!-- about me -->
+  <div class="about-container">
+    <section class="about-me">
+
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+          <!-- <span class="icon"><i class="icon-eye-open"></i></span> -->
+          <h2>More about me</h2>
+        </div>
+
+        <div class="row">
+          <div class="span3">
+            <p>For the past decade I've been crafting user-centered design experiences for the web. I specialize in responsive front-end design, HTML/CSS and web typography. Some other areas of expertise are creative direction/art direction, interface design, rapid prototyping, concepting, mobile/app design and more. Most days I work with pixels, grids, typography, colors and lines of code. Currently I work at Dell as a web designer.</p>
+
+            <p>I'm always interested in freelance opportunities, so don't hesitate to contact me if you are looking to fill a spot or need help with a project.</p>
+          </div>
+          <div class="span3">
+            <p>Known by friends as A.J., you can find me elsewhere on the web: view my <a href="http://dribbble.com/ajlohman">Dribbble</a> shots, follow me on <a href="https://twitter.com/ajlohman">Twitter</a>, I post internet findings on <a href="https://pro.gimmebar.com/loves/ajlohman">Gimmebar</a>, I take photos on <a href="http://www.flickr.com/photos/91203737@N05">Flickr</a> and listens to music on <a href="http://www.rdio.com/people/ajlohman/">Rdio</a>.</p>
+
+            <p>Life outside of work is spent with my beautiful wife, two boys and crazy pug. When I'm not thinking about the future of the internet I enjoy the outdoors, playing many different sports (especially golf) but wish I could snow ski or surf more often. I live in Texas, but used to live in Indiana, Massachusetts, Ohio and California.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="span6">
+            <h3>About this site</h3>
+          </div>
+        </div>
+
+        <div>
+          <div class="span3">
+            <p>I use this site as an experimental space, trying and testing things so it might not work properly from time to time. If you have questions on how are why I did something or have tips to improve something don't hesitate to <a href="mailto:ajlohman@gmail.com?subject=Contact-me">contact me</a>.</p>
+          </div>
+
+          <div class="span3">
+            <p>Hosted by <a href="http://mediatemple.net/">MediaTemple</a> and built using <a href="http://www.sublimetext.com/2">Sublime Text</a>. The body font used is <a href="https://typekit.com/fonts/ff-meta-serif-web-pro">FF Meta Serif Web Pro</a> by <a href="https://www.fontfont.com/">FontFont</a>. The header font used is <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a> by <a href="http://www.ms-studio.com/">Mark Simonson Studio</a>. Fonts served up via <a href="https://typekit.com/">Typekit</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <!-- <span class="icon white"><i class="icon-globe"></i></span> -->
+        <h2>Elsewhere</h2>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="http://dribbble.com/ajlohman">Dribbble</a></li>
+          <li class="footer-list-item"><a href="https://twitter.com/ajlohman">Twitter</a></li>
+          <li class="footer-list-item"><a href="http://instagram.com/ajlohman">Instagram</a></li>
+          <li><a href="http://www.rdio.com/people/ajlohman/">Rdio</a></li>
+        </ul>
+        
+        <p>Contact me by <a href="mailto:ajlohman@gmail.com?subject=Contact-me">email</a></p>
+        <p><em>Made by hand</em> by Andrew Lohman</p>
+        <p>Thanks for visiting</p>
+        <p>&#169; Copyright 2000-2013</p>
+      </div>
+    </footer>
+
+
+    <!-- javascript
+    ================================================== -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jribbble.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Google analytics -->
+    <script>
+      var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19365954-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+  </body>
+</html>
