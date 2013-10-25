@@ -16,8 +16,8 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 body {
   margin: 0;
   font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",serif;
-  font-size: 125%;
-  line-height: 1.5em;
+  font-size: 100%;
+  line-height: 1.25em;
   color: #4f4f4f;
   background-color: #ffffff;
   -webkit-transition: all 0.2s ease-out;
@@ -551,7 +551,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   h3 {font-size: 1.15em;}
   h4 {padding-top:0.5em;}
 
-  .header, .intro, .intro p, .projects h3, .featured-project-1, .featured-project-2, .featured-project-3, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p, footer {width:100%;}
+  .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-1, .featured-project-2, .featured-project-3, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p, footer {width:100%;}
 
   /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
   /*.projects {padding:0em 0 3em 0;}*/
@@ -581,7 +581,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 }
 
 @media (min-width: 1200px) {
-  body {font-size: 145%;line-height: 1.8em;}
+  body {font-size: 125%;line-height: 1.8em;}
   .logo img {margin:0em auto 0 auto;}
   .feature-examples li:nth-child(3n+3) {margin-right:0;}
 
