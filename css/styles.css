@@ -250,6 +250,8 @@ img.header-shape  {
   background: #3C4E57;
   color:#fff;
 }
+.featured-project-ac a.link_white {color:#f37224;text-decoration: none;}
+.featured-project-ac a:hover.link_white {color:#169ed5;text-decoration: none;}
 
 .featured-project-1 {
   background: rgba(220,59,59,1);
