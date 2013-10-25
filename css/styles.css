@@ -585,7 +585,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   .logo img {margin:0em auto 0 auto;}
   .feature-examples li:nth-child(3n+3) {margin-right:0;}
 
-.intro p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
+.intro p, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
 }
 
 
