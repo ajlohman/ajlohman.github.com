@@ -591,7 +591,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   h1:after {width: 2.95em;}
   h2 {font-size: 1.4em;}
   h2:after {width: 2.95em;}
-  h3 {font-size: 1.15em;}
+  /*h3 {font-size: 1.15em;}*/
   h4 {padding-top:0.5em;}
 
   .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-1, .featured-project-2, .featured-project-3, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p, footer {width:100%;}
