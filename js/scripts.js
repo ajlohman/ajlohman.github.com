@@ -31,6 +31,14 @@ $(window).scroll(function(){
 });
 
 
+/* project toggle
+-------------------------------------------------------------- */
+$( "#click-ac" ).click(function() {
+  $( "#project-ac" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
+
 /* Me fade
 -------------------------------------------------------------- */
 	// var $me = $('.me');

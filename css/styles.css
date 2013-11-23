@@ -252,6 +252,7 @@ img.header-shape  {
 .featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
+#project-ac {display:none;}
 
 .featured-project-1 {background: rgba(220,59,59,1);color:#fff;}
 .featured-project-1 a {color:#999;text-decoration: none;}
