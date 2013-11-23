@@ -255,9 +255,9 @@ img.header-shape  {
   font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
   font-weight: 100;
   background: rgba(0, 0, 0, 0.2);
-  width: 45px !important;
-  height: 40px;
-  padding-top: 5px;
+  width: 40px !important;
+  height: 32px;
+  padding-top: 7px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -548,11 +548,6 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 
 @media (max-width: 767px) {
 
-  .plus {
-    width: 40px !important;
-    height: 32px;
-    padding-top: 7px;
-  }
 
   .logo {margin-top: -70px;}
   .row {width: 100%;}
@@ -604,7 +599,13 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   .logo img {margin:0em auto 0 auto;}
   .feature-examples li:nth-child(3n+3) {margin-right:0;}
 
-.intro p, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
+  .intro p, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
+
+  .plus {
+    width: 45px !important;
+    height: 40px;
+    padding-top: 5px;
+  }
 }
 
 
