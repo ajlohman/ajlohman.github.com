@@ -30,7 +30,7 @@ body {
 a {
   /*color: #00A551;*/
   color:#000000;
-  font-weight:bold;
+  font-weight:normal;
   /*border-bottom: solid 2px #00A551;*/
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
