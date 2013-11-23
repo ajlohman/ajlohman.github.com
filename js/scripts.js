@@ -35,12 +35,12 @@ $(window).scroll(function(){
 -------------------------------------------------------------- */
 $( "#click-ac" ).click(function() {
   $( "#project-ac" ).slideToggle( "slow", function() {});
-  $(".container").next().next().toggleClass("rotate");
+  $(".plus").toggleClass("rotate");
 });
 
 $( "#click-eatdrink" ).click(function() {
   $( "#project-eatdrink" ).slideToggle( "slow", function() {});
-  $(".container").next().next().toggleClass("rotate");
+  $(".plus").toggleClass("rotate");
 });
 
 
