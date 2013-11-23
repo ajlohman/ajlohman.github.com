@@ -249,7 +249,7 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
-.plus {margin-bottom:0; font-size:300%;}
+.plus {margin-bottom:0 !important; font-size:300%;}
 
 .featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
