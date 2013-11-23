@@ -39,6 +39,14 @@ $( "#click-ac" ).click(function() {
   });
 });
 
+// $( "#click-ac" ).click(function() {
+//   $( ".plus" ).Toggle( "slow", function() {
+    
+//   });
+// });
+
+
+
 /* Me fade
 -------------------------------------------------------------- */
 	// var $me = $('.me');

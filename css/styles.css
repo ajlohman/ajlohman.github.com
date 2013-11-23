@@ -249,6 +249,8 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
+#plus {margin-bottom:0;}
+
 .featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
