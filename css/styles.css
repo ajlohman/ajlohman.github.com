@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6 {
   text-rendering: optimizelegibility;
 }
 
-h1 {font-size: 2.5em;line-height: 1.25em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; }
+h1 {font-size: 2.5em;line-height: 1.25em; text-transform: uppercase; letter-spacing: 0.15em; }
 h1:after {
   content: "";
   display: block;
@@ -137,8 +137,8 @@ h2:after {
   height: 1px;
   background: #cccccc;
 }
-h3 {font-size: 1.5em;line-height: 1.25em; padding-bottom:1em; font-weight: 600; text-align:center; }
-h4 {font-size: 1em;line-height: 1.25em; padding-top:1em; font-weight: 600; letter-spacing: 0.15em;}
+h3 {font-size: 1.5em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
+h4 {font-size: 1em;line-height: 1.25em; padding-top:1em; letter-spacing: 0.15em;}
 
 
 /* header
