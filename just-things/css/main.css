@@ -1,0 +1,660 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: red;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #333;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.container {
+    width:96%;
+    background: #E1F0E9;
+    display: block;
+    padding:10em 0 10em 0;
+    margin:2%;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+}
+
+.row {
+    /*background:pink;*/
+    position: relative;
+    display: block;
+    width:100%;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.we {
+    background: #425863;
+    font-family: "corner-store-1","corner-store-2",sans-serif;
+    font-size:2em;
+    color: #fff;
+    display: block;
+    border:1em solid #E1F0E9;
+    width:1.35em;
+    margin: -2.5em auto 0 auto;
+    padding:0.70em;
+    z-index:100;
+
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; /* future proofing */
+    -khtml-border-radius: 50%; /* for old Konqueror browsers */
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em; 
+}
+
+hr.we-line {
+    display: block;
+    width: 80%;
+    height: 10px;
+    border: 0;
+    border-top: 6px solid rgba(255,255,255,0.8);
+    border-bottom: 1px solid rgba(255,255,255,0.8);
+    margin: 2em auto 0 auto;
+    padding: 0;
+}
+
+.lrg {
+    font-size: 5em;
+    margin:-0.5em 0 0 0;
+    color: #FFD25E;
+    text-transform: uppercase;
+    font-family: "hellenic-wide-1","hellenic-wide-2",sans-serif;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: u#E64E49rl(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em;
+}
+
+.lrg-2 {
+    font-size: 7.5em;
+    margin:-0.2em 0 0 0;
+   /* color: #FFC122;*/
+    color: #E64E49;
+    text-transform: uppercase;
+    font-family: "hellenic-wide-1","hellenic-wide-2",sans-serif;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em;
+}
+
+.ribbon {
+    display: block;
+    position: relative;
+    height: 35px;
+    z-index: 99;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-family: "prenton-condensed-1","prenton-condensed-2",sans-serif;
+    background: #425863;
+    width:60%;
+    margin:0.5em auto 0 auto;
+    padding:1em;
+    color:#fff;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em;
+}
+
+.ribbon::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top:0;
+    right:0;
+    width: 0;
+    height: 0;
+    border-top:42px solid transparent;
+    border-right:50px solid #E1F0E9;
+    border-bottom:42px solid transparent;
+}
+
+.ribbon::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    width: 0;
+    height: 0;
+    border-top:42px solid transparent;
+    border-left:50px solid #E1F0E9;
+    border-bottom:42px solid transparent;
+}
+
+
+
+.they {
+    font-family: "corner-store-1","corner-store-2",sans-serif;
+    font-size:2em;
+    color: #425863;
+    padding:1em 0 0.5em 0;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em;
+}
+
+.author {
+    display: block;
+    height: 30px;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.25em;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-family: "prenton-condensed-1","prenton-condensed-2",sans-serif;
+    background: #BADCCC;
+    width:30%;
+    margin:0 auto 0 auto;
+    padding:1em;
+    color:#fff;
+
+    -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -moz-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    -ms-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+    mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
+
+    text-shadow: 
+    rgba(0, 0, 0, .1) .01em .01em, 
+    rgba(0, 0, 0, .1) .03em .03em, 
+    rgba(0, 0, 0, .1) .04em .04em, 
+    rgba(0, 0, 0, .1) .05em .05em;
+}
+
+.author::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    width: 0;
+    height: 0;
+    border-top:35px solid transparent;
+    border-left:50px solid #E1F0E9;
+    border-bottom:35px solid transparent;
+}
+
+.author::before {
+    content: ' ';
+    position: absolute;
+    display: block;
+    top:0;
+    right:0;
+    width: 0;
+    height: 0;
+    border-top:35px solid transparent;
+    border-right:50px solid #E1F0E9;
+    border-bottom:35px solid transparent;
+}
+
+hr.author-line {
+    display: block;
+    width: 80%;
+    height: 10px;
+    border: 0;
+    border-top: 3px dotted rgba(255,255,255,0.8);
+    margin: 2em auto 0 auto;
+    padding: 4em 0 0 0;
+}
+
+p.footer {
+    padding:4em 0 0 0;
+    color:#425863;
+}
+
+
+p.footer a {
+    color:#425863;
+}
+
+p.footer a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+@media only screen and (max-width: 70em) {
+    /* Style adjustments for viewports that meet the condition */
+
+    .container {
+        padding:5em 0 5em 0;
+    }
+
+    .lrg {
+        font-size: 3em;
+        margin:-0.5em 0 0 0;
+    }
+
+    .lrg-2 {
+        font-size: 4.5em;
+        margin:-0.2em 0 0 0;
+    }
+
+    .ribbon {
+        height: 35px;
+        font-size: 1.5em;
+        letter-spacing: 0.25em;
+        width:80%;
+        margin:0.5em auto 0 auto;
+        padding:1em;
+    }
+
+    .author {
+        height: 30px;
+        font-size: 1.25em;
+        letter-spacing: 0.25em;
+        width:50%;
+        margin:0 auto 0 auto;
+        padding:1em;
+    }
+
+}
+
+
+@media only screen and (max-width: 45em) {
+    /* Style adjustments for viewports that meet the condition */
+
+    .container {
+        width:100%;
+        padding:2em 0 2em 0;
+        margin:0;
+    }
+
+    .we {
+        font-size:1em;
+        border:1em solid #E1F0E9;
+        width:1.35em;
+        margin: -3em auto 0 auto;
+        padding:0.70em;
+    }
+
+    hr.we-line {
+        border-top: 3px solid rgba(255,255,255,0.8);
+        border-bottom: 1px solid rgba(255,255,255,0.8);
+    }
+
+    .lrg {
+        font-size: 1.5em;
+        margin:-0.5em 0 0 0;
+    }
+
+    .lrg-2 {
+        font-size: 2.5em;
+        margin:-0.2em 0 0 0;
+    }
+
+    .ribbon {
+        height: 15px;
+        font-size: 0.75em;
+        letter-spacing: 0.25em;
+        width:85%;
+        margin:0.5em auto 0 auto;
+        padding:1em;
+    }
+
+    .ribbon::after {
+        border-top:19px solid transparent;
+        border-right:10px solid #E1F0E9;
+        border-bottom:19px solid transparent;
+    }
+
+    .ribbon::before {
+        border-top:19px solid transparent;
+        border-left:10px solid #E1F0E9;
+        border-bottom:19px solid transparent;
+    }
+
+    .they {
+        font-size:1.25em;
+        padding:0.5em 0 0.5em 0;
+    }
+
+    .author {
+        height: 15px;
+        font-size: 0.75em;
+        letter-spacing: 0.25em;
+        width:60%;
+        margin:0 auto 0 auto;
+        padding:1em;
+    }
+
+    .author::after {
+        border-top:19px solid transparent;
+        border-left:10px solid #E1F0E9;
+        border-bottom:19px solid transparent;
+    }
+
+    .author::before {
+        border-top:19px solid transparent;
+        border-right:10px solid #E1F0E9;
+        border-bottom:19px solid transparent;
+    }
+
+    hr.author-line {
+        display: block;
+        width: 80%;
+        height: 10px;
+        border: 0;
+        border-top: 3px dotted rgba(255,255,255,0.8);
+        margin: 2em auto 0 auto;
+        padding: 1em 0 0 0;
+    }
+
+}
+
+
+
+
+
+
+
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    Style adjustments for high resolution devices 
+}*/
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
