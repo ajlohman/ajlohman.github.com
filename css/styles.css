@@ -631,7 +631,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 
   .intro p, .featured-project-ac p, .featured-project-eatdrink p, .featured-project-2 p, .featured-project-3 p {width:50%;}
 
-  .plus {
+  .plus-ac, .plus-eatdrink {
     padding-top: 5px;
   }
 }
