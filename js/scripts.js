@@ -37,6 +37,7 @@ $( "#click-ac" ).click(function() {
   $( "#project-ac" ).slideToggle( "slow", function() {
     // Animation complete.
   });
+  $(".plus").toggleClass("rotate");
 });
 
 // $( "#click-ac" ).click(function() {
