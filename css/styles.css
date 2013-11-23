@@ -255,11 +255,15 @@ img.header-shape  {
   font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
   font-weight: 100;
   background: rgba(0, 0, 0, 0.2);
-  width: 40px !important;
-  height: 32px;
-  padding-top: 7px;
+  width: 45px !important;
+  height: 45px;
+  padding-top: 10px;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .featured-project-ac {background: #3C4E57;color:#fff;}
@@ -601,11 +605,6 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 
   .intro p, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
 
-  .plus {
-    width: 45px !important;
-    height: 40px;
-    padding-top: 5px;
-  }
 }
 
 
