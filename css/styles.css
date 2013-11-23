@@ -249,7 +249,18 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
-.plus {margin-bottom:0 !important; font-size:300%;}
+.plus {
+  margin-bottom: 0 !important;
+  font-size: 300%;
+  font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
+  font-weight: 100;
+  background: rgba(0, 0, 0, 0.2);
+  width: 45px !important;
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 .featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
