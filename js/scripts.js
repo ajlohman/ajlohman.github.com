@@ -34,11 +34,11 @@ $(window).scroll(function(){
 /* project toggle
 -------------------------------------------------------------- */
 $( "#click-ac" ).click(function() {
-  $( "#project-ac" ).slideToggle( "slow", function() {
-    // Animation complete.
-  });
+  $( "#project-ac" ).slideToggle( "slow", function() {});
   $(".plus").toggleClass("rotate");
 });
+
+
 
 // $( "#click-ac" ).click(function() {
 //   $( ".plus" ).Toggle( "slow", function() {
