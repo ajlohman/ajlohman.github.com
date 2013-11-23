@@ -296,9 +296,9 @@ img.header-shape  {
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
 #project-ac {display:none;}
 
-.featured-project-1 {background: rgba(220,59,59,1);color:#fff;}
-.featured-project-1 a {color:#999;text-decoration: none;}
-.featured-project-1 a:hover {color:#333333;text-decoration: none;}
+.featured-project-eatdrink {background: rgba(220,59,59,1);color:#fff;}
+.featured-project-eatdrink a {color:#999;text-decoration: none;}
+.featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}
 
 .featured-project-2 {background: rgba(51,153,153,1);color:#fff;}
 .featured-project-2 a {color:#37464f;text-decoration: none;}
@@ -308,13 +308,13 @@ img.header-shape  {
 .featured-project-3 a {color:#bdddce;text-decoration: none;}
 .featured-project-3 a:hover {color:#333333;text-decoration: none;}
 
-.featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {
+.featured-project-ac p, .featured-project-eatdrink p, .featured-project-2 p, .featured-project-3 p {
   width:70%;
   display: block;
   margin:0 auto 2em auto;
 }
 
-.featured-project-ac, .featured-project-1, .featured-project-2, .featured-project-3 {
+.featured-project-ac, .featured-project-eatdrink, .featured-project-2, .featured-project-3 {
   z-index:3;
   position: relative;
   width:100%;
@@ -594,7 +594,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   /*h3 {font-size: 1.15em;}*/
   h4 {padding-top:0.5em;}
 
-  .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-1, .featured-project-2, .featured-project-3, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p, footer {width:100%;}
+  .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-2, .featured-project-3, .featured-project-ac p, .featured-project-eatdrink p, .featured-project-2 p, .featured-project-3 p, footer {width:100%;}
 
   /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
   /*.projects {padding:0em 0 3em 0;}*/
@@ -628,7 +628,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   .logo img {margin:0em auto 0 auto;}
   .feature-examples li:nth-child(3n+3) {margin-right:0;}
 
-  .intro p, .featured-project-ac p, .featured-project-1 p, .featured-project-2 p, .featured-project-3 p {width:50%;}
+  .intro p, .featured-project-ac p, .featured-project-eatdrink p, .featured-project-2 p, .featured-project-3 p {width:50%;}
 
   .plus {
     padding-top: 5px;
