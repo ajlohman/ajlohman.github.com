@@ -299,6 +299,7 @@ img.header-shape  {
 .featured-project-eatdrink {background: rgba(220,59,59,1);color:#fff;}
 .featured-project-eatdrink a {color:#999;text-decoration: none;}
 .featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}
+#project-eatdrink {display:none;}
 
 .featured-project-2 {background: rgba(51,153,153,1);color:#fff;}
 .featured-project-2 a {color:#37464f;text-decoration: none;}
