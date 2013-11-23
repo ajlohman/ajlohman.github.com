@@ -34,7 +34,7 @@ $(window).scroll(function(){
 /* project toggle
 -------------------------------------------------------------- */
 $( "#click-ac" ).click(function() {
-  $( "#project-ac" ).toggle( "slow", function() {
+  $( "#project-ac" ).slideToggle( "slow", function() {
     // Animation complete.
   });
 });
