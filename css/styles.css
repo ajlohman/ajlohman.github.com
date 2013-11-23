@@ -270,11 +270,11 @@ img.header-shape  {
       -ms-box-sizing: border-box;
           box-sizing: border-box;
 
-  -webkit-transform: rotate(145deg);
-     -moz-transform: rotate(145deg);
-      -ms-transform: rotate(145deg);
-       -o-transform: rotate(145deg);
-          transform: rotate(145deg);
+  -webkit-transform: rotate(135deg);
+     -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+       -o-transform: rotate(135deg);
+          transform: rotate(135deg);
           /* IE6–IE9 */
           filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
                  zoom: 1;
