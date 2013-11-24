@@ -33,31 +33,31 @@ $(window).scroll(function(){
 
 /* project toggle
 -------------------------------------------------------------- */
-// $( "#click-ac" ).click(function() {
-//   $( "#project-ac" ).slideToggle( "slow", function() {});
-//   $(".plus-ac").toggleClass("rotate");
-// });
-
-// $( "#click-eatdrink" ).click(function() {
-//   $( "#project-eatdrink" ).slideToggle( "slow", function() {});
-//   $(".plus-eatdrink").toggleClass("rotate");
-// });
-
-// $( "#click-nosh" ).click(function() {
-//   $( "#project-nosh" ).slideToggle( "slow", function() {});
-//   $(".plus-nosh").toggleClass("rotate");
-// });
-
-// $( "#click-justthings" ).click(function() {
-//   $( "#project-justthings" ).slideToggle( "slow", function() {});
-//   $(".plus-justthings").toggleClass("rotate");
-// });
-
-
-$("#project").click(function() {
-    $(this).next("div.container").slidetoggle("slow", function() {});
-    $(this).next("p.rotate").toggleClass("rotate");
+$( "#click-ac" ).click(function() {
+  $( "#project-ac" ).slideToggle( "slow", function() {});
+  $(".plus-ac").toggleClass("rotate");
 });
+
+$( "#click-eatdrink" ).click(function() {
+  $( "#project-eatdrink" ).slideToggle( "slow", function() {});
+  $(".plus-eatdrink").toggleClass("rotate");
+});
+
+$( "#click-nosh" ).click(function() {
+  $( "#project-nosh" ).slideToggle( "slow", function() {});
+  $(".plus-nosh").toggleClass("rotate");
+});
+
+$( "#click-justthings" ).click(function() {
+  $( "#project-justthings" ).slideToggle( "slow", function() {});
+  $(".plus-justthings").toggleClass("rotate");
+});
+
+
+// $("#project").click(function() {
+//     $(this).next("div.container").slidetoggle("slow", function() {});
+//     $(this).next("p.rotate").toggleClass("rotate");
+// });
 
 
 
