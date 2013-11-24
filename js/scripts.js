@@ -55,8 +55,8 @@ $(window).scroll(function(){
 
 
 $("#project").click(function() {
-    $(this).next('div').slidetoggle("slow");
-    $(this).next('p').toggleClass("rotate");
+    $(this).next("div.container").slidetoggle("slow");
+    $(this).next("p.rotate").toggleClass("rotate");
 });
 
 
