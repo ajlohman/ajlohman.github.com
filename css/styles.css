@@ -124,7 +124,7 @@ h1:after {
   background: #cccccc;
 }
 
-h2 {font-size: 2em;line-height: 1.25em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em;}
+h2 {font-size: 2em;line-height: 1.25em; text-transform: uppercase; letter-spacing: 0.15em;}
 h2:after {
   content: "";
   display: block;
