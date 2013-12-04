@@ -251,7 +251,7 @@ img.header-shape  {
 
 .plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
   margin-bottom: 0 !important;
-  font-size: 200%;
+  font-size: 50px;
   font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
   font-weight: 100;
   background: rgba(0, 0, 0, 0.1);
