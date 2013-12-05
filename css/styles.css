@@ -290,7 +290,7 @@ img.header-shape  {
         -ms-transition: all 0.5s ease-in-out;
 }
 
-.plus-ac:hover, .plus-eatdrinkhover, .plus-noshhover, .plus-justthingshover {
+.plus-ac:hover, .plus-eatdrink:hover, .plus-nosh:hover, .plus-justthings:hover {
   opacity: 1;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
