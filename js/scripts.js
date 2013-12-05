@@ -35,7 +35,7 @@ $(window).scroll(function(){
 -------------------------------------------------------------- */
 $( "#click-ac" ).click(function() {
   $( "#project-ac" ).slideToggle( "slow", function() {});
-  $(".plus-ac").toggleClass("rotate");
+  $(".plus").toggleClass("rotate");
 });
 
 $( "#click-eatdrink" ).click(function() {
