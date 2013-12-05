@@ -647,9 +647,9 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 
   .intro p, .featured-project-ac p, .featured-project-eatdrink p, .featured-project-nosh p, .featured-project-justthings p {width:50%;}
 
-  .plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
+  /*.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
     padding-top: 6px;
-  }
+  }*/
 }
 
 
