@@ -280,7 +280,17 @@ img.header-shape  {
                  zoom: 1;
 }
 
+.plus {
+  width: 45px !important;
+  height: 45px;
+}
+
 .rotate {
+    -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+
     -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
