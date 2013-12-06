@@ -638,7 +638,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 
 @media (max-width: 480px) {
   .logo {margin-top: -67px;}
-  body {font-size: 100%;/*line-height: 1.25em;*/}
+  body {font-size: 18px;/*line-height: 1.25em;*/}
   /*.intro {width:100%;;border: 0em; margin:6em auto;padding:1em 0em;}
   .intro p {width:100%;}*/
   /*.feature-examples li {width: 100%;float:left;margin-right:0%;}*/
