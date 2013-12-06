@@ -120,8 +120,8 @@ h1:after {
   /*background: url(../img/zig-zag-v2.png) top;*/
   /*background-size: 15px 20px;*/
   width: 2em;
-  height: 2px;
-  background: #cccccc;
+  height: 3px;
+  background: #4f4f4f;
 }
 
 h2 {font-size: 2em;line-height: 1.25em; text-transform: uppercase; letter-spacing: 0.15em;}
@@ -134,8 +134,8 @@ h2:after {
   /*background: url(../img/zig-zag-v2.png) top;*/
   /*background-size: 15px 20px;*/
   width: 2.5em;
-  height: 1px;
-  background: #cccccc;
+  height: 3px;
+  background: #4f4f4f;
 }
 h3 {font-size: 1.5em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
 h4 {font-size: 1em;line-height: 1.25em; padding-top:1em; letter-spacing: 0.15em;}
