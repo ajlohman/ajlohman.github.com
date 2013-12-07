@@ -53,11 +53,12 @@ $( "#click-justthings" ).click(function() {
   $(".plus-justthings").toggleClass("rotate");
 });
 
+// remove all the stuff above and just use something like this
+//$('.title').click(function(e){
+//    e.preventDefault();
+//    $(this).next('.body').toggle();
+//});
 
-// $("#project").click(function() {
-//     $(this).next("div.container").slidetoggle("slow", function() {});
-//     $(this).next("p.rotate").toggleClass("rotate");
-// });
 
 
 
