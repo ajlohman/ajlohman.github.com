@@ -153,9 +153,20 @@ h4 {
   width:100%;
   max-width:600px;
   display: block;
-  margin:0 auto 2em auto;
+  margin:0 auto 1em auto;
   text-align: left;
-
+}
+h4:after {
+  content: "";
+  display: block;
+  /*width: 1.95em;*/
+  margin: 0.25em auto 1em auto;
+  /*height: 20px;*/
+  /*background: url(../img/zig-zag-v2.png) top;*/
+  /*background-size: 15px 20px;*/
+  width: 2.5em;
+  height: 1px;
+  background: rgba(255,255,255,.3);
 }
 
 
