@@ -67,9 +67,9 @@ strong {font-weight: bold;}
 em {font-style: italic;}
 
 .shadow {
-  -moz-box-shadow:    3px 3px 5px 6px #4f4f4f;
-  -webkit-box-shadow: 3px 3px 5px 6px #4f4f4f;
-  box-shadow:         3px 3px 5px 6px #4f4f4f;
+  -moz-box-shadow:    0 0 10px 0 rgba(0,0,0,.3);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+  box-shadow:         0 0 10px 0 rgba(0,0,0,.3);
 }
 
 /* The grid
