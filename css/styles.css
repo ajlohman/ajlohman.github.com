@@ -11,7 +11,7 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 .clearfix:after {clear: both;}
 
 
-/* Body and structure
+/* Body and globals
 -------------------------------------------------- */
 body {
   margin: 0;
@@ -30,7 +30,7 @@ body {
 
 a {
   /*color: #00A551;*/
-  color:#00A551;
+  color:#b99a54;
   font-weight:normal;
   /*border-bottom: solid 2px #00A551;*/
   text-decoration: none;
@@ -65,6 +65,12 @@ a:hover.link_white {
 
 strong {font-weight: bold;}
 em {font-style: italic;}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #4f4f4f;
+  -webkit-box-shadow: 3px 3px 5px 6px #4f4f4f;
+  box-shadow:         3px 3px 5px 6px #4f4f4f;
+}
 
 /* The grid
 -------------------------------------------------- */
