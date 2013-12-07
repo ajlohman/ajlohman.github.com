@@ -654,7 +654,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
 }
 
 @media (min-width: 1200px) {
-  body {font-size: 125%;line-height: 1.8em;}
+  /*body {font-size: 125%;line-height: 1.8em;}*/
   .logo img {margin:0em auto 0 auto;}
   .feature-examples li:nth-child(3n+3) {margin-right:0;}
 
