@@ -155,6 +155,7 @@ h4 {
   display: block;
   margin:0 auto 1em auto;
   text-align: left;
+  border-bottom:1px solid rgba(255,255,255,.3);
 }
 /*h4:after {
   content: "";
