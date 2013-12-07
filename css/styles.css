@@ -160,7 +160,7 @@ h4:after {
   content: "";
   display: block;
   /*width: 1.95em;*/
-  margin: 0.25em auto 1em auto;
+  margin: 0.25em 0 1em 0;
   /*height: 20px;*/
   /*background: url(../img/zig-zag-v2.png) top;*/
   /*background-size: 15px 20px;*/
