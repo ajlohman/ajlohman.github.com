@@ -337,7 +337,7 @@ img.header-shape  {
 #project-justthings {display:none;}
 
 .featured-project-ac p, .featured-project-eatdrink p, .featured-project-nosh p, .featured-project-justthings p {
-  width:70%;
+  width:100%;
   display: block;
   margin:0 auto 2em auto;
 }
@@ -623,7 +623,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   /*h3 {font-size: 1.15em;}*/
   h4 {padding-top:0.5em;}
 
-  .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings, .featured-project-ac p, .featured-project-eatdrink p, .featured-project-nosh p, .featured-project-justthings p, footer {width:100%;}
+  .header, .intro, .intro p, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings, footer {width:100%;}
 
   /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
   /*.projects {padding:0em 0 3em 0;}*/
