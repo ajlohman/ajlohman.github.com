@@ -348,6 +348,7 @@ img.header-shape  {
   max-width:600px;
   display: block;
   margin:0 auto 2em auto;
+  text-align: left;
 }
 
 .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings {
