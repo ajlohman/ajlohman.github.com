@@ -1,0 +1,66 @@
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, /*ul,*/ /*li,*/fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: disc;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+
+/* General
+***********************/
+body {
+	background: #ccc; 
+	font-size: 140%; 
+	line-height: 1.5em;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif; -webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  font-family: "MuseoForDell-300", 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 {font-size: 3em;line-height: 1.25em; font-weight: normal;}
+
+/* #Font-Face
+================================================== */
+/*  This is the proper syntax for an @font-face file 
+    Just create a "fonts" folder at the root, 
+    copy your FontName into code below and remove
+    comment brackets */
+    
+  @font-face {
+      font-family: "MuseoForDell-100";
+      src: local("MuseoForDell-100"), url("../fonts/MuseoForDell-100.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal; 
+  }
+  @font-face {
+      font-family: "MuseoForDell-300";
+    src: local("MuseoForDell-300"), url("../fonts/MuseoForDell-300.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal; 
+  }
+  @font-face {
+      font-family: "MuseoForDell-700";
+    src: local("MuseoForDell-700"), url("../fonts/MuseoForDell-700.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal; 
+  }
