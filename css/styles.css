@@ -364,25 +364,23 @@ img.header-shape  {
                  zoom: 1;
     }
 
+.project {display:none;}
+
 .featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-ac a {color:#f37224;text-decoration: none;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
-#project-ac {display:none;}
 
 .featured-project-eatdrink {background: rgba(220,59,59,1);color:#fff;}
 .featured-project-eatdrink a {color:#999;text-decoration: none;}
 .featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}
-#project-eatdrink {display:none;}
 
 .featured-project-nosh {background: rgba(51,153,153,1);color:#fff;}
 .featured-project-nosh a {color:#37464f;text-decoration: none;}
 .featured-project-nosh a:hover {color:#333333;text-decoration: none;}
-#project-nosh {display:none;}
 
 .featured-project-justthings {background: #425863;color:#fff;}
 .featured-project-justthings a {color:#bdddce;text-decoration: none;}
 .featured-project-justthings a:hover {color:#333333;text-decoration: none;}
-#project-justthings {display:none;}
 
 .featured-project-ac p, .featured-project-eatdrink p, .featured-project-nosh p, .featured-project-justthings p {
   width:100%;
