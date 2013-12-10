@@ -321,7 +321,7 @@ img.header-shape  {
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
 
 .featured-project-eatdrink {background: #dc3b3b;color:#fff;}
-.featured-project-eatdrink a {color:#999;text-decoration: none;}
+.featured-project-eatdrink a {color:#999;text-decoration: none; border-bottom: solid 2px #999;}
 .featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}
 
 .featured-project-nosh {background: #339999;color:#fff;}
