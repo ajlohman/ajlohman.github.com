@@ -314,37 +314,33 @@ img.header-shape  {
                  zoom: 1;
     }
 
+/* hide projects*/
 .project {display:none;}
 
-[class*=project] a { 
-  color:#fff;
-  border-bottom: solid 1px #fff;
- }
+/* project links*/
+[class*=project] a { color:#fff;border-bottom: solid 1px #fff;}
+[class*=project] a:hover { color:#000;border-bottom: solid 1px #000;}
 
- [class*=project] a:hover { 
-  color:#000;
-  border-bottom: solid 1px #000;
- }
-
-
-
+/* featured projects*/
 .featured-project-ac {background: #3C4E57;color:#fff;}
-/*.featured-project-ac a {color:#f37224;text-decoration: none; border-bottom: solid 2px #f37224;}
-.featured-project-ac a:hover {color:#169ed5;text-decoration: none;}*/
-
 .featured-project-eatdrink {background: #dc3b3b;color:#fff;}
-/*.featured-project-eatdrink a {color:#999;text-decoration: none; border-bottom: solid 2px #999;}
-.featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}*/
-
 .featured-project-nosh {background: #339999;color:#fff;}
-/*.featured-project-nosh a {color:#37464f;text-decoration: none;}
-.featured-project-nosh a:hover {color:#333333;text-decoration: none;}*/
-
 .featured-project-justthings {background: #425863;color:#fff;}
-/*.featured-project-justthings a {color:#bdddce;text-decoration: none;}
-.featured-project-justthings a:hover {color:#333333;text-decoration: none;}*/
 
-.featured-project-ac p, .featured-project-eatdrink p, .featured-project-nosh p, .featured-project-justthings p {
+[class*=featured-project] {
+  z-index:3;
+  position: relative;
+  width:100%;
+  text-align:center;
+  margin:0 auto 0 auto;
+  padding:2em 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+[class*=featured-project] p {
   width:100%;
   max-width:600px;
   display: block;
@@ -352,21 +348,7 @@ img.header-shape  {
   text-align: left;
 }
 
-.featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings {
-  z-index:3;
-  position: relative;
-  width:100%;
-  text-align:center;
-  margin:0 auto 0 auto;
-  padding:2em 0;
-
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.sec-size {
+.sec-img-size {
   max-width: 900px;
   width:100%;
 }
