@@ -391,6 +391,10 @@ img.header-shape  {
   width:100%;
 }
 
+[class*=click] p { 
+  text-align: center;
+ }
+
 .title-projects {
   background:#fff;
   width:100%;
