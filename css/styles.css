@@ -391,7 +391,7 @@ img.header-shape  {
   width:100%;
 }
 
-[class*=click] p { 
+[id*=click] p { 
   text-align: center;
  }
 
