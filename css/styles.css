@@ -391,9 +391,9 @@ img.header-shape  {
   width:100%;
 }
 
-[id*=click] p { 
+/*[id*=click] p { 
   text-align: center;
- }
+ }*/
 
 .title-projects {
   background:#fff;
