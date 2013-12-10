@@ -278,47 +278,6 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
-/*.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
-  margin-bottom: 0 !important;
-  font-size: 50px;
-  font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
-  font-weight: 100;
-  background: rgba(0, 0, 0, 0.1);
-  width: 45px !important;
-  height: 45px;
-  padding-top: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-     -moz-transition: all 0.2s ease-in-out;
-       -o-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-
-  -webkit-transform: rotate(135deg);
-     -moz-transform: rotate(135deg);
-      -ms-transform: rotate(135deg);
-       -o-transform: rotate(135deg);
-          transform: rotate(135deg);
-          filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
-                 zoom: 1;
-}*/
-
-/*.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
-  width: 35px !important;
-  height: 35px;
-  opacity: 0.5;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-       -moz-transition: all 0.5s ease-in-out;
-         -o-transition: all 0.5s ease-in-out;
-        -ms-transition: all 0.5s ease-in-out;
-}*/
-
 .plus {
   width: 35px !important;
   height: 35px;
@@ -329,15 +288,6 @@ img.header-shape  {
          -o-transition: all 0.5s ease-in-out;
         -ms-transition: all 0.5s ease-in-out;
 }
-
-/*.plus-ac:hover, .plus-eatdrink:hover, .plus-nosh:hover, .plus-justthings:hover {
-  opacity: 1;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-       -moz-transition: all 0.2s ease-in-out;
-         -o-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-}*/
 
 .plus:hover {
   opacity: 1;
@@ -370,11 +320,11 @@ img.header-shape  {
 .featured-project-ac a {color:#f37224;text-decoration: none;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
 
-.featured-project-eatdrink {background: rgba(220,59,59,1);color:#fff;}
+.featured-project-eatdrink {background: #dc3b3b;color:#fff;}
 .featured-project-eatdrink a {color:#999;text-decoration: none;}
 .featured-project-eatdrink a:hover {color:#333333;text-decoration: none;}
 
-.featured-project-nosh {background: rgba(51,153,153,1);color:#fff;}
+.featured-project-nosh {background: #339999;color:#fff;}
 .featured-project-nosh a {color:#37464f;text-decoration: none;}
 .featured-project-nosh a:hover {color:#333333;text-decoration: none;}
 
