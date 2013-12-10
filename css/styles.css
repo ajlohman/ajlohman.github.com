@@ -308,7 +308,18 @@ img.header-shape  {
                  zoom: 1;
 }*/
 
-.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
+/*.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
+  width: 35px !important;
+  height: 35px;
+  opacity: 0.5;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+}*/
+
+.plus {
   width: 35px !important;
   height: 35px;
   opacity: 0.5;
@@ -319,7 +330,16 @@ img.header-shape  {
         -ms-transition: all 0.5s ease-in-out;
 }
 
-.plus-ac:hover, .plus-eatdrink:hover, .plus-nosh:hover, .plus-justthings:hover {
+/*.plus-ac:hover, .plus-eatdrink:hover, .plus-nosh:hover, .plus-justthings:hover {
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+       -moz-transition: all 0.2s ease-in-out;
+         -o-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+}*/
+
+.plus:hover {
   opacity: 1;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
