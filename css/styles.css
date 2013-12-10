@@ -317,7 +317,7 @@ img.header-shape  {
 .project {display:none;}
 
 .featured-project-ac {background: #3C4E57;color:#fff;}
-.featured-project-ac a {color:#f37224;text-decoration: none;}
+.featured-project-ac a {color:#f37224;text-decoration: none; border-bottom: solid 2px #f37224;}
 .featured-project-ac a:hover {color:#169ed5;text-decoration: none;}
 
 .featured-project-eatdrink {background: #dc3b3b;color:#fff;}
