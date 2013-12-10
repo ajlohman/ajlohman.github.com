@@ -57,7 +57,7 @@ $(window).scroll(function(){
 $('.click').click(function(e){
     e.preventDefault();
     $(this).next('.project').toggle();
-    $('.plus').toggleClass('rotate');
+    $(this).children('.plus').toggleClass('rotate');
 });
 
 
