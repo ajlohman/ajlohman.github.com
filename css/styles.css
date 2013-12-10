@@ -386,6 +386,10 @@ img.header-shape  {
           box-sizing: border-box;
 }
 
+.sec-size {
+  max-width: 900px;
+}
+
 .title-projects {
   background:#fff;
   width:100%;
