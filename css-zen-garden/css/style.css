@@ -169,7 +169,9 @@ abbr[title],
 acronym[title] {
   border-bottom-width: 0;
 }
+html,
 body {
+  font-family: "ff-meta-web-pro", sans-serif;
   font-size: 100%;
   line-height: 26px;
   background: #f6efe5;
@@ -486,8 +488,8 @@ a:hover {
   color: #ffffff;
   font-size: 150%;
   line-height: 2em;
-  top: 6em;
-  left: -5em;
+  top: 5em;
+  left: -4.2em;
   margin: 0;
   padding: 1em;
   -webkit-box-sizing: border-box;
