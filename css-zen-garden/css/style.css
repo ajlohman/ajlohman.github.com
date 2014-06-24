@@ -172,6 +172,7 @@ acronym[title] {
 html,
 body {
   font-family: "ff-meta-web-pro", sans-serif;
+  text-rendering: optimizeLegibility;
   font-size: 100%;
   line-height: 26px;
   background: #f6efe5;
@@ -213,6 +214,11 @@ a:hover {
   width: 40%;
   height: 50em;
   float: left;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 @media (max-width: 70em) {
   .intro header {
@@ -384,7 +390,7 @@ a:hover {
 }
 @media (max-width: 70em) {
   .intro .preamble p:last-child {
-    background: #f15a30;
+    background: rgba(239, 54, 5, 0.8);
     width: 33.250%;
     padding: 6em 1em 10em 1em;
   }
@@ -488,8 +494,8 @@ a:hover {
   color: #ffffff;
   font-size: 150%;
   line-height: 2em;
-  top: 5em;
-  left: -4.2em;
+  top: 6em;
+  left: -4.5em;
   margin: 0;
   padding: 1em;
   -webkit-box-sizing: border-box;
@@ -627,6 +633,7 @@ a:hover {
   .main .requirements {
     position: absolute;
     margin: 65em 0 0 0;
+    width: 75%;
     -moz-column-count: 1;
     -moz-column-gap: 1em;
     -webkit-column-count: 1;
@@ -701,6 +708,8 @@ a:hover {
 @media (max-width: 70em) {
   .main .requirements::before {
     left: -66.666%;
+    width: 66.6666%;
+    height: 45em;
   }
 }
 .sidebar {
@@ -711,7 +720,7 @@ a:hover {
 }
 @media (max-width: 70em) {
   .sidebar {
-    margin-top: 60em;
+    margin-top: 65em;
   }
 }
 @media (max-width: 53em) {

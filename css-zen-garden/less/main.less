@@ -11,6 +11,7 @@ abbr[title], acronym[title] {
 }
 html, body {
 	font-family: "ff-meta-web-pro",sans-serif;
+	text-rendering: optimizeLegibility;
 	font-size: 100%;
 	line-height: 26px;
 	background: @tan;
@@ -36,11 +37,12 @@ a:hover {
 // Colors
 // ==========================================================================
 
-
 @tan:#f6efe5;
 @purple:#c879b2;
 @navy:#0d2c40;
+@navy-opacity: rgba(13,44,64,0.8);
 @orange:#f15a30;
+@orange-opacity: rgba(239,54,5,0.8);
 @aqua:#31c5da;
 @aqua-opacity: rgba(0,188,217,0.8);
 @black:#000000;
@@ -85,6 +87,11 @@ a:hover {
 		width:40%;
 		height:50em;
 		float:left;
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		-o-transition: all 0.4s ease;
+		-ms-transition: all 0.4s ease;
+		transition: all 0.4s ease;
 		@media (max-width: @md-screen) {
 			background:@orange;
         	width:100%;
@@ -233,7 +240,7 @@ a:hover {
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
 			@media (max-width: @md-screen) {
-	        	background: @orange;
+	        	background: @orange-opacity;
 	        	width:33.250%;
 	        	padding: 6em 1em 10em 1em;
 	    	}
@@ -328,8 +335,8 @@ a:hover {
 			color:#ffffff;
 			font-size: 150%;
 			line-height: 2em;
-			top: 5em;
-			left: -4.2em;
+			top: 6em;
+			left: -4.5em;
 			margin: 0;
 			padding: 1em;
 			-webkit-box-sizing: border-box;
@@ -451,6 +458,7 @@ a:hover {
 		@media (max-width: @md-screen) {
 			position: absolute;
 			margin:65em 0 0 0;
+			width:75%;
 			-moz-column-count: 1;
 			-moz-column-gap: 1em;
 			-webkit-column-count: 1;
@@ -518,6 +526,8 @@ a:hover {
 		box-sizing: border-box;
 		@media (max-width: @md-screen) {
 			left:-66.666%;
+			width:66.6666%;
+			height: 45em;
 	    }
 	}
 }
@@ -532,7 +542,7 @@ a:hover {
 	background:@purple;
 	overflow:hidden;
 	@media (max-width: @md-screen) {
-		margin-top:60em;
+		margin-top:65em;
     }
     @media (max-width: @sm-screen) {
     	margin-top:2em;
