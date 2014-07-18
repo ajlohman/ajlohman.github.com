@@ -196,6 +196,8 @@ table {
 
 body {
   font-family: "calluna",serif;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
