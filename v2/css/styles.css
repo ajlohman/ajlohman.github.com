@@ -282,6 +282,15 @@ header[role='banner'] {
       @media (min-width: 700px) {
         header[role='banner'] main.logo img {
           width: 100px; } }
+    header[role='banner'] main.logo a {
+      opacity: 1;
+      -webkit-transition: opacity 0.2s ease-out;
+      -moz-transition: opacity 0.2s ease-out;
+      -o-transition: opacity 0.2s ease-out;
+      -ms-transition: opacity 0.2s ease-out;
+      transition: opacity 0.2s ease-out; }
+    header[role='banner'] main.logo a:hover {
+      opacity: 0.2; }
   header[role='banner'] nav[role='navigation'] {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;

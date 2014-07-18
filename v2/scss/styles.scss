@@ -115,6 +115,17 @@ header[role='banner'] {
 				width:100px;
 		    }
 		}
+		a {
+			opacity:1;
+			-webkit-transition: opacity 0.2s ease-out;
+			-moz-transition: opacity 0.2s ease-out;
+			-o-transition: opacity 0.2s ease-out;
+			-ms-transition: opacity 0.2s ease-out;
+			transition: opacity 0.2s ease-out;
+		}
+		a:hover {
+			opacity:0.2;
+		}
 	}
     nav[role='navigation'] {
 		-moz-box-sizing: border-box;
