@@ -203,7 +203,7 @@ body {
   font-stretch: normal;
   font-size: 16px;
   line-height: 26px;
-  color: #545454 s;
+  color: #545454;
   background-color: #ffffff; }
 
 p {
@@ -223,7 +223,7 @@ h1 {
       line-height: 36px; } }
 
 a {
-  color: #545454 s;
+  color: #545454;
   text-decoration: none;
   padding-bottom: 0.20em;
   -webkit-transition: all 0.2s ease-out;
@@ -373,7 +373,7 @@ section.thumb-projects {
     -webkit-filter: grayscale(1); }
   section.thumb-projects a:hover strong {
     opacity: 1;
-    color: #545454 s;
+    color: #545454;
     top: 2.5em; }
 
 section.thumb-projects a:nth-child(odd) {
