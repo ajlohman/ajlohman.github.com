@@ -276,7 +276,7 @@ header[role='banner'] {
     text-align: center; }
     @media (min-width: 700px) {
       header[role='banner'] main.logo {
-        top: 5em; } }
+        top: 4em; } }
     header[role='banner'] main.logo img {
       width: 75px; }
       @media (min-width: 700px) {
