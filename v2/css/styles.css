@@ -1,0 +1,710 @@
+/* line 55, ../scss/imports/normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 63, ../scss/imports/normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 74, ../scss/imports/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 84, ../scss/imports/normalize.scss */
+[hidden], template {
+  display: none;
+}
+
+/* line 97, ../scss/imports/normalize.scss */
+html {
+  background: white;
+  color: black;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 113, ../scss/imports/normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/* line 119, ../scss/imports/normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 132, ../scss/imports/normalize.scss */
+a {
+  background: transparent;
+}
+/* line 139, ../scss/imports/normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+/* line 146, ../scss/imports/normalize.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 159, ../scss/imports/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 164, ../scss/imports/normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+/* line 169, ../scss/imports/normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+
+/* line 174, ../scss/imports/normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+
+/* line 179, ../scss/imports/normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+
+/* line 184, ../scss/imports/normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+
+/* line 192, ../scss/imports/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 199, ../scss/imports/normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 211, ../scss/imports/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 217, ../scss/imports/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 236, ../scss/imports/normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 246, ../scss/imports/normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* line 254, ../scss/imports/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 270, ../scss/imports/normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 277, ../scss/imports/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 285, ../scss/imports/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 292, ../scss/imports/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 296, ../scss/imports/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 348, ../scss/imports/normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 357, ../scss/imports/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 367, ../scss/imports/normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* line 384, ../scss/imports/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 395, ../scss/imports/normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+
+/* line 412, ../scss/imports/normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+/* line 425, ../scss/imports/normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 435, ../scss/imports/normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 450, ../scss/imports/normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 461, ../scss/imports/normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/* line 471, ../scss/imports/normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 483, ../scss/imports/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 494, ../scss/imports/normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 502, ../scss/imports/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 511, ../scss/imports/normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 522, ../scss/imports/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 19, ../scss/styles.scss */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
+  background-color: #ffffff;
+}
+
+/* line 30, ../scss/styles.scss */
+p {
+  margin: 0;
+  padding: 0 0 1em 0;
+}
+
+/* line 35, ../scss/styles.scss */
+h1 {
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 100;
+  margin: 0 0 0 0;
+}
+@media (min-width: 700px) {
+  /* line 35, ../scss/styles.scss */
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+/* line 48, ../scss/styles.scss */
+a {
+  color: #444444;
+  text-decoration: none;
+  padding-bottom: 0.20em;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+/* line 58, ../scss/styles.scss */
+a:hover {
+  color: #aaaaaa;
+}
+
+/* line 62, ../scss/styles.scss */
+img {
+  width: 100%;
+}
+
+/* line 66, ../scss/styles.scss */
+header[role='banner'], article[role='banner'], section[role='banner'], footer[role='banner'] {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em 3em 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 700px) {
+  /* line 66, ../scss/styles.scss */
+  header[role='banner'], article[role='banner'], section[role='banner'], footer[role='banner'] {
+    margin: 0 auto;
+    padding: 0 1em 6em 1em;
+  }
+}
+/* line 79, ../scss/styles.scss */
+header[role='banner'] .intro, article[role='banner'] .intro, section[role='banner'] .intro, footer[role='banner'] .intro {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  width: 100%;
+  padding: 0 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 93, ../scss/styles.scss */
+header[role='banner'] {
+  padding: 8em 0 2em 0;
+}
+@media (min-width: 700px) {
+  /* line 93, ../scss/styles.scss */
+  header[role='banner'] {
+    padding: 12em 0 6em 0;
+  }
+}
+/* line 98, ../scss/styles.scss */
+header[role='banner'] main.logo {
+  top: 3em;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  /* line 98, ../scss/styles.scss */
+  header[role='banner'] main.logo {
+    top: 5em;
+  }
+}
+/* line 110, ../scss/styles.scss */
+header[role='banner'] main.logo img {
+  width: 75px;
+}
+@media (min-width: 700px) {
+  /* line 110, ../scss/styles.scss */
+  header[role='banner'] main.logo img {
+    width: 100px;
+  }
+}
+/* line 117, ../scss/styles.scss */
+header[role='banner'] nav[role='navigation'] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 126, ../scss/styles.scss */
+header[role='banner'] nav[role='navigation'] ul {
+  position: relative;
+  z-index: 2;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  color: #aaaaaa;
+  margin: 0;
+  padding: 1em 0;
+  float: left;
+  width: 100%;
+}
+/* line 138, ../scss/styles.scss */
+header[role='banner'] nav[role='navigation'] ul li {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 1em;
+}
+
+/* line 149, ../scss/styles.scss */
+section.thumb-projects {
+  width: 100%;
+  overflow: hidden;
+  max-width: 2000px;
+  position: relative;
+  z-index: 100;
+  margin: 0 auto;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 160, ../scss/styles.scss */
+section.thumb-projects a.thumb-project-link {
+  width: 100%;
+  float: left;
+  background: #ffffff;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 700px) {
+  /* line 160, ../scss/styles.scss */
+  section.thumb-projects a.thumb-project-link {
+    width: 50%;
+    padding: 1em 0;
+  }
+}
+/* line 174, ../scss/styles.scss */
+section.thumb-projects a.thumb-project-link figure {
+  margin: 0;
+}
+/* line 177, ../scss/styles.scss */
+section.thumb-projects a.thumb-project-link img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  -webkit-transition: opacity 0.6s ease-out;
+  -moz-transition: opacity 0.6s ease-out;
+  -o-transition: opacity 0.6s ease-out;
+  -ms-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+/* line 189, ../scss/styles.scss */
+section.thumb-projects a.thumb-project-link strong {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 700;
+  z-index: 100;
+  opacity: 0;
+  margin: -1.58em 0 0 0;
+  padding: 0 1em;
+  position: relative;
+  top: 2.8em;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out, top 0.5s ease-out;
+}
+@media (min-width: 900px) {
+  /* line 189, ../scss/styles.scss */
+  section.thumb-projects a.thumb-project-link strong {
+    font-size: 24px;
+    line-height: 32px;
+    margin: -1.36em 0 0 0;
+  }
+}
+/* line 215, ../scss/styles.scss */
+section.thumb-projects a:hover img {
+  opacity: 0.4;
+  -webkit-filter: grayscale(1);
+}
+/* line 220, ../scss/styles.scss */
+section.thumb-projects a:hover strong {
+  opacity: 1;
+  color: #444444;
+  top: 2.5em;
+}
+
+/* line 228, ../scss/styles.scss */
+section.thumb-projects a:nth-child(odd) {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 700px) {
+  /* line 228, ../scss/styles.scss */
+  section.thumb-projects a:nth-child(odd) {
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+}
+
+/* line 237, ../scss/styles.scss */
+section.thumb-projects a:nth-child(even) {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width: 700px) {
+  /* line 237, ../scss/styles.scss */
+  section.thumb-projects a:nth-child(even) {
+    padding-left: 1em;
+    padding-right: 2em;
+  }
+}
+
+/* 
+*****************************************************************************************
+Project page
+*****************************************************************************************
+*/
+/* line 255, ../scss/styles.scss */
+.project-info {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 264, ../scss/styles.scss */
+.project-info ul {
+  margin: 0;
+  padding: 0 0 3em 0;
+}
+/* line 267, ../scss/styles.scss */
+.project-info ul li {
+  list-style: none;
+}
+@media (min-width: 900px) {
+  /* line 255, ../scss/styles.scss */
+  .project-info {
+    width: 50%;
+    margin-left: 0;
+    padding: 0 1em 0 0;
+  }
+}
+
+/* line 279, ../scss/styles.scss */
+.project-desc {
+  width: 100%;
+  float: left;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 900px) {
+  /* line 279, ../scss/styles.scss */
+  .project-desc {
+    width: 50%;
+    padding: 0 0 3em 1em;
+  }
+}
+
+/* line 292, ../scss/styles.scss */
+.project-content {
+  width: 100%;
+  float: left;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 900px) {
+  /* line 292, ../scss/styles.scss */
+  .project-content {
+    width: 50%;
+    padding: 0 1em 3em 0;
+  }
+}
+
+/* line 305, ../scss/styles.scss */
+.project-content-secondary {
+  width: 100%;
+  float: left;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 900px) {
+  /* line 305, ../scss/styles.scss */
+  .project-content-secondary {
+    width: 50%;
+    padding: 0 0 3em 1em;
+  }
+}
+
+/* line 320, ../scss/styles.scss */
+section.project {
+  background: #b2dbdd;
+  width: 100%;
+  overflow: hidden;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+/* line 326, ../scss/styles.scss */
+section.project figure {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 0;
+}
+
+/* line 347, ../scss/styles.scss */
+footer[role='banner'] {
+  padding: 3em 1em 10em 1em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 353, ../scss/styles.scss */
+footer[role='banner'] p {
+  width: 100%;
+  float: left;
+  margin: 0;
+  padding: 1em 0 3em 0;
+  overflow: hidden;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 700px) {
+  /* line 353, ../scss/styles.scss */
+  footer[role='banner'] p {
+    width: 50%;
+    padding: 0;
+  }
+}
+/* line 368, ../scss/styles.scss */
+footer[role='banner'] ul {
+  display: block;
+  color: #aaaaaa;
+  margin: 1em 0 0 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+@media (min-width: 700px) {
+  /* line 368, ../scss/styles.scss */
+  footer[role='banner'] ul {
+    width: 25%;
+    margin: 0;
+  }
+}
+/* line 380, ../scss/styles.scss */
+footer[role='banner'] ul li {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0 0.25em;
+}
+@media (min-width: 700px) {
+  /* line 380, ../scss/styles.scss */
+  footer[role='banner'] ul li {
+    margin: 0 1em;
+    display: block;
+  }
+}
