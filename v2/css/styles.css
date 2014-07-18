@@ -267,7 +267,7 @@ header[role='banner'] {
     header[role='banner'] {
       padding: 12em 0 6em 0; } }
   header[role='banner'] main.logo {
-    top: 3em;
+    top: 2em;
     width: 50%;
     left: 50%;
     margin-left: -25%;
