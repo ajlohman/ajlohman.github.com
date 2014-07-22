@@ -379,7 +379,9 @@ section.thumb-projects {
           margin: -1.36em 0 0 0; } }
   section.thumb-projects a:hover img {
     opacity: 0.4;
-    -webkit-filter: grayscale(1); }
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%); }
   section.thumb-projects a:hover strong {
     opacity: 1;
     color: #545454;
