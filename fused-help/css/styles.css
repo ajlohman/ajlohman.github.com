@@ -418,11 +418,11 @@ header#main-header a#menu-link {
     float: right;
     text-indent: -10000px;
     margin-top: 30px;
-    background: url(img/icon-menu.png) no-repeat center center;
+    background: url(../img/icon-menu.png) no-repeat center center;
     background-size: contain;
 }
 header#main-header a#menu-link.active {
-    background-image: url(img/icon-menu-close.png);
+    background-image: url(../img/icon-menu-close.png);
 }
 header#main-header #main-nav {
     clear: both;
