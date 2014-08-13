@@ -139,6 +139,20 @@ table {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
 }
+
+/*
+//////////////////////////////////////////////////////////
+
+End normalize.css
+
+//////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+
 body {
     background: #1b1d21;
     padding: 0;
@@ -404,11 +418,11 @@ header#main-header a#menu-link {
     float: right;
     text-indent: -10000px;
     margin-top: 30px;
-    background: url(/images/icon-menu.png) no-repeat center center;
+    background: url(img/icon-menu.png) no-repeat center center;
     background-size: contain;
 }
 header#main-header a#menu-link.active {
-    background-image: url(/images/icon-menu-close.png);
+    background-image: url(img/icon-menu-close.png);
 }
 header#main-header #main-nav {
     clear: both;
@@ -587,6 +601,19 @@ section header h2 {
 #index #software img {
     margin: 20px 25px;
 }
+
+
+
+/*
+//////////////////////////////////////////////////////////
+
+About
+
+//////////////////////////////////////////////////////////
+*/
+
+
+
 #about section#map {
     background: url(/images/bkg_about_map.png) no-repeat right center;
     min-height: 500px;
@@ -726,7 +753,26 @@ section header h2 {
 }#about section#team #hiring a {
     color: #219ab3;
 }
-#plans section#comparison {
+
+
+
+
+
+
+
+
+
+
+/*
+//////////////////////////////////////////////////////////
+
+Plans
+
+//////////////////////////////////////////////////////////
+*/
+
+
+/*#plans section#comparison {
     padding: 100px 0 80px;
 }
 #plans section#comparison header h2 {
@@ -824,7 +870,25 @@ section header h2 {
     display: block;
     margin: 15px;
     font-size: 20px;
-}
+}*/
+
+
+
+
+
+/*
+//////////////////////////////////////////////////////////
+
+Contact
+
+//////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+
 #contact .contact .icon {
     height: 22px;
 }
@@ -892,7 +956,12 @@ section header h2 {
     max-width: 100%;
     height: 175px;
 }
-}#shared section#intro, #semi section#intro, #complex section#intro {
+}
+
+
+
+
+/*#shared section#intro, #semi section#intro, #complex section#intro {
     background: #fdae4a;
     padding-bottom: 95px;
 }
@@ -1084,7 +1153,12 @@ section header h2 {
 #shared section#features .column-right, #semi section#features .column-right, #complex section#features .column-right {
     margin-bottom: 0;
 }
-}#semi section#intro {
+}*/
+
+
+
+
+/*#semi section#intro {
     background: #219ab3;
 }
 #semi section#intro h2, #semi section#intro p {
@@ -1101,8 +1175,15 @@ section header h2 {
 }
 #semi section#features ul li {
     list-style-image: url(/images/check_teal.png);
-}
-#complex section#intro {
+}*/
+
+
+
+
+
+
+
+/*#complex section#intro {
     background: #b3d282;
 }
 #complex section#intro h2, #complex section#intro p {
@@ -1146,7 +1227,17 @@ section header h2 {
     #complex section#features .feature {
     margin-bottom: 0;
 }
-}section#intro {
+}*/
+
+
+
+
+
+
+
+
+
+section#intro {
     text-align: center;
     padding-top: 55px;
     padding-bottom: 80px;
@@ -1172,7 +1263,14 @@ section#intro .btn {
 section#intro p {
     text-align: left;
 }
-}section#plans {
+}
+
+
+
+
+
+
+/*section#plans {
     text-align: center;
 }
 @media(max-width:767px) {
@@ -1306,7 +1404,12 @@ section#plans .plan .btn {
     font-size: 15px;
     margin-top: 20px;
 }
-}section#packages {
+}*/
+
+
+
+
+/*section#packages {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -1372,7 +1475,18 @@ section#packages .feature img {
 section#packages h5 {
     font-size: 28px;
 }
-}section#quote {
+}*/
+
+
+
+
+
+
+
+
+
+
+/*section#quote {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -1439,7 +1553,19 @@ section#quote blockquote cite .name {
 section#quote blockquote cite .company {
     font-size: 9px;
 }
-}section#sign-up {
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*section#sign-up {
     background: #219ab3;
     padding: 100px 0;
 }
@@ -1478,7 +1604,16 @@ section#sign-up h3 {
 section#sign-up .btn {
     float: none;
 }
-}section#order-form {
+}
+*/
+
+
+
+
+
+
+
+/*section#order-form {
     margin-top: 1em;
 }
 section#order-form h1 {
@@ -1568,7 +1703,20 @@ section#order-form #form .pure-control-group label {
     width: 100%;
     float: auto;
 }
-}#terms section h4 {
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*#terms section h4 {
     color: #fff;
 }
 #terms section p {
@@ -1585,8 +1733,19 @@ section#order-form #form .pure-control-group label {
 #terms p#changelog {
     text-align: center;
     margin-bottom: 120px;
-}
-#styleguide header#main-header {
+}*/
+
+
+
+
+
+
+
+
+
+
+
+/*#styleguide header#main-header {
     text-align: center;
 }
 #styleguide header#main-header #logo img {
@@ -1773,8 +1932,19 @@ section#order-form #form .pure-control-group label {
 }
 #styleguide #lists ul li strong {
     color: #fff;
-}
-.knowledge-base h2 {
+}*/
+
+
+
+
+
+
+
+
+
+
+
+./*knowledge-base h2 {
     font: "Source Sans Pro", "source-sans-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 48px;
@@ -1915,4 +2085,4 @@ section#order-form #form .pure-control-group label {
     .knowledge-base #sidebar, .knowledge-base #content {
     float: none;
     width: 100%}
-}
+}*/
