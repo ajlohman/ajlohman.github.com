@@ -19,8 +19,13 @@
 		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
+		<!-- Fused typekit 
         <script src="//use.typekit.net/qyb8imq.js"></script>
-        <script>try{Typekit.load();}catch(e){}</script>
+        <script>try{Typekit.load();}catch(e){}</script> -->
+
+        <!-- Andrew Lohman's typekit - only used for design -->
+        <script type="text/javascript" src="//use.typekit.net/xmd3tvq.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <!--
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -70,11 +75,19 @@
 <section id="intro" class="container">
 	<h1>Need help?</h1>
 	<p>We're here for you, whatever the time or day. What do you need help with?</p>
+	<form class="pure-form pure-form-stacked" method="GET" action="/help/search">
+      <input id="query" name="query" placeholder="What are you looking for?" class="pure-input-1" value="" required="">
+
+      <input type="submit" value="Search" class="button-large pure-button">
+    </form>
 </section>
 
 <hr class="container">
 
 <section id="our" class="container clearfix">
+	<header>
+		<h2>Categories</h2>
+	</header>
 	<div id="promise" class="block">
 		<img src="img/icon-promise.png" width="205" height="205">
 		<h3>Email</h3>
