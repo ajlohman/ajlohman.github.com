@@ -12,6 +12,8 @@
 
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    	<link href="css/normalize.css" rel="stylesheet">
+    	<link href="css/existing-styles.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
@@ -40,13 +42,14 @@
 -->
 
 </head>
-<body id="about">
+<!-- <body id="about"> -->
+<body id="help">
 <header id="main-header">
     <div class="container clearfix">
         <a href="/" id="logo"><img src="img/logo.png" alt="Web hosting by Fused" width="328" height="100"></a>
         <div class="contact hidden-phone">
             <span class="tel"><img src="img/icon-phone.png" class="icon" alt=""><a href="http://www.fused.com/call" class="call" target="_blank">Talk to us</a></span>
-<a href="http://twitter.com/fusednetwork" class="twitter"><img src="img/icon-social.png" class="icon" alt="">@fusednetwork</a>
+			<a href="http://twitter.com/fusednetwork" class="twitter"><img src="img/icon-social.png" class="icon" alt="">@fusednetwork</a>
         </div>
         <a href="#main-nav" id="menu-link" class="visible-phone">Menu</a>
     </div>
@@ -54,11 +57,11 @@
     <nav id="main-nav" class="clearfix">
         <div class="container">
             <ul>
-                <li><a href="/website/hosting.php#plan" id="nav-plans">Plans &amp; Pricing</a></li>
-                <li><a href="/about.php" id="nav-about">About Us</a></li>
-                <li><a href="https://support.fused.com/index.php?/Knowledgebase/List" id="nav-support">Support</a></li>
-                <li><a href="/contact.php" id="nav-contact">Contact Us</a></li>
-                <li><a href="https://soapbox.fused.com/" id="nav-soapbox">Soapbox</a></li>
+                <li><a href="#" id="nav-plans">Plans &amp; Pricing</a></li>
+                <li><a href="#" id="nav-about">About Us</a></li>
+                <li><a href="#" id="nav-help">Help</a></li>
+                <li><a href="#" id="nav-contact">Contact Us</a></li>
+                <li><a href="#" id="nav-soapbox">Soapbox</a></li>
             </ul>
             <a href="https://clients.fused.com/clientarea.php" class="btn btn-purple hidden-phone">Client Login</a>
         </div>
@@ -71,50 +74,51 @@
     <a href="mailto:sales@fused.com" class="mail"><img src="img/icon-mail.png" class="icon" alt="">sales@fused.com</a>
     <a href="http://twitter.com/fusednetwork" class="twitter"><img src="img/icon-twitter.png" class="icon" alt="">@fusednetwork</a>
 </div> -->
+
+
 <hr class="container visible-phone">
 <section id="intro" class="container">
 	<h1>Need help?</h1>
 	<p>We're here for you, whatever the time or day. What do you need help with?</p>
 	<form class="pure-form pure-form-stacked" method="GET" action="/help/search">
       <input id="query" name="query" placeholder="What are you looking for?" class="pure-input-1" value="" required="">
-
-      <input type="submit" value="Search" class="button-large pure-button">
+      <a href="#" class="btn btn-pink">Search</a>
     </form>
 </section>
 
 <hr class="container">
 
-<section id="our" class="container clearfix">
+<section id="cat" class="container clearfix">
 	<header>
 		<h2>Categories</h2>
 	</header>
-	<div id="promise" class="block">
+	<div id="email" class="block">
 		<img src="img/icon-promise.png" width="205" height="205">
-		<h3>Email</h3>
+		<h5>Email</h5>
 	</div>
 	
-	<div id="history" class="block">
+	<div id="getting-started" class="block">
 		<img src="img/icon-history.png" width="205" height="205">
-		<h3>Getting Started</h3>
+		<h5>Getting Started</h5>
 	</div>
 	
-	<div id="future" class="block">
+	<div id="technical-issues" class="block">
 		<img src="img/icon-future.png" width="205" height="205">
-		<h3>Technical Issues</h3>
+		<h5>Technical Issues</h5>
 	</div>
-	<div id="promise" class="block">
+	<div id="sales" class="block">
 		<img src="img/icon-promise.png" width="205" height="205">
-		<h3>Sales</h3>
+		<h5>Sales</h5>
 	</div>
 	
-	<div id="history" class="block">
+	<div id="billing" class="block">
 		<img src="img/icon-history.png" width="205" height="205">
-		<h3>Billing</h3>
+		<h5>Billing</h5>
 	</div>
 	
-	<div id="future" class="block">
+	<div id="domain-names" class="block">
 		<img src="img/icon-future.png" width="205" height="205">
-		<h3>Domain Names</h3>
+		<h5>Domain Names</h5>
 	</div>
 </section>
 
@@ -123,7 +127,7 @@
 
 <section id="faq" class="container clearfix">
 	<header>
-		<h2>Most common support questions</h2>
+		<h2>Most common questions</h2>
 	</header>
 </section>
 
