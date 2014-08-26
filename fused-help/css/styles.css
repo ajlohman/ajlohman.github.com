@@ -67,6 +67,9 @@ About
 }
 
 @media(max-width:767px) {
+    #help h2 {
+        font-size: 30px;
+    }
     #help section#cat .block {
         width: 50%;
         margin: 0 0 20px 0;
