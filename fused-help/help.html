@@ -81,8 +81,8 @@
 	<h1>Need help?</h1>
 	<p>We're here for you, whatever the time or day. What do you need help with?</p>
 	<form class="pure-form pure-form-stacked" method="GET" action="/help/search">
-      <input id="query" name="query" placeholder="What are you looking for?" class="pure-input-1" value="" required="">
-      <a href="#" class="btn btn-pink">Search</a>
+      <input id="query" name="query" placeholder="What are you looking for?" class="form-control" value="" required="">
+      <a href="#" class="btn btn-purple">Search</a>
     </form>
 </section>
 
@@ -93,43 +93,183 @@
 		<h2>Categories</h2>
 	</header>
 	<div id="email" class="block clearfix">
-		<img src="img/icon-promise.png">
+		<img src="img/circle-green.svg">
 		<h5>Email</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Enabling Spam protection with spam emails kept in separate folder</a></li>
+			<li><a href="">What are my email connection settings?</a></li>
+			<li><a href="">Subscribing to the trash folder in RoundCube</a></li>
+			<li><a href="">Mailbox quota exceeded</a></li>
+			<li><a href="">Viewing e-mail headers</a></li>
+		</ul>
 	</div>
 	
 	<div id="getting-started" class="block clearfix">
-		<img src="img/icon-history.png">
+		<img src="img/circle-red.svg">
 		<h5>Getting Started</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">WHOIS Privacy concerns</a></li>
+			<li><a href="">What are the nameservers for my domains?</a></li>
+			<li><a href="">Changing nameservers at G*daddy</a></li>
+			<li><a href="">Changing nameservers at Network Solutions</a></li>
+			<li><a href="">Changing nameservers at Register.com</a></li>
+		</ul>
 	</div>
 	
 	<div id="technical-issues" class="block clearfix">
-		<img src="img/icon-future.png">
+		<img src="img/circle-blue.svg">
 		<h5>Technical Issues</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Reducing spam</a></li>
+			<li><a href="">Internal server error</a></li>
+			<li><a href="">Shared SSL</a></li>
+			<li><a href="">What are your nameservers?</a></li>
+			<li><a href="">RCPT command must precede DATA</a></li>
+		</ul>
 	</div>
 	<div id="sales" class="block clearfix">
-		<img src="img/icon-promise.png">
+		<img src="img/circle-yellow.svg">
 		<h5>Sales</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Money back guarantee</a></li>
+			<li><a href="">What control panel does Fused offer?</a></li>
+			<li><a href="">Which payment methods do you accept?</a></li>
+			<li><a href="">Who owns a domain that I register through Fused?</a></li>
+			<li><a href="">Are there any account upgrade fees?</a></li>
+		</ul>
 	</div>
 	
 	<div id="billing" class="block clearfix">
-		<img src="img/icon-history.png">
+		<img src="img/circle-purple.svg">
 		<h5>Billing</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">What should I do if I cannot pay on time?</a></li>
+			<li><a href="">How do I cancel a paypal subscription?</a></li>
+			<li><a href="">How do I cancel an account?</a></li>
+			<li><a href="">Adjust paypal subscription due to a price increase</a></li>
+			<li><a href="">Disabling a domain renewal</a></li>
+		</ul>
 	</div>
 	
 	<div id="domain-names" class="block">
-		<img src="img/icon-future.png">
+		<img src="img/circle-gray.svg">
 		<h5>Domain Names</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Changing your whois details</a></li>
+		</ul>
 	</div>
 </section>
 
 <hr class="container">
 
+<section id="request-call"  class="container clearfix">
+	<header>
+		<h3>Still need help?</h3>
+		<p>Our support pages have tones of great resources, but if you still could use some help, our dedicated 24/7 support team is here for you!</p>
+		<form class="pure-form pure-form-stacked" method="GET" action="/help/search">
+	      <a href="#" class="btn btn-purple">Request a call</a>
+	    </form>
+	</header>
+</section>
 
-<section id="faq" class="container clearfix">
+<hr class="container">
+
+<section id="log-ticket" class="container clearfix">
+	<header>
+		<h3>Log a ticket</h3>
+		<p>If you'd prefer, you can log a ticket. Login and tell us a bit about your problem and we'll get back to you.</p>
+		<form class="pure-form pure-form-stacked" method="GET" action="/help/search">
+			<label>Email Address</label>
+			<input type="email" id="query" name="query" placeholder="Email Address" class="form-control stacked" value="" required="">
+			<label>Password</label>
+			<input type="password" id="query" name="query" placeholder="Password" class="form-control stacked" value="" required="">
+	     	<a href="#" class="btn btn-purple">Login</a>
+	    </form>
+	    <p><a href="">Lost password</a></p>
+	</header>
+</section>
+
+<!-- <hr class="container">
+
+
+<section id="common" class="container clearfix">
 	<header>
 		<h2>Most common questions</h2>
 	</header>
-</section>
+	<div id="email" class="block clearfix">
+		<img src="img/icon-promise.png">
+		<h5>Email</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Enabling Spam protection with spam emails kept in separate folder</a></li>
+			<li><a href="">What are my email connection settings?</a></li>
+			<li><a href="">Subscribing to the trash folder in RoundCube</a></li>
+			<li><a href="">Mailbox quota exceeded</a></li>
+			<li><a href="">Viewing e-mail headers</a></li>
+		</ul>
+	</div>
+	
+	<div id="getting-started" class="block clearfix">
+		<h5>Getting Started</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">WHOIS Privacy concerns</a></li>
+			<li><a href="">What are the nameservers for my domains?</a></li>
+			<li><a href="">Changing nameservers at G*daddy</a></li>
+			<li><a href="">Changing nameservers at Network Solutions</a></li>
+			<li><a href="">Changing nameservers at Register.com</a></li>
+		</ul>
+	</div>
+	
+	<div id="technical-issues" class="block clearfix">
+		<h5>Technical Issues</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Reducing spam</a></li>
+			<li><a href="">Internal server error</a></li>
+			<li><a href="">Shared SSL</a></li>
+			<li><a href="">What are your nameservers?</a></li>
+			<li><a href="">RCPT command must precede DATA</a></li>
+		</ul>
+	</div>
+	<div id="sales" class="block clearfix">
+		<h5>Sales</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Money back guarantee</a></li>
+			<li><a href="">What control panel does Fused offer?</a></li>
+			<li><a href="">Which payment methods do you accept?</a></li>
+			<li><a href="">Who owns a domain that I register through Fused?</a></li>
+			<li><a href="">Are there any account upgrade fees?</a></li>
+		</ul>
+	</div>
+	
+	<div id="billing" class="block clearfix">
+		<h5>Billing</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">What should I do if I cannot pay on time?</a></li>
+			<li><a href="">How do I cancel a paypal subscription?</a></li>
+			<li><a href="">How do I cancel an account?</a></li>
+			<li><a href="">Adjust paypal subscription due to a price increase</a></li>
+			<li><a href="">Disabling a domain renewal</a></li>
+		</ul>
+	</div>
+	
+	<div id="domain-names" class="block">
+		<h5>Domain Names</h5>
+		<hr class="container">
+		<ul>
+			<li><a href="">Changing your whois details</a></li>
+		</ul>
+	</div>
+</section> -->
 
 
 
