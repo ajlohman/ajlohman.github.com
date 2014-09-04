@@ -175,6 +175,12 @@ header[role='banner'] {
 }
 
 section.hello {
+	width:100%;
+	margin-left:0;
+	@media (min-width: $sm-screen) {
+		width:75%;
+		margin-left:25%;
+    }
 	a {
 		font-size: 16px;
 		line-height: 26px;
@@ -190,8 +196,8 @@ section.hello {
 			line-height: 50px;
 	    }
 	    @media (min-width: $md-screen) {
-			font-size: 70px;
-			line-height: 80px;
+			font-size: 40px;
+			line-height: 50px;
 	    }
 	}
 }
