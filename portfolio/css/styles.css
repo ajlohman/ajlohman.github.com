@@ -239,6 +239,9 @@ body#work {
 body#about {
   background: #425454; }
 
+body#home .work a:hover, body#work .work a:hover {
+  color: white; }
+
 p {
   margin: 0;
   padding: 0 0 0 0; }

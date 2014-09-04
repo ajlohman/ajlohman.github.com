@@ -34,8 +34,13 @@ body#home a:hover {color: $link-hover-home;border-bottom:1px solid $link-hover-h
 body#home a:hover h1 {color: $link-hover-home;border:6px solid $link-hover-home;}
 
 
+
 body#work {background: $bg-color-work;}
 body#about {background: $bg-color-about;}
+
+body#home .work a:hover, body#work .work a:hover  {
+	color: $text-white;
+}
 
 
 
