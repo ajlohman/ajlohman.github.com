@@ -367,15 +367,11 @@ section.hello {
     line-height: 26px;
     font-weight: 400; }
   section.hello p {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 30px;
     padding: 0;
     font-weight: 600; }
     @media (min-width: 700px) {
-      section.hello p {
-        font-size: 40px;
-        line-height: 50px; } }
-    @media (min-width: 900px) {
       section.hello p {
         font-size: 40px;
         line-height: 50px; } }

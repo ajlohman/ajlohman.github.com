@@ -187,15 +187,11 @@ section.hello {
 		font-weight: 400;
 	}
 	p {
-		font-size: 30px;
-		line-height: 40px;
+		font-size: 20px;
+		line-height: 30px;
 		padding:0;
 		font-weight: 600;
 		@media (min-width: $sm-screen) {
-			font-size: 40px;
-			line-height: 50px;
-	    }
-	    @media (min-width: $md-screen) {
 			font-size: 40px;
 			line-height: 50px;
 	    }
