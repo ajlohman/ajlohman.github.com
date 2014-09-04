@@ -276,10 +276,13 @@ footer[role='banner'] {
 	// background:$text-white-opacity;
 	width:100%;
 	margin:4em auto 0 auto;
-	padding: 10em 1em 10em 1em;
+	padding: 4em 1em;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	@media (min-width: $sm-screen) {
+		padding: 10em 1em;
+    }
 	p {
 		width:100%;
 		// background:plum;
