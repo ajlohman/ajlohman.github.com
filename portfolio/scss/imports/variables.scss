@@ -1,0 +1,44 @@
+
+// variables
+
+//screen sizes
+$sm-screen:700px;
+$md-screen:900px;
+$lg-screen:1200px;
+
+//colors
+// $link-color:#2a2a2a;
+$link-color:#ffffff;
+$link-hover:rgba(255, 255, 255, 0.5);
+
+// $sec-color:#2a2a2a;
+$sec-color:#99cc99;
+$page-border:#ffffff;
+// $page-border:#2a2a2a;
+// $text:#2a2a2a;
+$text:#ffffff;
+
+// bg colors
+$bg-color: #ffffff;
+
+$bg-color-home: #568a7e url(../img/bg-line.svg) repeat-x top;
+$link-hover-home:#99cc99;
+
+$bg-color-work: #7b564e;
+$bg-color-about: #425454;
+
+$text-white:#ffffff;
+$text-white-opacity:rgba(255, 255, 255, 0.5);
+
+$text-gray: #000000;
+
+//borders 
+
+$border: 10px;
+
+//visible
+@media (max-width: $md-screen) {
+	.visible-lg {
+		display:none;
+	}
+}

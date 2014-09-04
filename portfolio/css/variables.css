@@ -1,0 +1,6 @@
+@media (max-width: 900px) {
+  /* line 22, ../scss/variables.scss */
+  .visible-lg {
+    display: none;
+  }
+}
