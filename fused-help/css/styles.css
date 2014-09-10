@@ -108,7 +108,7 @@ About
 
 #help .stacked {
     display: block;
-    width: 30%;
+    width: 60%;
     /*height: 34px;*/
     padding: 14px 15px;
     margin:0 auto 20px auto;
@@ -130,7 +130,7 @@ label {
     text-align: left;
     display: block;
     margin:0 auto;
-    width:30%;
+    width:60%;
     padding:20px 20px 10px 17px;
 }
 
@@ -177,11 +177,21 @@ label {
 
 #help section#request-call, #help section#log-ticket {
     padding: 0 0 80px 0;
+    float:left;
+    width:50%;
+}
+
+#help section#request-call p, #help section#log-ticket p {
+    padding: 0 80px;
 }
 
 @media(max-width:767px) {
     #help section#request-call, #help section#log-ticket {
         padding: 0 25px 80px 25px;
+        width:100%;
+    }
+    #help section#request-call p, #help section#log-ticket p {
+        padding: 0;
     }
 }
 
