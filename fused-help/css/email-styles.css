@@ -1,0 +1,134 @@
+
+
+.help-container {
+    overflow:hidden;
+}
+
+.help-aside {
+    /*background: pink;*/
+    width:25%;
+    float:left;
+    /*padding:20px;*/
+}
+
+.help-main-content {
+    /*background: purple;*/
+    width:75%;
+    float:left;
+    padding:0px 60px;
+}
+
+.half-container {
+    overflow: hidden;
+    /*background: purple;*/
+    display: block;
+    width:100%;
+}
+
+.half {
+    /*background: pink;*/
+    width:50%;
+    float: left;
+    padding:0 40px 0 0;
+}
+
+.green {
+    color:#b3d282;
+}
+
+.text-md {
+    font-size: 18px;
+}
+
+.link-list p {
+    padding-bottom:20px;
+}
+
+
+#help-email .stacked {
+    display: block;
+    width: 90%;
+    /*height: 34px;*/
+    padding: 14px 15px;
+    margin:0 auto 20px auto;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#help-email h5 {
+    text-align: left;
+    color:#ffffff;
+}
+
+
+#help-email label {
+    text-align: left;
+    display: block;
+    margin:0 auto;
+    width:90%;
+    padding:10px 20px 10px 17px;
+}
+
+
+#help-email ul {
+    padding:0;
+}
+
+#help-email ul li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    padding:5px 0;
+}
+
+.num {
+    float:right;
+    color:#ffffff;
+}
+
+
+
+
+@media(max-width:767px) {
+    .help-aside {
+        /*background: pink;*/
+        width:100%;
+        float:left;
+        /*padding:20px;*/
+    }
+    .help-main-content {
+        /*background: purple;*/
+        width:100%;
+        float:left;
+        padding:0;
+    }
+    .half {
+        /*background: pink;*/
+        width:100%;
+        float: left;
+        padding:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
