@@ -1,0 +1,209 @@
+
+.container-fluid {
+	/*background: pink;*/
+	max-width: 1000px;
+	padding-bottom:40px;
+}
+
+
+header {
+	width:100%;
+	/*background: #428bca;*/
+	background: #000000;
+	padding-top:70px;
+	padding-bottom:40px;
+	margin-bottom:0px;
+}
+
+.prerec {
+	background: #eeeeee;
+	padding-top:0;
+}
+
+h1 {
+	color:#ffffff;
+}
+
+h2 {
+	padding-top:20px;
+	color:#428bca;
+}
+
+#vauxhall h2 {
+	padding-top:20px;
+	color:#ce181e;
+}
+
+#opel h2 {
+	padding-top:20px;
+	color:#FEBE10;
+}
+
+.logo {
+	float:left;
+	margin:13px 20px 0 0;
+}
+
+img.logo {
+	width:50px;
+}
+
+.mandatory {
+	color:red;
+}
+
+.radio {
+	/*background: red;*/
+	float:left;
+	width:16.66666667%;
+	margin-right:15px;
+}
+
+.edit, .save {
+	padding-top:7px;
+	margin-left:-15px;
+	cursor: pointer;
+	float: left;
+	color:#428bca;
+}
+
+#vauxhall .edit, #vauxhall .save {
+	padding-top:7px;
+	margin-left:-15px;
+	cursor: pointer;
+	float: left;
+	color:#ce181e;
+}
+
+#opel .edit, #opel .save {
+	padding-top:7px;
+	margin-left:-15px;
+	cursor: pointer;
+	float: left;
+	color:#FEBE10;
+}
+
+.validate-dealer-code, .success-dealer-code  {
+	padding-top:7px;
+	margin-left:0px;
+	cursor: pointer;
+	float: left;
+	font-weight: 700;
+	color:#3c763d;
+}
+
+.validate-email, .success-email, .validate-vin, .success-vin {
+	padding-top:5px;
+	margin-left:0px;
+	cursor: pointer;
+	float: left;
+	font-weight: 700;
+	color:#3c763d;
+}
+
+.legal {
+	background: #eeeeee;
+	padding:10px 15px;
+	margin:20px 0;
+}
+
+.hide {
+	display:none;
+}
+
+.vehicle-info {
+	background: #428bca;
+	color:#ffffff;
+	padding:10px 15px;
+	margin:20px 0;
+	border-radius: 3px;
+}
+
+#vauxhall .vehicle-info {
+	background: #ce181e;
+	color:#ffffff;
+	padding:10px 15px;
+	margin:20px 0;
+	border-radius: 3px;
+}
+
+#opel .vehicle-info {
+	background: #FEBE10;
+	color:#ffffff;
+	padding:10px 15px;
+	margin:20px 0;
+	border-radius: 3px;
+}
+
+.delete {
+	text-align: right;
+}
+
+.delete-vehicle {
+	cursor: pointer;
+	float:right;
+	/*background: pink;*/
+}
+
+.email-explain {
+	/*background: pink;*/
+	padding-right:30%;
+	padding-bottom:20px;
+
+}
+
+.new-user-message {
+	padding:10px 0;
+	margin-left:-10px;
+}
+
+
+
+#vauxhall .btn-primary {
+color: #fff;
+background-color: #ce181e;
+border-color: #ce181e;
+}
+
+#vauxhall .btn-primary:hover,
+#vauxhall .btn-primary:focus,
+#vauxhall .btn-primary.focus,
+#vauxhall .btn-primary:active,
+#vauxhall .btn-primary.active
+ {
+  color: #fff;
+  background-color: #d33541;
+  border-color: #d33541;
+}
+
+
+#opel .btn-primary {
+color: #fff;
+background-color: #FEBE10;
+border-color: #FEBE10;
+}
+
+#opel .btn-primary:hover,
+#opel .btn-primary:focus,
+#opel .btn-primary.focus,
+#opel .btn-primary:active,
+#opel .btn-primary.active
+ {
+  color: #fff;
+  background-color: #DDA10B;
+  border-color: #DDA10B;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .radio {
+		width:100%;
+	}
+	.edit {
+		padding-top:7px;
+		margin-left:0px;
+	}
+}
