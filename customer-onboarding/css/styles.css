@@ -11,8 +11,59 @@ header {
 	/*background: #428bca;*/
 	background: #000000;
 	padding-top:70px;
-	padding-bottom:40px;
+	padding-bottom:0px;
 	margin-bottom:0px;
+}
+
+.header {
+	padding-bottom: 0;
+}
+
+ul.main-nav li.header-active {
+	background: #eeeeee;
+} 
+
+ul.main-nav li.header-active a {
+	color:#333333;
+}
+
+ul.main-nav li.header-active a:hover {
+	color:#000000;
+	text-decoration: none;
+} 
+
+ul.main-nav {
+	margin: 0;
+	padding:40px 0 8px 0;
+}
+
+ul.main-nav li {
+	display:inline;
+	list-style: none;
+	background: #333333;
+	margin:0;
+	padding:10px 20px;
+}
+
+ul.main-nav li a {
+	color:#eeeeee;
+}
+ul.main-nav li a:hover {
+	color:#cccccc;
+	text-decoration: none;
+}
+
+.remove-title {
+	padding-top:40px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #666666;
+}
+
+.remove-info {
+	padding-top:20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #eeeeee;
 }
 
 .prerec {
@@ -92,13 +143,30 @@ img.logo {
 	color:#3c763d;
 }
 
-.validate-email, .success-email, .validate-vin, .success-vin {
+.validate-email, .success-email, .validate-vin, .success-vin, .address-lookup-searching, .address-lookup-success {
 	padding-top:5px;
 	margin-left:0px;
 	cursor: pointer;
 	float: left;
 	font-weight: 700;
 	color:#3c763d;
+}
+
+.dealer-code-fail {
+	padding-top:0px;
+	margin-left:0px;
+	cursor: pointer;
+	float: left;
+	font-weight: 700;
+	color:#a94442;
+}
+
+#dealer-fail-btn {
+	margin-left:20px;
+}
+
+.red {
+	color:#a94442;
 }
 
 .legal {

@@ -39,10 +39,18 @@
         <!-- Add your site or application content here -->
 
         <header>
-            <div class="container-fluid">
+            <div class="container-fluid header">
                 <div class="row">
                     <div class="col-xs-12">
                         <img class="logo" src="img/opel-logo.png" /> <h1>Customer Onboarding</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="main-nav">
+                            <li class="header-active"><a href="">Add</a></li>
+                            <li><a href="opel-remove.html">Remove</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -93,17 +101,17 @@
                                 </label>
                             </div>
                         <!-- Motability -->
-                            <div class="radio">
+                            <!-- <div class="radio">
                                 <label>
                                   <input type="radio" name="optionsRadios" id="radiosSuccess3" value="option1"> Motability
                                 </label>
-                            </div>
+                            </div> -->
                         <!-- Fleet -->
-                            <div class="radio">
+                            <!-- <div class="radio">
                                 <label>
                                   <input type="radio" name="optionsRadios" id="radiosSuccess4" value="option1"> Fleet
                                 </label>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -153,13 +161,23 @@
 
                 </div>
 
-                <!-- First/Last name -->
+                <!-- First name -->
                 <div class="form-group">
-                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> First/Last name</label>
+                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> First name</label>
                     <div class="col-sm-4">
                         <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="John Smith"> -->
                         <p class="form-control-static toggle">-</p>
-                        <p class="form-control-static toggle-info hide">Sara Smith</p>
+                        <p class="form-control-static toggle-info hide">Sara</p>
+                    </div>
+                </div>
+
+                <!-- Last name -->
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> Last name</label>
+                    <div class="col-sm-4">
+                        <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="John Smith"> -->
+                        <p class="form-control-static toggle">-</p>
+                        <p class="form-control-static toggle-info hide">Smith</p>
                     </div>
                 </div>
 
@@ -222,6 +240,19 @@
                         <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="123.456.7890"> -->
                         <p class="form-control-static toggle">-</p>
                         <p class="form-control-static toggle-info hide">(098) 765-4321</p>
+                    </div>
+                </div>
+
+                <!-- Preferred language -->
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label"><span class="mandatory toggle-info hide">*</span> Preferred language</label>
+                    <div class="col-sm-4">
+                        <p class="form-control-static toggle">-</p>
+                        <p class="form-control-static toggle-info hide">English</p>
+                        <!-- <select class="form-control-static toggle-info hide">
+                            <option>English</option>
+                            <option>German</option>
+                        </select> -->
                     </div>
                 </div>
                 

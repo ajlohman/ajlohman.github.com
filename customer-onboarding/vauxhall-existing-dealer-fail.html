@@ -39,18 +39,10 @@
         <!-- Add your site or application content here -->
 
         <header>
-            <div class="container-fluid header">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12">
                         <img class="logo" src="img/vx-logo.png" /> <h1>Customer Onboarding</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <ul class="main-nav">
-                            <li class="header-active"><a href="">Add</a></li>
-                            <li><a href="vauxhall-remove.html">Remove</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -70,17 +62,24 @@
 
                     <!-- Dealer code -->
                     <div class="form-group">
-                        <label class="col-sm-2 control-label"><span class="mandatory">*</span> Dealer code</label>
-                        <div class="col-sm-2">
+                        <label class="col-sm-2 control-label error-red"><span class="mandatory">*</span> Dealer code</label>
+                        
+                        <div class="col-sm-2" id="dealer-code">
                             <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="XY12345.00" disabled> -->
                             <input type="text" class="form-control edit-input" id="disabledInput" name="dealerCode" placeholder="XY12345.00">
                             <p class="form-control-static save-input">XY12345.00</p>
                             <p class="validate-dealer-code"><i class="fa fa-spinner fa-spin"></i> Validating Dealer</p>
-                            <p class="success-dealer-code"><i class="fa fa-check"></i> Success</p>
+                            
                         </div>
+
                         <div class="col-sm-4" id="edit">
                             <p class="edit">Edit Dealer Code</p>
                             <p class="save">Validate Dealer Code</p>
+                        </div>
+
+                        <div class="col-sm-8" id="not-successful">
+                            <p class="dealer-code-fail"><i class="red fa fa-remove"></i> Dealer code did not validate <a href="#" id="dealer-fail-btn" class="btn btn-primary" role="button">Try again</a></p>
+                            
                         </div>
                     </div>
 
@@ -107,11 +106,11 @@
                                 </label>
                             </div>
                         <!-- Fleet -->
-                            <!-- <div class="radio">
+                            <div class="radio">
                                 <label>
                                   <input type="radio" name="optionsRadios" id="radiosSuccess4" value="option1"> Fleet
                                 </label>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,23 +164,13 @@
 
                 </div>
 
-                <!-- First name -->
+                <!-- First/Last name -->
                 <div class="form-group">
-                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> First name</label>
+                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> First/Last name</label>
                     <div class="col-sm-4">
                         <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="John Smith"> -->
                         <p class="form-control-static toggle">-</p>
-                        <p class="form-control-static toggle-info hide">Sara</p>
-                    </div>
-                </div>
-
-                <!-- Last name -->
-                <div class="form-group">
-                    <label for="title" class="col-sm-2 control-label"><!-- <span class="mandatory">*</span> --> Last name</label>
-                    <div class="col-sm-4">
-                        <!-- <input type="dealerCode" class="form-control" id="disabledInput" placeholder="John Smith"> -->
-                        <p class="form-control-static toggle">-</p>
-                        <p class="form-control-static toggle-info hide">Smith</p>
+                        <p class="form-control-static toggle-info hide">Sara Smith</p>
                     </div>
                 </div>
 
@@ -358,7 +347,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/css/bootstrapValidator.min.css"/>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js"></script>
 
-        <script src="js/existing-user.js"></script>
+        <script src="js/existing-user-dealer-fail.js"></script>
 
     </body>
 </html>

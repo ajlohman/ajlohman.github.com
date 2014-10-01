@@ -12,8 +12,7 @@ $('.validate-vin').addClass('hide');
 $('.success-vin').addClass('hide');
 $('.vehicle-info').addClass('hide');
 
-$('.address-lookup-searching').addClass('hide');
-$('.address-lookup-success').addClass('hide');
+$('#not-successful').addClass('hide');
 
 
 // Dealer edit
@@ -32,33 +31,60 @@ $('.edit').on('click', function() {
 // Dealer save
 $('.save').click(function() {
 	
+  // $('.validate-dealer-code')
+
+  $(this).addClass('hide').clearQueue();
+  $('.edit-input').addClass('hide').clearQueue();
+
+  $('.validate-dealer-code').removeClass('hide');
+
+  $('.validate-dealer-code').stop().delay(3000).queue(function(){
+   $(this).addClass('hide').clearQueue();
+  });
+
+  $('#not-successful').stop().delay(3000).queue(function(){
+   $(this).removeClass('hide');
+  });
+
+
   
-	$('.edit').stop().delay(5000).queue(function(){
-		$(this).removeClass('hide').clearQueue();
-	});
+	// $('.edit').stop().delay(5000).queue(function(){
+	// 	$(this).addClass('hide').clearQueue();
+	// });
 
-	$('.save-input').stop().delay(5000).queue(function(){
-		$(this).removeClass('hide').clearQueue();
-		$('.success-dealer-code').addClass('hide').clearQueue();
-	});
+ //  $('#dealer-code').stop().delay(5000).queue(function(){
+ //    $(this).addClass('hide').clearQueue();
+ //  });
+
+	// $('.save-input').stop().delay(5000).queue(function(){
+	// 	$(this).removeClass('hide').clearQueue();
+	// 	$('.success-dealer-code').addClass('hide').clearQueue();
+	// });
 
 
-	$('.validate-dealer-code').removeClass('hide');
+	// $('.validate-dealer-code').removeClass('hide');
 
-	$('.validate-dealer-code').stop().delay(3000).queue(function(){
-		$(this).addClass('hide').clearQueue();
-	});
+	// $('.validate-dealer-code').stop().delay(3000).queue(function(){
+	// 	$(this).addClass('hide').clearQueue();
+	// });
 
-	$('.success-dealer-code').stop().delay(3000).queue(function(){
-		$(this).removeClass('hide').clearQueue();
-	});
+	// $('#not-successful').stop().delay(3000).queue(function(){
+	// 	$(this).removeClass('hide');
+	// });
 
-  $(this).addClass('hide');
-  $('.edit-input').addClass('hide');
+ //  $(this).addClass('hide');
+ //  $('.edit-input').stop().addClass('hide');
 
 });
 
-//  Validate email
+$('#dealer-fail-btn').click(function() {
+  $('#not-successful').stop().addClass('hide');
+  $('#dealer-code').stop().removeClass('hide');
+  $('.edit-input').stop().removeClass('hide');
+   $('.save').stop().removeClass('hide');
+});
+
+
 $('#email-btn').click(function(e) {
 	
 	$('.validate-email').removeClass('hide');
@@ -93,7 +119,7 @@ $('#email-btn').click(function(e) {
       e.stop();
 });
 
-// Add Vehicle
+
 $('#add-vehicle').click(function(e) {
   
   $('.validate-vin').removeClass('hide');
@@ -116,30 +142,6 @@ $('#add-vehicle').click(function(e) {
     else
         e.stop();
 
-});
-
-//  Address lookup
-$('#address-lookup-btn').click(function(e) {
-  
-  $('.address-lookup-searching').removeClass('hide');
-
-  $('.address-lookup-searching').stop().delay(3000).queue(function(){
-    $(this).addClass('hide').clearQueue();
-  });
-
-  $('.address-lookup-success').stop().delay(3000).queue(function(){
-    $(this).removeClass('hide').clearQueue();
-  });
-
-  $('.select-address').stop().delay(4000).queue(function(){
-    $(this).removeClass('hide').clearQueue();
-    $('.address-lookup-success').addClass('hide').clearQueue();
-  });
-
-  if(e.preventDefault)
-        e.preventDefault();
-    else
-        e.stop();
 });
 
 
@@ -170,18 +172,12 @@ $('.delete-vehicle').click(function(e) {
 
 
 
-$("#address-name").change(function () {
-    // alert($("#address-name :selected").text());
-    $('#street').val($(this).find(":selected").text());
-    $('#city').val("Austin");
-    $('#country').val("Great Britain");
 
-    $('#streetHouse').addClass('has-success');
-    $('#city-success').addClass('has-success');
-    $('#country-success').addClass('has-success');
-    
-    $('.form-control-feedback').removeClass('hide').clearQueue();
-});
+
+
+
+
+
 
 
 // Form validation
@@ -223,59 +219,7 @@ $(document).ready(function() {
                         message: 'Please choose to accept the terms'
                     }
                 }
-            },
-            'title[]': {
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'name[]': {
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'postcode[]': {
-                threshold: 5,
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'street[]': {
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'city[]': {
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'country[]': {
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
-            },
-            'phone[]': {
-                threshold: 10,
-                validators: {
-                    notEmpty: {
-                        message: 'The editor names are required'
-                    }
-                }
             }
-
         }
     })
     .on('status.field.bv', function(e, data) {
@@ -283,6 +227,7 @@ $(document).ready(function() {
             // data.bv      --> The BootstrapValidator instance
             // data.field   --> The field name
             // data.element --> The field element
+
             data.bv.disableSubmitButtons(false);
     });
 });
@@ -291,6 +236,8 @@ $(document).ready(function() {
 
 
 $('#myModal').addClass('hide');
+
+
 
 $('#submit').click(function(e) {
   $('#myModal').removeClass('hide');
