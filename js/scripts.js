@@ -54,11 +54,11 @@ $(window).scroll(function(){
 // });
 
 // remove all the stuff above and just use something like this
-$('.click').click(function(e){
-    e.preventDefault();
-    $(this).next('.project').slideToggle('slow');
-    $(this).children('.plus').toggleClass('rotate');
-});
+// $('.click').click(function(e){
+//     e.preventDefault();
+//     $(this).next('.project').slideToggle('slow');
+//     $(this).children('.plus').toggleClass('rotate');
+// });
 
 
 
