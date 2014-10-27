@@ -19,7 +19,7 @@ body {
   font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;
   /*font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;*/
   
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.65em;
   color: #4f4f4f;
   background-color: #ffffff;
@@ -146,7 +146,7 @@ h2:after {
   height: 1px;
   background: #ccc;
 }
-h3 {font-size: 1.5em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
+h3 {font-size: 2em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
 h4 {
   font-size: 0.75em;
   line-height: 1.25em;
@@ -286,6 +286,13 @@ img.header-shape  {
 
 .project a { color:#000000;border-bottom: solid 1px #000000;}
 .project a:hover { color:#000000;border-bottom: solid 1px #000;}
+
+p.role {
+  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: rgba (0,0,0,0.4);
+  text-transform: uppercase;
+  font-style: 0.85em;
+}
 
 /* project links*/
 [class*=featured-project] a { color:#fff;border-bottom: solid 1px #fff;}
