@@ -517,10 +517,17 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   h1:after {width: 2.95em;}
   h2 {font-size: 1.4em;}
   h2:after {width: 2.95em;}
+  h3 {font-size: 2em;line-height: 1.25em; text-align:center; }
   /*h3 {font-size: 1.15em;}*/
   h4 {padding-top:0.5em;}
 
   .header, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings, footer {width:100%;}
+
+  .intro p {
+    font-size: 1em;
+    line-height: 1.25em; 
+  }
+
 
   /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
   /*.projects {padding:0em 0 3em 0;}*/
