@@ -34,7 +34,9 @@ body {
 
 a {
   /*color: #00A551;*/
-  color:#b99a54;
+  /*color:#b99a54;*/
+  color:#000000;
+  border-bottom: solid 1px #000000;
   font-weight:normal;
   /*border-bottom: solid 2px #00A551;*/
   text-decoration: none;
@@ -47,7 +49,8 @@ a {
 
 a:hover {
   /*color: #4f4f4f;*/
-  color:#000000;
+  color:#999999;
+  border-bottom: solid 1px #999999;
   text-decoration: none;
   /*border-bottom: solid 2px #4f4f4f;*/
 }
@@ -493,6 +496,24 @@ ul.footer-list li.footer-list-item:after {
   color: #7D7D7D;
   font-size:1em;
   padding:0 1em 0 1em;
+}
+
+.footer a {
+  color:#ffffff;
+  border-bottom: solid 1px #ffffff;
+  font-weight:normal;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.footer a:hover {
+  color:#999999;
+  border-bottom: solid 1px #999999;
+  text-decoration: none;
 }
 
 /* Lists
