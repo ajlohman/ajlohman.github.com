@@ -284,6 +284,9 @@ img.header-shape  {
   text-align: center;
 }
 
+.project a { color:#000000;border-bottom: solid 1px #000000;}
+.project a:hover { color:#000000;border-bottom: solid 1px #000;}
+
 /* project links*/
 [class*=project] a { color:#fff;border-bottom: solid 1px #fff;}
 [class*=project] a:hover { color:#000;border-bottom: solid 1px #000;}
