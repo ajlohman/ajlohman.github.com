@@ -304,7 +304,7 @@ p.role {
 .featured-project-nosh {background: #339999;color:#fff;}
 .featured-project-justthings {background: #425863;color:#fff;}
 
-[class*=eatured-project] {
+[class*=featured-project] {
   z-index:3;
   position: relative;
   width:100%;
@@ -317,7 +317,7 @@ p.role {
           box-sizing: border-box;
 }
 
-[class*=project] p {
+[class*=featured-project] p {
   width:100%;
   max-width:600px;
   display: block;
