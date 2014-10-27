@@ -290,6 +290,18 @@ img.header-shape  {
 .project-case a { color:#000000;border-bottom: solid 1px #000000;}
 .project-case a:hover { color:#000000;border-bottom: solid 1px #000;}
 
+a.button {
+  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: rgba(0,0,0,0.3);
+  border: solid 1px rgba(0,0,0,0.3); 
+  padding:5px 10px;}
+
+a:hover.button{
+  color: rgba(0,0,0,0.6);
+  border: solid 1px rgba(0,0,0,0.6);
+  padding:5px 10px;
+}
+
 p.role {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   color: rgba(0,0,0,0.3);
