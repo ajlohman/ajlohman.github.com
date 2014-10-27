@@ -146,7 +146,7 @@ h2:after {
   height: 1px;
   background: #ccc;
 }
-h3 {font-size: 2em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
+h3 {font-size: 4em;line-height: 1.25em; padding-bottom:1em; text-align:center; }
 h4 {
   font-size: 0.75em;
   line-height: 1.25em;
@@ -289,22 +289,22 @@ img.header-shape  {
 
 p.role {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-  color: rgba (0,0,0,0.4);
+  color: rgba(0,0,0,0.4);
   text-transform: uppercase;
-  font-style: 0.85em;
+  font-size: 0.85em;
 }
 
 /* project links*/
-[class*=featured-project] a { color:#fff;border-bottom: solid 1px #fff;}
-[class*=featured-project] a:hover { color:#000;border-bottom: solid 1px #000;}
+/*[class*=featured-project] a { color:#fff;border-bottom: solid 1px #fff;}
+[class*=featured-project] a:hover { color:#000;border-bottom: solid 1px #000;}*/
 
 /* featured projects*/
-.featured-project-ac {background: #3C4E57;color:#fff;}
+/*.featured-project-ac {background: #3C4E57;color:#fff;}
 .featured-project-eatdrink {background: #dc3b3b;color:#fff;}
 .featured-project-nosh {background: #339999;color:#fff;}
-.featured-project-justthings {background: #425863;color:#fff;}
+.featured-project-justthings {background: #425863;color:#fff;}*/
 
-[class*=featured-project] {
+[/*class*=featured-project] {
   z-index:3;
   position: relative;
   width:100%;
@@ -323,7 +323,7 @@ p.role {
   display: block;
   margin:0 auto 2em auto;
   text-align: center;
-}
+}*/
 
 
 
