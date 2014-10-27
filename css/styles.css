@@ -175,26 +175,9 @@ h4 {
 -------------------------------------------------- */
 .header {
   background: whiteSmoke;
-  /*background:#00A551;*/
-  /*background: #eee url(/wp-content/themes/andrewlohman.com-v2-theme/img/header-bg.jpg) no-repeat center center fixed;*/
-  /*width:95%;*/
   text-align:center;
   margin:6em auto 0em auto;
   padding:0;
-
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-
-  /*background-color: #62B6E8;*/
-  /*background-image: url(images/linear_bg_1.png);*/
-  /*background-repeat: repeat-y;
-  background: -webkit-gradient(linear, left top, right top, from(#62B6E8), to(#589E86));
-  background: -webkit-linear-gradient(left, #62B6E8, #589E86);
-  background: -moz-linear-gradient(left, #62B6E8, #589E86);
-  background: -ms-linear-gradient(left, #62B6E8, #589E86);
-  background: -o-linear-gradient(left, #62B6E8, #589E86);*/
 }
 
 img.header-shape  {
@@ -280,45 +263,6 @@ img.header-shape  {
 /* projects
 -------------------------------------------------- */
 
-.plus {
-  width: 35px !important;
-  height: 35px;
-  opacity: 0.5;
-  cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
-       -moz-transition: all 0.5s ease-in-out;
-         -o-transition: all 0.5s ease-in-out;
-        -ms-transition: all 0.5s ease-in-out;
-}
-
-.plus:hover {
-  opacity: 1;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
-       -moz-transition: all 0.2s ease-in-out;
-         -o-transition: all 0.2s ease-in-out;
-        -ms-transition: all 0.2s ease-in-out;
-}
-
-.rotate {
-    -webkit-transition: all 0.5s ease-in-out;
-       -moz-transition: all 0.5s ease-in-out;
-         -o-transition: all 0.5s ease-in-out;
-        -ms-transition: all 0.5s ease-in-out;
-
-    -webkit-transform: rotate(135deg);
-       -moz-transform: rotate(135deg);
-        -ms-transform: rotate(135deg);
-         -o-transform: rotate(135deg);
-            transform: rotate(135deg);
-               /* IE6–IE9 */
-               filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
-                 zoom: 1;
-    }
-
-/* hide projects*/
-/*.project {display:none;}*/
-
 /* project links*/
 [class*=project] a { color:#fff;border-bottom: solid 1px #fff;}
 [class*=project] a:hover { color:#000;border-bottom: solid 1px #000;}
@@ -329,7 +273,7 @@ img.header-shape  {
 .featured-project-nosh {background: #339999;color:#fff;}
 .featured-project-justthings {background: #425863;color:#fff;}
 
-[class*=featured-project] {
+[class*=project] {
   z-index:3;
   position: relative;
   width:100%;
