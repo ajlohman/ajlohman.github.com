@@ -288,8 +288,8 @@ img.header-shape  {
 .project a:hover { color:#000000;border-bottom: solid 1px #000;}
 
 /* project links*/
-[class*=project] a { color:#fff;border-bottom: solid 1px #fff;}
-[class*=project] a:hover { color:#000;border-bottom: solid 1px #000;}
+[class*=featured-project] a { color:#fff;border-bottom: solid 1px #fff;}
+[class*=featured-project] a:hover { color:#000;border-bottom: solid 1px #000;}
 
 /* featured projects*/
 .featured-project-ac {background: #3C4E57;color:#fff;}
