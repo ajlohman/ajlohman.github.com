@@ -16,7 +16,9 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 body {
   margin: 0;
   /*font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",serif;*/
-  font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;
+  /*font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;*/
+  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  
   font-size: 22px;
   line-height: 1.65em;
   color: #4f4f4f;
@@ -74,8 +76,8 @@ em {font-style: italic;}
 
 /* The grid
 -------------------------------------------------- */
-.container {padding-right: 0;padding-left: 0;width:90%;max-width:70em;margin:0 auto;*zoom: 1;}
-.container:before,.container:after {display: table;content: "";}
+.container {padding-right: 0;padding-left: 0;width:90%; max-width:70em; margin:0 auto; *zoom: 1;}
+.container:before,.container:after {display: table; content: "";}
 .container:after {clear: both;}
 
 .row {width: 100%;*zoom: 1;}
