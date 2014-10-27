@@ -292,9 +292,9 @@ img.header-shape  {
 
 p.role {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.3);
   text-transform: uppercase;
-  font-size: 0.85em;
+  font-size: 0.65em;
 }
 
 /* project links*/
