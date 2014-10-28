@@ -36,7 +36,7 @@ a {
   /*color: #00A551;*/
   /*color:#b99a54;*/
   color:#000000;
-  border-bottom: solid 1px #000000;
+  border-bottom: solid 2px #000000;
   font-weight:normal;
   /*border-bottom: solid 2px #00A551;*/
   text-decoration: none;
@@ -50,24 +50,22 @@ a {
 a:hover {
   /*color: #4f4f4f;*/
   color:#999999;
-  border-bottom: solid 1px #999999;
+  border-bottom: solid 2px #999999;
   text-decoration: none;
   /*border-bottom: solid 2px #4f4f4f;*/
 }
 
-a.link_white {
+/*a.link_white {
   color:#fff;
   text-decoration: none;
   border-bottom: solid 2px #fff;
-  /*border-bottom:2px #ffffff solid;*/
 }
 
 a:hover.link_white {
   color:#000;
   text-decoration: none;
   border-bottom: solid 2px #000;
-  /*border-bottom:2px #4f4f4f solid;*/
-}
+}*/
 
 
 strong {font-weight: bold;}
@@ -290,21 +288,21 @@ img.header-shape  {
   text-align: center;
 }
 
-.project-case a { color:#000000;border-bottom: solid 1px #000000;}
-.project-case a:hover { color:#000000;border-bottom: solid 1px #000;}
+/*.project-case a { color:#000000;border-bottom: solid 1px #000000;}
+.project-case a:hover { color:#000000;border-bottom: solid 1px #000;}*/
 
 a.button {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   color: rgba(0,0,0,0.3);
-  border: solid 1px rgba(0,0,0,0.3); 
-  padding:5px 10px;
+  border: solid 2px rgba(0,0,0,0.3); 
+  padding:10px 15px;
   text-transform: uppercase;
 }
 
 a:hover.button{
   color: rgba(0,0,0,0.6);
-  border: solid 1px rgba(0,0,0,0.6);
-  padding:5px 10px;
+  border: solid 2px rgba(0,0,0,0.6);
+  padding:10px 15px;
 }
 
 p.role {
