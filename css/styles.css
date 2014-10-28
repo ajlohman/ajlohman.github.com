@@ -16,7 +16,7 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 body {
   margin: 0;
   /*font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",serif;*/
-  font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;
+  /*font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;*/
   font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",serif;
   
   /*font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;*/
@@ -136,19 +136,15 @@ h1:after {
   background: #ccc;
 }
 
-h2 {font-size: 2em;line-height: 1.25em; text-transform: uppercase; letter-spacing: 0.15em;}
-h2:after {
+h2 {font-size: 2em;line-height: 1.25em; letter-spacing: 0.15em; margin-bottom:1em;}
+/*h2:after {
   content: "";
   display: block;
-  /*width: 1.95em;*/
   margin: 0.25em auto 1em auto;
-  /*height: 20px;*/
-  /*background: url(../img/zig-zag-v2.png) top;*/
-  /*background-size: 15px 20px;*/
   width: 2.5em;
   height: 1px;
   background: #ccc;
-}
+}*/
 h3 {font-size: 4em;line-height: 1.25em; text-align:center; }
 h4 {
   font-size: 0.75em;
@@ -474,14 +470,14 @@ li.shot-list {
 
 .footer h2 {color:#ffffff;}
 
-.footer h2:after {
+/*.footer h2:after {
   content: "";
   display: block;
   margin: 0.5em auto 1em auto;
   width: 2.5em;
   height: 1px;
   background: #7D7D7D;
-}
+}*/
 
 .footer p {margin: 0 0 0em 0;}
 
