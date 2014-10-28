@@ -202,7 +202,6 @@ img.header-shape  {
 }
 
 .intro {
-  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   opacity: 1;
   width:100%;
   max-width: 45em;
@@ -216,6 +215,7 @@ img.header-shape  {
 }
 
 .intro p {
+  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   font-size: 2em;
   line-height: 1.25em; 
   padding:0;
