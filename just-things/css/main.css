@@ -94,7 +94,7 @@ img {
 
 .we {
     background: #425863;
-    font-family: "corner-store-1","corner-store-2",sans-serif;
+    font-family: "corner-store",sans-serif;
     font-size:2em;
     color: #fff;
     display: block;
@@ -138,7 +138,7 @@ hr.we-line {
     margin:-0.5em 0 0 0;
     color: #FFD25E;
     text-transform: uppercase;
-    font-family: "hellenic-wide-1","hellenic-wide-2",sans-serif;
+    font-family: "hellenic-wide",sans-serif;
 
     -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
     -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
@@ -159,7 +159,7 @@ hr.we-line {
    /* color: #FFC122;*/
     color: #E64E49;
     text-transform: uppercase;
-    font-family: "hellenic-wide-1","hellenic-wide-2",sans-serif;
+    font-family: "hellenic-wide",sans-serif;
 
     -webkit-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
     -o-mask-image: url(http://andrewlohman.com/just-things/images/knockout.png);
@@ -183,7 +183,7 @@ hr.we-line {
     font-size: 1.5em;
     letter-spacing: 0.25em;
     text-transform: uppercase;
-    font-family: "prenton-condensed-1","prenton-condensed-2",sans-serif;
+    font-family: "prenton-condensed",sans-serif;
     background: #425863;
     width:60%;
     margin:0.5em auto 0 auto;
