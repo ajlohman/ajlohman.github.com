@@ -52,9 +52,9 @@
         <p class="website"><a class="button" href="http://www.csszengarden.com/221/">Website</a></p>
 
         <!-- images -->
-        <img src="img/project-desktop-zen-garden.jpg" alt="CSS Zen Garden desktop layout" />
-        <img src="img/project-tablet-zen-garden.jpg" alt="CSS Zen Garden tablet layout" />
-        <img src="img/project-mobile-zen-garden.jpg" alt="CSS Zen Garden mobile layout" />
+        <img src="img/loader.gif" data-src="img/project-desktop-zen-garden.jpg" alt="CSS Zen Garden desktop layout" />
+        <img data-src="img/project-tablet-zen-garden.jpg" alt="CSS Zen Garden tablet layout" />
+        <img data-src="img/project-mobile-zen-garden.jpg" alt="CSS Zen Garden mobile layout" />
         <!-- <img src="img/project-template-ac-hero.png" /> -->
         <!-- <img src="img/ac-lg-screen-final.jpg" /> -->
       </article>
@@ -69,9 +69,9 @@
         <p class="website"><a class="button" href="http://aminiconant.com/">Website</a></p>
 
         <!-- images -->
-        <img src="img/project-desktop-ac.jpg" alt="Amini & Conant desktop layout" />
-        <img src="img/project-tablet-ac.jpg" alt="Amini & Conant tablet layout" />
-        <img src="img/project-mobile-ac.jpg" alt="Amini & Conant mobile layout" />
+        <img data-src="img/project-desktop-ac.jpg" alt="Amini & Conant desktop layout" />
+        <img data-src="img/project-tablet-ac.jpg" alt="Amini & Conant tablet layout" />
+        <img data-src="img/project-mobile-ac.jpg" alt="Amini & Conant mobile layout" />
         <!-- <img src="img/project-template-ac-hero.png" /> -->
         <!-- <img src="img/ac-lg-screen-final.jpg" /> -->
       </article>
@@ -86,7 +86,7 @@
         <p class="website"><a class="button" href="http://eatdrinkatx.com/">Website</a></p>
       
         <!-- images -->
-        <img src="img/project-desktop-eat-drink.jpg" alt="Eat Drink ATX layout" />
+        <img data-src="img/project-desktop-eat-drink.jpg" alt="Eat Drink ATX layout" />
         <!-- <img src="img/feature-project-eatdrinkatx-v2.png" /> -->
       </div>
     </section>
@@ -101,7 +101,7 @@
         <p class="website"><a class="button" href="http://nosh.co.nz/">Website</a></p>
       
         <!-- images -->
-        <img src="img/project-desktop-nosh.jpg" alt="Nosh Catering desktop layout" />
+        <img data-src="img/project-desktop-nosh.jpg" alt="Nosh Catering desktop layout" />
         <!-- <img src="img/feature-project-nosh.png" /> -->
       </div>
     </section>
@@ -115,7 +115,7 @@
         <p class="website"><a class="button" href="http://andrewlohman.com/just-things/">Website</a></p>
       
         <!-- images -->
-        <img src="img/project-desktop-just-things.jpg" alt="Just things desktop layout" />
+        <img data-src="img/project-desktop-just-things.jpg" alt="Just things desktop layout" />
         <!-- <img src="img/feature-project-typecast.png" /> -->
       </div>
     </section>
@@ -208,6 +208,13 @@
     <script src="js/jquery.js"></script>
     <script src="js/jribbble.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/jquery.unveil.js"></script>
+
+    <script>
+    $(function() {
+        $("img").unveil(300);
+    });
+    </script>
 
 <!-- Google analytics -->
     <script>
