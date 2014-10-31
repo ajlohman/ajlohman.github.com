@@ -450,6 +450,10 @@ li.shot-list {
           box-sizing: border-box;
 }
 
+li.shot-list a {
+  border-bottom:0px;
+}
+
 
 
 
