@@ -291,7 +291,7 @@ a.button {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   color: rgba(0,0,0,0.3);
   border: solid 2px rgba(0,0,0,0.3); 
-  padding:8px 25px;
+  padding:10px 25px 8px 25px
   text-transform: uppercase;
   -webkit-border-radius: 8px; 
   -moz-border-radius: 8px; 
@@ -302,7 +302,7 @@ a.button {
 a:hover.button{
   color: rgba(0,0,0,1);
   border: solid 2px rgba(0,0,0,1); 
-  padding:8px 25px;
+  padding:10px 25px 8px 25px
   text-transform: uppercase;
   -webkit-border-radius: 8px; 
   -moz-border-radius: 8px; 
