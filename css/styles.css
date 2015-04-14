@@ -36,7 +36,7 @@ a {
   /*color: #00A551;*/
   /*color:#b99a54;*/
   color:#000000;
-  border-bottom: solid 1px #000000;
+  border-bottom: solid 2px #000000;
   font-weight:normal;
   /*border-bottom: solid 2px #00A551;*/
   text-decoration: none;
@@ -290,7 +290,7 @@ img.header-shape  {
 a.button {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   color: rgba(0,0,0,0.3);
-  border: solid 1px rgba(0,0,0,0.3); 
+  border: solid 2px rgba(0,0,0,0.3); 
   padding:8px 25px;
   text-transform: uppercase;
   -webkit-border-radius: 8px; 
