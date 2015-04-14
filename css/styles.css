@@ -50,7 +50,7 @@ a {
 a:hover {
   /*color: #4f4f4f;*/
   color:#cccccc;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 2px #cccccc;
   text-decoration: none;
   /*border-bottom: solid 2px #4f4f4f;*/
 }
