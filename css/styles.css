@@ -32,6 +32,11 @@ body {
   transition: all 0.2s ease-out;
 }
 
+img {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+} 
+
 a {
   /*color: #00A551;*/
   /*color:#b99a54;*/
