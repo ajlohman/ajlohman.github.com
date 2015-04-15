@@ -511,7 +511,7 @@ ul.footer-list li.footer-list-item:after {
 
 .footer a {
   color:#ffffff;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 2px #ffffff;
   font-weight:normal;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
@@ -523,7 +523,7 @@ ul.footer-list li.footer-list-item:after {
 
 .footer a:hover {
   color:#999999;
-  border-bottom: solid 1px #999999;
+  border-bottom: solid 2px #999999;
   text-decoration: none;
 }
 
