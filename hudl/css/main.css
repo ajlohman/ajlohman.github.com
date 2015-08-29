@@ -5877,10 +5877,19 @@ a:hover, a:focus {
       border-radius: 6px;
       margin-top: 40px;
       position: relative; }
+      @media screen and (max-width: 767px) {
+        .profile-head .profile .avatar {
+          margin-top: 11px;
+          border: 0 solid #fff;
+          height: 60px;
+          width: 60px; } }
       .profile-head .profile .avatar img {
         width: 100%;
         max-width: 70px;
         border-radius: 4px; }
+        @media screen and (max-width: 767px) {
+          .profile-head .profile .avatar img {
+            max-width: 60px; } }
     .profile-head .profile .badge {
       font-weight: 600;
       color: #fff;
@@ -5891,18 +5900,24 @@ a:hover, a:focus {
     margin-top: 0;
     padding: 10px; }
     .profile-head .invite .athlete-info {
-      color: #fff;
       overflow: hidden;
       text-align: right;
       margin-top: 25px;
       margin-bottom: 5px; }
       .profile-head .invite .athlete-info .number {
         font-size: 50px;
-        font-weight: 600;
+        font-weight: 700;
         text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
         margin-top: -2px;
         display: block;
-        text-align: right; }
+        text-align: right;
+        color: #fff; }
+        @media screen and (max-width: 767px) {
+          .profile-head .invite .athlete-info .number {
+            text-shadow: 0px 0px 5px transparent;
+            color: #222;
+            font-size: 30px;
+            margin-top: -10px; } }
     .profile-head .invite .btn {
       font-size: 11px; }
     .profile-head .invite .badge {
@@ -5913,6 +5928,10 @@ a:hover, a:focus {
       border-radius: 4px;
       margin-bottom: 6px;
       text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .profile-head .invite .badge {
+          color: #fff;
+          background-color: #222; } }
   .profile-head .more-details {
     width: 100%;
     float: left; }
@@ -6074,21 +6093,39 @@ a:hover, a:focus {
 
 .profile-bg-default {
   background: #222222 url(../images/profile-bg-default.png) no-repeat center center; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-default {
+      background: #fff; } }
 
 .profile-bg-one {
   background: #222222 url(../images/profile-bg-tim.png) no-repeat center center; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-one {
+      background: #fff; } }
 
 .profile-bg-two {
   background: #222222 url(../images/profile-bg-matt.png) no-repeat center center; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-two {
+      background: #fff; } }
 
 .profile-bg-three {
   background: #222222 url(../images/profile-bg-bri.png) no-repeat center center; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-three {
+      background: #fff; } }
 
 .profile-bg-four {
   background: #222222 url(../images/profile-bg-jason.png) no-repeat center center; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-four {
+      background: #fff; } }
 
 .profile-bg-five {
   background: #666666; }
+  @media screen and (max-width: 767px) {
+    .profile-bg-five {
+      background: #fff; } }
 
 .profile-bg-default, .profile-bg-one, .profile-bg-two, .profile-bg-three, .profile-bg-four {
   -webkit-background-size: cover;
