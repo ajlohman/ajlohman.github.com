@@ -5814,6 +5814,9 @@ h2 {
 .well {
   background: #fff; }
 
+.file-type {
+  font-size: 11px; }
+
 .panel-body {
   padding: 15px 0; }
   @media screen and (max-width: 767px) {
@@ -6149,16 +6152,16 @@ a:hover, a:focus {
   background-size: cover; }
 
 .sr {
-  background: #ff6600; }
+  background: #0066CC; }
 
 .jr {
-  background: #4646B4; }
+  background: #CC0033; }
 
 .so {
   background: #46B446; }
 
 .fr {
-  background: #E53E45; }
+  background: #663399; }
 
 .orange {
   color: #ff6600; }
