@@ -6265,3 +6265,20 @@ a:hover, a:focus {
   color: #555555;
   background-color: #fff;
   border-color: #ccc; }
+
+footer {
+  background: #222;
+  margin-top: 40px;
+  padding: 40px 0;
+  color: #ddd; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      list-style: none; }
+  footer p.copyright {
+    color: #666;
+    margin-top: 20px;
+    padding: 40px 0;
+    text-align: center;
+    border-top: 1px solid #333; }
