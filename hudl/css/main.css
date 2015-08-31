@@ -6209,7 +6209,8 @@ a:hover, a:focus {
   .well-filter-options-sm .filter-buttons {
     margin-bottom: 10px; }
     .well-filter-options-sm .filter-buttons .filter-btn {
-      width: 48%; }
+      width: 48%;
+      padding: 12px; }
     .well-filter-options-sm .filter-buttons .filter-first-btn {
       margin-right: 3%; }
 
@@ -6342,14 +6343,19 @@ footer {
   margin-top: 40px;
   margin-bottom: 40px; }
 .article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .article .h1, .article .h2, .article .h3, .article .h4, .article .h5, .article .h6 {
-  font-weight: 100; }
+  font-weight: 700; }
 .article h1 {
   font-weight: 700; }
 .article h2 {
-  font-size: 30px; }
+  font-size: 38px; }
   @media screen and (max-width: 767px) {
     .article h2 {
-      font-size: 20px; } }
+      font-size: 28px; } }
+.article h3 {
+  font-size: 21px; }
+  @media screen and (max-width: 767px) {
+    .article h3 {
+      font-size: 18px; } }
 .article .jumbotron h1 {
   font-size: 75px;
   color: #fff; }
@@ -6381,6 +6387,8 @@ footer {
 .article ul li {
   padding-bottom: 20px; }
 .article .article-images-lg {
-  background: #222;
+  background: #38434f;
   color: #ddd;
-  padding: 40px 0; }
+  padding: 0; }
+  .article .article-images-lg .competitive img {
+    max-width: 100%; }
