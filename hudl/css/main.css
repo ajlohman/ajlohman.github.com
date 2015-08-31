@@ -5958,7 +5958,7 @@ a:hover, a:focus {
       width: 70px;
       border: 3px solid #fff;
       border-radius: 6px;
-      margin-top: 27px;
+      margin-top: 41px;
       position: relative; }
       @media screen and (max-width: 767px) {
         .profile-head .profile .avatar {
@@ -5982,6 +5982,8 @@ a:hover, a:focus {
     float: right;
     margin-top: 0;
     padding: 10px; }
+    .profile-head .invite span.glyphicon-film {
+      color: #ff6600; }
     .profile-head .invite .athlete-info {
       overflow: hidden;
       text-align: right;
