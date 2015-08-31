@@ -5811,6 +5811,16 @@ body {
 .bootstrap-select .btn-default {
   border-color: #ddd; }
 
+.modal .panel-heading {
+  padding: 0; }
+.modal .panel-title {
+  margin-top: 0;
+  margin-bottom: 0; }
+  .modal .panel-title a {
+    display: block;
+    background: pink;
+    padding: 12px 10px; }
+
 .modal-header .close {
   margin-top: -5px; }
 
@@ -5838,7 +5848,8 @@ h4.panel-title {
   font-weight: 100; }
 
 .well {
-  background: #fff; }
+  background: #fff;
+  padding: 10px 10px 7px 10px; }
 
 .panel-body {
   padding: 15px 0; }
