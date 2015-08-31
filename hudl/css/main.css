@@ -5840,9 +5840,6 @@ h4.panel-title {
 .well {
   background: #fff; }
 
-.file-type {
-  font-size: 11px; }
-
 .panel-body {
   padding: 15px 0; }
   @media screen and (max-width: 767px) {
@@ -5889,10 +5886,13 @@ a:hover, a:focus {
 
 .import-roster {
   margin-right: 20px;
+  font-size: 12px;
   float: right; }
   @media screen and (max-width: 767px) {
     .import-roster {
       float: left; } }
+  .import-roster .file-type {
+    font-size: 11px; }
 
 .profile-head {
   width: 100%;
@@ -6136,6 +6136,18 @@ a:hover, a:focus {
   padding-top: 8px;
   padding-right: 10px;
   font-weight: 600; }
+
+.well-filter-options-sm {
+  min-height: 20px;
+  font-size: 12px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 10px; }
+  .well-filter-options-sm .filter-buttons {
+    margin-bottom: 10px; }
+    .well-filter-options-sm .filter-buttons .filter-btn {
+      width: 47%; }
+    .well-filter-options-sm .filter-buttons .filter-first-btn {
+      margin-right: 10px; }
 
 .filter-sm .panel-default > .panel-heading {
   color: #222;
