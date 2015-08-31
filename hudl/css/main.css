@@ -5974,7 +5974,7 @@ a:hover, a:focus {
     .profile-head .more-details .panel-group {
       margin-bottom: 0; }
     .profile-head .more-details .panel-heading {
-      padding: 12px 10px;
+      padding: 0;
       border-bottom: 0 solid transparent;
       border-top-right-radius: 0;
       border-top-left-radius: 0;
@@ -5985,6 +5985,9 @@ a:hover, a:focus {
       margin-bottom: 0;
       font-size: 12px;
       color: inherit; }
+      .profile-head .more-details .panel-title a {
+        display: block;
+        padding: 12px 10px; }
     .profile-head .more-details .panel-group .panel {
       margin-bottom: 0;
       border-top-right-radius: 0;
