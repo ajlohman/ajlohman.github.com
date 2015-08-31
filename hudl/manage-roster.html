@@ -412,13 +412,13 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalOne">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#sr-one">
             <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalOne" class="panel-collapse collapse">
+      <div id="sr-one" class="panel-collapse collapse">
         <div class="panel-body">
           <div class="invite">
             <a class="btn btn-primary pull-right" href="#" role="button">
@@ -556,13 +556,13 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitaltwo">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#sr-two">
             <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitaltwo" class="panel-collapse collapse">
+      <div id="sr-two" class="panel-collapse collapse">
         <div class="panel-body">
 
           <div class="invite">
@@ -700,13 +700,13 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalthree">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#sr-three">
             <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalthree" class="panel-collapse collapse">
+      <div id="sr-three" class="panel-collapse collapse">
         <div class="panel-body">
           <div class="invite">
             <a class="btn btn-primary pull-right" href="#" role="button">
@@ -843,13 +843,13 @@
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalfour">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#sr-four">
             <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalfour" class="panel-collapse collapse">
+      <div id="sr-four" class="panel-collapse collapse">
         <div class="panel-body">
 
           <div class="invite">
@@ -942,29 +942,30 @@
     <div class="col-md-3 col-sm-4">
       <div class="thumbnail">
         <div class="caption">
-          <div class="profile-head profile-bg-default">
+          <div class="profile-head profile-bg-one">
             <div class="profile">
               <span class="badge jr">JR / 2017</span>
               <div class="avatar">
-                <a href="#"><img src="images/profile-default.png"></a>
+                <a href="#"><img src="images/profile-tim.png"></a>
               </div>
             </div>
+
             <div class="invite">
-                <p><span class="badge">olb, dt</span></p>
-                <p class="athlete-info"><span class="number">76</span></p>
-                <a class="btn btn-primary pull-right" href="#" role="button">
-                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
+                <p><span class="badge"><span class="visible-xs-inline">#33 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">33</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
                 </a>
             </div>
+
             <div class="name">
-              
               <p><a href="#">Tim Riggins</a></p>
               <p class="name-email">tim.riggins@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -983,19 +984,25 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
+
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalfive">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jr-One">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalfive" class="panel-collapse collapse">
+      <div id="jr-One" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1004,7 +1011,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1012,14 +1019,36 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
 
-            <div class="card-buttons">
+</div>
+
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1056,10 +1085,11 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">qb1</span></p>
-                <p class="athlete-info"><span class="number">7</span></p>
-                <!-- <a class="btn btn-default pull-right" href="#" role="button">Video Activity</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <p><span class="badge"><span class="visible-xs-inline">#7 / </span>qb1</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">7</span></p>
+                <!-- <a class="btn btn-default pull-right" href="#" role="button">Invite</a> -->
+                <!-- <img class="hudl-logo-sm" src="images/hudl-logo-orange.png"> -->
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -1072,17 +1102,15 @@
                   ">
                   <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
                 </a>
-                <!-- <img class="hudl-logo-sm" src="images/hudl-logo-orange.png"> -->
             </div>
             <div class="name">
-              
               <p><a href="#">Matt Saracen</a></p>
               <p class="name-email">matt.saracen@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1101,19 +1129,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalsix">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jr-two">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalsix" class="panel-collapse collapse">
+      <div id="jr-two" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1122,7 +1167,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1130,14 +1175,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
-            
-            <div class="card-buttons">
+</div>
+
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1174,10 +1240,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">rb</span></p>
-                <p class="athlete-info"><span class="number">20</span></p>
-                <a class="btn btn-primary pull-right" href="#" role="button">
-                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
+                <p><span class="badge"><span class="visible-xs-inline">#20 / </span>rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">20</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
                 </a>
             </div>
             <div class="name">
@@ -1188,7 +1254,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1207,19 +1273,24 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalseven">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jr-three">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalseven" class="panel-collapse collapse">
+      <div id="jr-three" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1228,7 +1299,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1236,14 +1307,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1280,10 +1372,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">fb, rb</span></p>
-                <p class="athlete-info"><span class="number">6</span></p>
+                <p><span class="badge"><span class="visible-xs-inline">#6 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">6</span></p>
                 <!-- <a class="btn btn-default pull-right" href="#" role="button">Resend Invite</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -1305,7 +1397,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1324,19 +1416,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitaleight">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#jr-four">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitaleight" class="panel-collapse collapse">
+      <div id="jr-four" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1345,7 +1454,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1353,14 +1462,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+          
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1390,39 +1520,30 @@
     <div class="col-md-3 col-sm-4">
       <div class="thumbnail">
         <div class="caption">
-          <div class="profile-head profile-bg-default">
+          <div class="profile-head profile-bg-one">
             <div class="profile">
               <span class="badge so">SO / 2018</span>
               <div class="avatar">
                 <a href="#"><img src="images/profile-tim.png"></a>
               </div>
             </div>
+
             <div class="invite">
-                <p><span class="badge">olb, dt</span></p>
-                <p class="athlete-info"><span class="number">76</span></p>
-                <a type="button" class="btn btn-default pull-right" 
-                  data-container="body" 
-                  data-html="true"
-                  data-toggle="popover" 
-                  data-placement="bottom" 
-                  data-content="
-                      <p>Today: <b>30m</b></p>
-                      <p>Yesterday: <b>1h 30m</b></p>
-                      <p>Last 7 days: <b>2h 45m</b></p>
-                      <p>Last online: <b>30m ago</b></p>
-                  ">
-                  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+                <p><span class="badge"><span class="visible-xs-inline">#33 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">33</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
                 </a>
             </div>
+
             <div class="name">
-              
               <p><a href="#">Tim Riggins</a></p>
               <p class="name-email">tim.riggins@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1441,19 +1562,25 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
+
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalnine">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#so-One">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalnine" class="panel-collapse collapse">
+      <div id="so-One" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1462,7 +1589,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1470,14 +1597,36 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
-            
-            <div class="card-buttons">
+
+</div>
+
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1514,10 +1663,11 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">qb1</span></p>
-                <p class="athlete-info"><span class="number">7</span></p>
+                <p><span class="badge"><span class="visible-xs-inline">#7 / </span>qb1</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">7</span></p>
                 <!-- <a class="btn btn-default pull-right" href="#" role="button">Invite</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <!-- <img class="hudl-logo-sm" src="images/hudl-logo-orange.png"> -->
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -1532,14 +1682,13 @@
                 </a>
             </div>
             <div class="name">
-              
               <p><a href="#">Matt Saracen</a></p>
               <p class="name-email">matt.saracen@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1558,19 +1707,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalten">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#so-two">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalten" class="panel-collapse collapse">
+      <div id="so-two" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1579,7 +1745,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1587,14 +1753,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1631,20 +1818,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">rb</span></p>
-                <p class="athlete-info"><span class="number">20</span></p>
-                <a type="button" class="btn btn-default pull-right" 
-                  data-container="body" 
-                  data-html="true"
-                  data-toggle="popover" 
-                  data-placement="bottom" 
-                  data-content="
-                      <p>Today: <b>30m</b></p>
-                      <p>Yesterday: <b>1h 30m</b></p>
-                      <p>Last 7 days: <b>2h 45m</b></p>
-                      <p>Last online: <b>30m ago</b></p>
-                  ">
-                  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+                <p><span class="badge"><span class="visible-xs-inline">#20 / </span>rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">20</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
                 </a>
             </div>
             <div class="name">
@@ -1655,7 +1832,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1674,19 +1851,24 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitaleleven">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#so-three">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitaleleven" class="panel-collapse collapse">
+      <div id="so-three" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1695,7 +1877,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1703,14 +1885,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1747,10 +1950,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">fb, rb</span></p>
-                <p class="athlete-info"><span class="number">6</span></p>
+                <p><span class="badge"><span class="visible-xs-inline">#6 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">6</span></p>
                 <!-- <a class="btn btn-default pull-right" href="#" role="button">Resend Invite</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -1772,7 +1975,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1791,19 +1994,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitaltwelve">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#so-four">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitaltwelve" class="panel-collapse collapse">
+      <div id="so-four" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1812,7 +2032,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1820,14 +2040,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+          
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1857,39 +2098,30 @@
     <div class="col-md-3 col-sm-4">
       <div class="thumbnail">
         <div class="caption">
-          <div class="profile-head profile-bg-default">
+          <div class="profile-head profile-bg-one">
             <div class="profile">
               <span class="badge fr">FR / 2019</span>
               <div class="avatar">
-                <a href="#"><img src="images/profile-default.png"></a>
+                <a href="#"><img src="images/profile-tim.png"></a>
               </div>
             </div>
+
             <div class="invite">
-                <p><span class="badge">olb, dt</span></p>
-                <p class="athlete-info"><span class="number">76</span></p>
-                <a type="button" class="btn btn-default pull-right" 
-                  data-container="body" 
-                  data-html="true"
-                  data-toggle="popover" 
-                  data-placement="bottom" 
-                  data-content="
-                      <p>Today: <b>30m</b></p>
-                      <p>Yesterday: <b>1h 30m</b></p>
-                      <p>Last 7 days: <b>2h 45m</b></p>
-                      <p>Last online: <b>30m ago</b></p>
-                  ">
-                  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+                <p><span class="badge"><span class="visible-xs-inline">#33 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">33</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
                 </a>
             </div>
+
             <div class="name">
-              
               <p><a href="#">Tim Riggins</a></p>
               <p class="name-email">tim.riggins@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -1908,19 +2140,25 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
+
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalthirteen">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fr-One">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalthirteen" class="panel-collapse collapse">
+      <div id="fr-One" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Resend Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -1929,7 +2167,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -1937,14 +2175,36 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
 
-            <div class="card-buttons">
+</div>
+
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -1981,10 +2241,11 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">qb1</span></p>
-                <p class="athlete-info"><span class="number">7</span></p>
+                <p><span class="badge"><span class="visible-xs-inline">#7 / </span>qb1</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">7</span></p>
                 <!-- <a class="btn btn-default pull-right" href="#" role="button">Invite</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <!-- <img class="hudl-logo-sm" src="images/hudl-logo-orange.png"> -->
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -1999,14 +2260,13 @@
                 </a>
             </div>
             <div class="name">
-              
               <p><a href="#">Matt Saracen</a></p>
               <p class="name-email">matt.saracen@fridaynightlights.com</p>
             </div>
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -2025,19 +2285,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalfourteen">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fr-two">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalfourteen" class="panel-collapse collapse">
+      <div id="fr-two" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -2046,7 +2323,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -2054,14 +2331,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -2098,20 +2396,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">rb</span></p>
-                <p class="athlete-info"><span class="number">20</span></p>
-                <a type="button" class="btn btn-default pull-right" 
-                  data-container="body" 
-                  data-html="true"
-                  data-toggle="popover" 
-                  data-placement="bottom" 
-                  data-content="
-                      <p>Today: <b>30m</b></p>
-                      <p>Yesterday: <b>1h 30m</b></p>
-                      <p>Last 7 days: <b>2h 45m</b></p>
-                      <p>Last online: <b>30m ago</b></p>
-                  ">
-                  <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+                <p><span class="badge"><span class="visible-xs-inline">#20 / </span>rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">20</span></p>
+                <a class="btn btn-primary pull-right hidden-xs" href="#" role="button">
+                  <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
                 </a>
             </div>
             <div class="name">
@@ -2122,7 +2410,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -2141,19 +2429,24 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalfifteen">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fr-three">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalfifteen" class="panel-collapse collapse">
+      <div id="fr-three" class="panel-collapse collapse">
         <div class="panel-body">
+          <div class="invite">
+            <a class="btn btn-primary pull-right" href="#" role="button">
+              <img class="hudl-logo-sm" src="images/hudl-logo-white.png"> Invite
+            </a>
+          </div>
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -2162,7 +2455,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -2170,14 +2463,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-</div> -->
-            
-            <div class="card-buttons">
+</div>
+
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
@@ -2214,10 +2528,10 @@
               </div>
             </div>
             <div class="invite">
-                <p><span class="badge">fb, rb</span></p>
-                <p class="athlete-info"><span class="number">6</span></p>
+                <p><span class="badge"><span class="visible-xs-inline">#6 / </span>fb, rb</span></p>
+                <p class="athlete-info hidden-xs"><span class="number">6</span></p>
                 <!-- <a class="btn btn-default pull-right" href="#" role="button">Resend Invite</a> -->
-                <a type="button" class="btn btn-default pull-right" 
+                <a type="button" class="btn btn-default pull-right hidden-xs" 
                   data-container="body" 
                   data-html="true"
                   data-toggle="popover" 
@@ -2239,7 +2553,7 @@
 
             <!-- Vitals -->
 <!-- <div class="hidden-xs"> -->
-  <div class="vitals">
+  <div class="vitals hidden-xs">
     <ul>
       <li><span class="table-title">ht</span>5-11</li>
       <li><span class="table-title">wt</span>220</li>
@@ -2258,19 +2572,36 @@
   </div> -->
 <!-- </div> -->
 
-<!-- <div class="more-details visible-xs-block">
+<div class="more-details visible-xs-block">
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h4 class="panel-title">
-          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#vitalsixteen">
-            <span class="glyphicon glyphicon-plus"></span>
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#fr-four">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             View more details
           </a>
         </h4>
       </div>
-      <div id="vitalsixteen" class="panel-collapse collapse">
+      <div id="fr-four" class="panel-collapse collapse">
         <div class="panel-body">
+
+          <div class="invite">
+              <a type="button" class="btn btn-default pull-right" 
+                data-container="body" 
+                data-html="true"
+                data-toggle="popover" 
+                data-placement="bottom" 
+                data-content="
+                    <p>Today: <b>30m</b></p>
+                    <p>Yesterday: <b>1h 30m</b></p>
+                    <p>Last 7 days: <b>2h 45m</b></p>
+                    <p>Last online: <b>30m ago</b></p>
+                ">
+                <span class="glyphicon glyphicon-film" aria-hidden="true"></span> Video Activity
+              </a>
+          </div>
+
           <div class="vitals">
             <ul>
               <li><span class="table-title">ht</span>5-11</li>
@@ -2279,7 +2610,7 @@
             </ul>
           </div>
 
-          <div class="video-activity">
+          <!-- <div class="video-activity">
             <span class="activity-title">Video Activity</span>
             <ul>
               <li>Today<span class="time">30m</span></li>
@@ -2287,14 +2618,35 @@
               <li>Last 7 days<span class="time">2h 45m</span></li>
               <li>Last online<span class="time">30m ago</span></li>
             </ul>
+          </div> -->
+
+          <div class="card-buttons">
+            <ul>
+                <li>
+                  <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
+                      <span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-disable">
+                  <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span> Disable
+                  </a>
+                </li>
+                <li>
+                  <a role="button" data-toggle="modal" data-target="#modal-delete">
+                  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                  </a>
+                </li>
+            </ul>
           </div>
+          
         </div>
       </div>
     </div>
   </div>
-</div> -->
+</div>
 
-            <div class="card-buttons">
+            <div class="card-buttons hidden-xs">
               <ul>
                   <li>
                     <a role="button" href="#" data-toggle="modal" data-target="#modal-edit">
