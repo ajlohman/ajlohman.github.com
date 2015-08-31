@@ -5852,6 +5852,12 @@ h2 {
   color: #fff;
   padding-top: 40px;
   padding-bottom: 20px; }
+  @media screen and (max-width: 350px) {
+    .roster-header .btn-lg, .roster-header .btn-group-lg > .btn, .roster-header .btn-group-lg > .btn {
+      padding: 10px 10px;
+      font-size: 15px;
+      line-height: 1.33333;
+      border-radius: 6px; } }
 
 h4.panel-title {
   font-weight: 100; }
@@ -6156,6 +6162,18 @@ a:hover, a:focus {
         border-bottom-right-radius: 4px;
         border-left: 1px solid #333; }
 
+.filter-header {
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd; }
+  .filter-header .well {
+    border: none;
+    box-shadow: none;
+    padding-top: 0;
+    padding-bottom: 0; }
+
 .filter-options .filter {
   float: left;
   padding-top: 8px;
@@ -6165,14 +6183,17 @@ a:hover, a:focus {
 .well-filter-options-sm {
   min-height: 20px;
   font-size: 12px;
-  padding: 10px 10px 0 10px;
-  margin-bottom: 10px; }
+  padding: 10px 2% 0 2%;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0; }
   .well-filter-options-sm .filter-buttons {
     margin-bottom: 10px; }
     .well-filter-options-sm .filter-buttons .filter-btn {
-      width: 47%; }
+      width: 48%; }
     .well-filter-options-sm .filter-buttons .filter-first-btn {
-      margin-right: 10px; }
+      margin-right: 3%; }
 
 .filter-sm .panel-default > .panel-heading {
   color: #222;
