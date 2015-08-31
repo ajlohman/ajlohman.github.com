@@ -6271,6 +6271,8 @@ footer {
   margin-top: 40px;
   padding: 40px 0;
   color: #ddd; }
+  footer h5 {
+    padding-top: 10px; }
   footer ul {
     margin: 0;
     padding: 0; }
