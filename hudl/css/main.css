@@ -6350,6 +6350,36 @@ footer {
   @media screen and (max-width: 767px) {
     .article h2 {
       font-size: 20px; } }
+.article .jumbotron h1 {
+  font-size: 75px;
+  color: #fff; }
+  @media screen and (max-width: 767px) {
+    .article .jumbotron h1 {
+      font-size: 40px; } }
+.article .jumbotron {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 60px;
+  color: inherit;
+  background: #eeeeee url(../images/hero.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media screen and (max-width: 767px) {
+    .article .jumbotron {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      margin-bottom: 30px; } }
+.article p, .article ul {
+  font-size: 18px; }
+  @media screen and (max-width: 767px) {
+    .article p, .article ul {
+      font-size: 16px; } }
+.article p.intro {
+  font-size: 24px; }
+.article ul li {
+  padding-bottom: 20px; }
 .article .article-images-lg {
   background: #222;
   color: #ddd;
