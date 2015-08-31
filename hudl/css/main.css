@@ -5932,17 +5932,33 @@ a:hover, a:focus {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   clear: all; }
+  .profile-head .yr-num-pos {
+    color: #fff;
+    padding: 5px 10px;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 12px;
+    font-weight: 700; }
+    .profile-head .yr-num-pos .yr {
+      width: 50%;
+      float: left; }
+    .profile-head .yr-num-pos .num-pos {
+      width: 50%;
+      float: right;
+      text-align: right; }
   .profile-head .profile {
     width: 30%;
     float: left;
-    margin-top: 0px;
+    margin-top: -11px;
     padding: 10px; }
     .profile-head .profile .avatar {
       height: 70px;
       width: 70px;
       border: 3px solid #fff;
       border-radius: 6px;
-      margin-top: 40px;
+      margin-top: 27px;
       position: relative; }
       @media screen and (max-width: 767px) {
         .profile-head .profile .avatar {
@@ -5969,7 +5985,7 @@ a:hover, a:focus {
     .profile-head .invite .athlete-info {
       overflow: hidden;
       text-align: right;
-      margin-top: 25px;
+      margin-top: -3px;
       margin-bottom: 5px; }
       .profile-head .invite .athlete-info .number {
         font-size: 50px;
@@ -6058,7 +6074,7 @@ a:hover, a:focus {
     clear: both; }
     @media screen and (max-width: 767px) {
       .profile-head .name {
-        margin-top: -46px;
+        margin-top: -50px;
         margin-left: 45px; } }
     .profile-head .name a {
       color: #222; }
