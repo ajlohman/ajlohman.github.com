@@ -6360,9 +6360,10 @@ footer {
   margin-top: 40px;
   margin-bottom: 40px; }
 .article h1, .article h2, .article h3, .article h4, .article h5, .article h6, .article .h1, .article .h2, .article .h3, .article .h4, .article .h5, .article .h6 {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #222; }
 .article h1 {
-  font-weight: 700; }
+  font-weight: 900; }
 .article h2 {
   font-size: 38px; }
   @media screen and (max-width: 767px) {
@@ -6380,7 +6381,7 @@ footer {
     .article .jumbotron h1 {
       font-size: 40px; } }
 .article .jumbotron {
-  padding-top: 100px;
+  padding-top: 250px;
   padding-bottom: 100px;
   margin-bottom: 60px;
   color: inherit;
@@ -6394,13 +6395,17 @@ footer {
       padding-top: 60px;
       padding-bottom: 60px;
       margin-bottom: 30px; } }
+  .article .jumbotron p {
+    color: #fff; }
 .article p, .article ul {
-  font-size: 18px; }
+  font-size: 22px;
+  margin-bottom: 40px; }
   @media screen and (max-width: 767px) {
     .article p, .article ul {
-      font-size: 16px; } }
+      font-size: 16px;
+      margin-bottom: 10px; } }
 .article p.intro {
-  font-size: 24px; }
+  font-size: 32px; }
 .article ul li {
   padding-bottom: 20px; }
 .article .article-images-lg {
@@ -6413,6 +6418,21 @@ footer {
   .article .article-images-lg .competitive img {
     max-width: 100%;
     width: 100%; }
+  .article .article-images-lg p {
+    font-size: 12px;
+    color: #ddd; }
+.article .article-sketch {
+  background: #f3f3f3;
+  color: #ddd;
+  padding: 0;
+  margin: 0; }
+  .article .article-sketch img {
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+  .article .article-sketch p {
+    margin-bottom: 0; }
 
 .add-to-roster {
   display: none; }
