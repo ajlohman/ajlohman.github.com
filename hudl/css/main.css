@@ -5932,11 +5932,6 @@ a:hover, a:focus {
       float: left; } }
   .import-roster .file-type {
     font-size: 11px; }
-  .import-roster a {
-    color: #5bc0de; }
-  .import-roster a:hover, .import-roster a:focus {
-    color: #9d9d9d;
-    text-decoration: none; }
 
 .profile-head {
   width: 100%;
@@ -6423,7 +6418,7 @@ footer {
   z-index: 100; }
   .thumbnail .overlay-card {
     position: absolute;
-    background: rgba(56, 67, 79, 0.8);
+    background: whitesmoke;
     width: 100%;
     height: 100%;
     z-index: 101;
@@ -6437,7 +6432,7 @@ footer {
 
 .athlete-success {
   display: none;
-  position: absolute;
+  position: fixed;
   z-index: 101;
   top: 0;
   background: #ff6600;
