@@ -6407,8 +6407,12 @@ footer {
   background: #38434f;
   color: #ddd;
   padding: 0; }
+  .article .article-images-lg img {
+    max-width: 100%;
+    width: 100%; }
   .article .article-images-lg .competitive img {
-    max-width: 100%; }
+    max-width: 100%;
+    width: 100%; }
 
 .add-to-roster {
   display: none; }
