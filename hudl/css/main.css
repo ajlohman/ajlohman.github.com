@@ -6406,6 +6406,9 @@ footer {
       margin-bottom: 10px; } }
 .article p.intro {
   font-size: 32px; }
+  @media screen and (max-width: 767px) {
+    .article p.intro {
+      font-size: 22px; } }
 .article ul li {
   padding-bottom: 20px; }
 .article .article-images-lg {
