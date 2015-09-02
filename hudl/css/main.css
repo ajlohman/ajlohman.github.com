@@ -5863,9 +5863,9 @@ h2 {
   margin-top: 10px;
   margin-bottom: 20px; }
 
-@media screen and (max-width: 350px) {
-  h3 {
-    font-size: 20px; } }
+h3 {
+  font-size: 20px;
+  margin-top: 0; }
 
 .roster-header {
   background: #38434f;
