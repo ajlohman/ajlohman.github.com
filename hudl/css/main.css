@@ -6489,6 +6489,8 @@ ul.depth-chart-list {
   margin: 0; }
   ul.depth-chart-list a {
     color: #222; }
+  ul.depth-chart-list a:hover {
+    color: #666; }
   ul.depth-chart-list li {
     list-style: none;
     padding: 5px 0; }
