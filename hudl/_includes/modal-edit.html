@@ -1,0 +1,387 @@
+<!-- Add Athlete - Modal -->
+<div class="modal fade bs-example-modal-lg" id="modal-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Edit Athlete</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Profile Photo</label>
+            <div class="col-sm-6">
+              <div class="edit-avatar">
+                <a href="#"><img src="images/profile-matt.png"></a>
+              </div>
+              <!-- <button type="button" class="btn btn-default" data-dismiss="modal">Update Photo</button> -->
+              <span class="btn btn-default fileinput-button">
+              <span>Change Profile Photo</span>
+              <input type="file" name="file">
+              </span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Name</label>
+            <div class="col-sm-6">
+              <input type="name" class="form-control" id="inputEmail3" value="Matt Saracen" placeholder="Matt Saracen">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Email</label>
+            <div class="col-sm-6">
+              <input type="email" class="form-control" id="inputPassword3" value="matt.saracen@fridaynightlights.com" placeholder="matt.saracen@fridaynightlights.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Jersey #</label>
+            <div class="col-sm-2">
+              <input type="email" class="form-control" id="inputPassword3" value="7" placeholder="18">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 col-xs-12 control-label">Height</label>
+            <div class="col-sm-2 col-xs-6">
+              <input type="email" class="form-control" id="inputPassword3" value="5" placeholder="feet">
+            </div>
+            <div class="col-sm-2 col-xs-6">
+              <input type="email" class="form-control" id="inputPassword3" value="11" placeholder="inches">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Weight</label>
+            <div class="col-sm-2">
+              <input type="email" class="form-control" id="inputPassword3" value="220" placeholder="Pounds">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Position</label>
+            <div class="col-sm-6">
+              <select id="maxOption4" class="selectpicker show-menu-arrow form-control" value="QB" multiple data-max-options="4">
+                <option selected="selected">QB</option>
+                <option>RB</option>
+                <option>SB</option>
+                <option>FB</option>
+                <option>WR</option>
+                <option>TE</option>
+                <option>T</option>
+                <option>G</option>
+                <option>C</option>
+                <option>LS</option>
+                <option>DE</option>
+                <option>DT</option>
+                <option>NG</option>
+                <option>OLB</option>
+                <option>MLB</option>
+                <option>CB</option>
+                <option>FS</option>
+                <option>SS</option>
+                <option>K</option>
+                <option>P</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Graduation Year</label>
+            <div class="col-sm-6">
+              <select class="form-control">
+                <option class="disabled" value="" disabled="disabled" selected="selected">Graduation Year</option>
+                <option value=""></option>
+                <optgroup label="Current">
+                  <option selected="selected" value="2016">2016 - SR</option>
+                  <option value="2017">2017 - JR</option>
+                  <option value="2018">2018 - SO</option>
+                  <option value="2019">2019 - FR</option>
+                  </optgroup>
+                  <optgroup label="Incoming">
+                      <option value="2020">2020</option>
+                      <option value="2021">2021</option>
+                  </optgroup>
+                  <optgroup label="Alumni">
+                      <option value="2015">2015</option>
+                      <option value="2014">2014</option>
+                  </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Experience</label>
+            <div class="col-sm-6">
+              <select class="form-control">
+                  <option value="2016">4 years</option>
+                  <option selected="selected" value="2017">3 years</option>
+                  <option value="2018">2 years</option>
+                  <option value="2019">1 years</option>
+              </select>
+            </div>
+          </div>
+        </form>
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapsePhone">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  Phone Number
+                </a>
+              </h4>
+            </div>
+            <div id="collapsePhone" class="panel-collapse collapse">
+              <div class="panel-body">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Cell #</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="512-765-4321">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Cell Carrier</label>
+                    <div class="col-sm-6">
+                      <select class="form-control">
+                          <option class="disabled" value="-1" disabled="disabled" selected="selected">Cell Carrier</option>
+                          <option value="-1"></option>
+                              <option class="enabled" value="0">
+                                  Other
+                              </option>
+                              <option class="enabled" value="1">
+                                  Alltel
+                              </option>
+                              <option class="enabled" value="2">
+                                  AT&amp;T Wireless
+                              </option>
+                              <option class="enabled" value="3">
+                                  Cricket
+                              </option>
+                              <option class="enabled" value="4">
+                                  T-Mobile
+                              </option>
+                              <option class="enabled" value="5">
+                                  Nextel
+                              </option>
+                              <option class="enabled" value="6">
+                                  US Cellular
+                              </option>
+                              <option class="enabled" value="7">
+                                  Verizon
+                              </option>
+                              <option class="enabled" value="8">
+                                  Metro PCS
+                              </option>
+                              <option class="enabled" value="9">
+                                  Sprint PCS
+                              </option>
+                              <option class="enabled" value="10">
+                                  Rogers Wireless
+                              </option>
+                              <option class="enabled" value="11">
+                                  Cincinnati Bell
+                              </option>
+                              <option class="enabled" value="12">
+                                  Boost Mobile
+                              </option>
+                              <option class="enabled" value="13">
+                                  Virgin Mobile
+                              </option>
+                              <option class="enabled" value="14">
+                                  Cellular South
+                              </option>
+                              <option class="enabled" value="15">
+                                  Southern Linc
+                              </option>
+                              <option class="enabled" value="16">
+                                  Cellular One
+                              </option>
+                              <option class="enabled" value="17">
+                                  Northwest Missouri Cellular
+                              </option>
+                              <option class="enabled" value="18">
+                                  Corr Wireless
+                              </option>
+                              <option class="enabled" value="19">
+                                  CellCom
+                              </option>
+                              <option class="enabled" value="20">
+                                  Nex-Tech
+                              </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 col-sm-offset-1 control-label">Home #</label>
+                    <div class="col-sm-6">
+                      <input type="email" class="form-control" id="inputPassword3" placeholder="512-123-4567">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseInfo">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  Parents/Guardian Information
+                </a>
+              </h4>
+            </div>
+            <div id="collapseInfo" class="panel-collapse collapse">
+              <div class="panel-body">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Name</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="Jim and Mary Saracen">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Phone #</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="512-765-4321">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseAddress">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  Address
+                </a>
+              </h4>
+            </div>
+
+
+
+            <div id="collapseAddress" class="panel-collapse collapse">
+              <div class="panel-body">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Street</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="512-765-4321">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">City</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="512-765-4321">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">State</label>
+                    <div class="col-sm-6">
+                      <select class="form-control">
+                        <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="DC">District Of Columbia</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WI">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Postel Code</label>
+                    <div class="col-sm-6">
+                      <input type="name" class="form-control" id="inputEmail3" placeholder="512-765-4321">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+          
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNotes">
+                  <span class="glyphicon glyphicon-chevron-down"></span>
+                  Additional Notes
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseNotes" class="panel-collapse collapse">
+              <div class="panel-body">
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 col-sm-offset-1 control-label">Additional Notes</label>
+                    <div class="col-sm-6">
+                      <textarea class="form-control" rows="6" placeholder="Enter anything you want to remember about this athlete (equipment number, locker, sibling names)"></textarea>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
