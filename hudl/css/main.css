@@ -6468,3 +6468,43 @@ footer {
   text-align: center;
   color: #fff;
   font-size: 18px; }
+
+@media screen and (max-width: 767px) {
+  .depth-chart-btn {
+    width: 100%; } }
+
+.depth-chart-position {
+  color: #fff;
+  background: #222;
+  padding: 5px 10px;
+  overflow: hidden;
+  text-transform: uppercase;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 12px;
+  font-weight: 700; }
+
+ul.depth-chart-list {
+  padding: 5px;
+  margin: 0; }
+  ul.depth-chart-list a {
+    color: #222; }
+  ul.depth-chart-list li {
+    list-style: none;
+    padding: 5px 0; }
+    ul.depth-chart-list li img {
+      display: inline-block;
+      max-width: 35px;
+      border-radius: 4px;
+      margin-right: 5px;
+      margin-left: 5px; }
+    ul.depth-chart-list li .name {
+      font-weight: 900; }
+
+.print-chart {
+  padding-top: 20px;
+  float: right;
+  clear: both; }
+  @media screen and (max-width: 767px) {
+    .print-chart {
+      padding-top: 15px; } }
