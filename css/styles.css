@@ -540,7 +540,7 @@ ul.footer-list li.footer-list-item:after {
 .footer a {
   opacity:1;
   color:#ffffff;
-  border-bottom: solid 2px #ffffff;
+  border-bottom: solid 1px #ffffff;
   font-weight:normal;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-out;
