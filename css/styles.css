@@ -210,11 +210,14 @@ h4 {
 .header a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
 .header a:hover.link-twitter {opacity:0.8;}
 
-.header a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
-.header a:hover.link-dribbble {opacity:0.8;}
+.footer a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+.footer a:hover.link-twitter {opacity:0.8;}
 
-.header a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
-.header a:hover.link-github {opacity:0.8;}
+.footer a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
+.footer a:hover.link-dribbble {opacity:0.8;}
+
+.footer a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
+.footer a:hover.link-github {opacity:0.8;}
 
 
 img.header-shape  {
