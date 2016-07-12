@@ -177,7 +177,7 @@ h4 {
 }
 
 .header h1 {font-size: 3em;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
-.header h2 {font-size: 1.5em;line-height: 1.25em; margin-bottom:1em; color: #abb2bf;}
+.header h2 {font-size: 1.5em;line-height: 1.65em; margin-bottom:1em; color: #abb2bf;}
 
 .header a {
   color:#ffffff;
@@ -610,8 +610,8 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
     line-height: 1.25em;
   }
 
-.header h1 {font-size: 2em;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
-.header h2 {font-size: 1em;line-height: 1.25em; margin-bottom:1em; color: #abb2bf;}
+.header h1 {font-size: 2em;line-height:}
+.header h2 {font-size: 1em;line-height:}
 
 
   /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
