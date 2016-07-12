@@ -499,7 +499,7 @@ li.shot-list a {
   text-align:center;
   margin:0 auto;
   padding:4em 0;
-  color:#ffffff;
+  color:#abb2bf;
   position:relative;
   z-index:100;
 }
@@ -532,7 +532,7 @@ ul.footer-list li {
 ul.footer-list li.footer-list-item:after {
   content: "/";
   /*display: block;*/
-  color: #7D7D7D;
+  color: #abb2bf;
   font-size:1em;
   padding:0 1em 0 1em;
 }
