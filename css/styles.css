@@ -195,19 +195,19 @@ h4 {
   opacity:0.8;
 }
 
-.header a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
+.header a.link-pc {opacity:1; color: #eea900; border-bottom: solid 1px #eea900;}
 .header a:hover.link-pc {opacity:0.8;}
 
-.header a.link-dell {opacity:1; color: #007db8; border-bottom: solid 2px #007db8;}
+.header a.link-dell {opacity:1; color: #007db8; border-bottom: solid 1px #007db8;}
 .header a:hover.link-dell {opacity:0.8;}
 
-.header a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 2px #134a9c;}
+.header a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 1px #134a9c;}
 .header a:hover.link-gm {opacity:0.8;}
 
-.header a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
+.header a.link-ebay {opacity:1; color: #06c; border-bottom: solid 1px #06c;}
 .header a:hover.link-ebay {opacity:0.8;}
 
-.header a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+.header a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 1px #59adeb;}
 .header a:hover.link-twitter {opacity:0.8;}
 
 
@@ -548,13 +548,13 @@ ul.footer-list li.footer-list-item:after {
   opacity:0.8;
 }
 
-.footer a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+.footer a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 1px #59adeb;}
 .footer a:hover.link-twitter {opacity:0.8;}
 
-.footer a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
+.footer a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 1px #ea4c89;}
 .footer a:hover.link-dribbble {opacity:0.8;}
 
-.footer a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
+.footer a.link-github {opacity:1; color: #4078c0; border-bottom: solid 1px #4078c0;}
 .footer a:hover.link-github {opacity:0.8;}
 
 /* Lists
