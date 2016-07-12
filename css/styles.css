@@ -203,6 +203,8 @@ h4 {
   text-decoration: none;
 }
 
+.header a.link-pc {color: #eea900;}
+
 
 img.header-shape  {
   max-width:800px;
