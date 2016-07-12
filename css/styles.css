@@ -208,6 +208,9 @@ h4 {
 .header a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
 .header a:hover.link-ebay {opacity:0.8;}
 
+.header a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+.header a:hover.link-twitter {opacity:0.8;}
+
 
 img.header-shape  {
   max-width:800px;
