@@ -176,7 +176,7 @@ h4 {
   color:#ffffff;
 }
 
-.header h1 {font-size: 2.5em;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
+.header h1 {font-size: 3em;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
 .header h2 {font-size: 1.5em;line-height: 1.25em; margin-bottom:1em; color: #abb2bf;}
 
 .header a {
@@ -184,6 +184,7 @@ h4 {
   border-bottom: solid 2px #ffffff;
   font-weight:normal;
   text-decoration: none;
+  opacity:1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
@@ -192,12 +193,13 @@ h4 {
 }
 
 .header a:hover {
-  color:#999999;
+  opacity:0.8;
   border-bottom: solid 2px #999999;
   text-decoration: none;
 }
 
-.header a.link-pc {color: #eea900;}
+.header a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
+.header a:hover.link-pc {opacity:0.8; color: #eea900; border-bottom: solid 2px #eea900;}
 
 
 img.header-shape  {
