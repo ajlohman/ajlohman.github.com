@@ -77,7 +77,7 @@ em {font-style: italic;}
 
 /* The grid
 -------------------------------------------------- */
-.container {padding-right: 0;padding-left: 0;width:90%; max-width:70em; margin:0 auto; *zoom: 1;}
+.container {padding-right: 0;padding-left: 0;width:90%; max-width:70em; margin:auto; *zoom: 1;}
 .container:before,.container:after {display: table; content: "";}
 .container:after {clear: both;}
 
@@ -171,12 +171,13 @@ h4 {
   margin:0 auto 0em auto;
   padding:0;
   height: 100vh;
+  display: flex;
 }
 .header p {
   color:#ffffff;
 }
 
-.header h1 {font-size: 3em;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
+.header h1 {font-size: 6vw;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
 .header h2 {font-size: 1.5em;line-height: 1.65em; margin-bottom:1em; color: #abb2bf;}
 
 .header a {
