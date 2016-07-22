@@ -10,6 +10,12 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 .clearfix:before,.clearfix:after {display: table;content: "";}
 .clearfix:after {clear: both;}
 
+img {
+  opacity: 0;
+  transition: opacity .3s ease-in;
+} 
+
+
 
 /* Body and globals
 -------------------------------------------------- */
