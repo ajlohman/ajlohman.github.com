@@ -278,7 +278,7 @@ img.header-shape  {
   overflow:hidden;
   position:relative;
   z-index:3;
-  color:#4F4F4F;
+  color:#000000;
 }
 .about-me h2 {
   text-align:center;
