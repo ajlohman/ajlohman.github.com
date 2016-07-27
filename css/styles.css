@@ -200,7 +200,7 @@ h4 {
 }
 
 .header a:hover {
-  opacity:0.8;
+  opacity:0.5;
 }
 
 .header a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
