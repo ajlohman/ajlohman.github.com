@@ -145,7 +145,7 @@ h2 {font-size: 2em;line-height: 1.25em; margin-bottom:1em;}
   height: 1px;
   background: #ccc;
 }*/
-h3 {font-size: 4em;line-height: 1.25em; text-align:center; }
+h3 {font-size: 4em;line-height: 1.25em; text-align:center; font-weight: 600; }
 h4 {
   font-size: 0.75em;
   line-height: 1.25em;
