@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   margin: 0;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 600;
   color: #000000;
   text-rendering: optimizelegibility;
 }
@@ -145,7 +145,7 @@ h2 {font-size: 2em;line-height: 1.25em; margin-bottom:1em;}
   height: 1px;
   background: #ccc;
 }*/
-h3 {font-size: 4em;line-height: 1.25em; text-align:center; font-weight: 600; }
+h3 {font-size: 4em;line-height: 1.25em; text-align:center; }
 h4 {
   font-size: 0.75em;
   line-height: 1.25em;
@@ -183,7 +183,7 @@ h4 {
   color:#ffffff;
 }
 
-.header h1 {font-size: 6vw;line-height: 1.25em; font-weight: 600; margin-bottom:1em; color:#ffffff;}
+.header h1 {font-size: 6vw;line-height: 1.25em; margin-bottom:1em; color:#ffffff;}
 .header h2 {font-size: 1.5em;line-height: 1.65em; font-weight: 300; margin-bottom:1em; color: #abb2bf;}
 
 .header a {
