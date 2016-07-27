@@ -29,7 +29,7 @@ body {
 
   font-size: 18px;
   line-height: 32px;
-  color: #abb2bf;
+  color: #000000;
   background-color: #ffffff;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -346,9 +346,9 @@ a:hover.button{
 
 p.role {
   font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;
-  color: rgba(0,0,0,0.3);
+  color: #abb2bf;
   text-transform: uppercase;
-  font-size: 0.65em;
+  font-size: 0.75em;
   line-height: 1.5em;
 }
 
