@@ -331,7 +331,7 @@ img.header-shape  {
 .project-case a:hover { color:#000000;border-bottom: solid 1px #000;}*/
 
 a.button {
-  font-family: "roboto-mono-1","roboto-mono-2",sans-serif;
+  font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;*/
   color: #000000;
   border: solid 2px #000000;
   padding:10px 25px 8px 25px;
