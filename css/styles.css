@@ -193,7 +193,6 @@ h4 {
   line-height: 1.65em; 
   font-weight: 300; 
   margin-bottom:1em; 
-  margin-top: 1em;
   color: #abb2bf;
   
 }
@@ -294,6 +293,7 @@ img.header-shape  {
 }
 .about-me h2 {
   text-align:center;
+  margin-top: 1em;
 }
 .about-me h3 {
   text-align:center;
