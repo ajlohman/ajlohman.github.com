@@ -174,7 +174,14 @@ h4 {
 /* header
 -------------------------------------------------- */
 .header {
-  background: #2b1e43;
+  /*background: #2b1e43;*/
+  background-color: #2b1e43;
+  background: -webkit-gradient(linear, left top, right top, from(#1E3740), to(#2B1E40));
+  background: -webkit-linear-gradient(left, #1E3740, #2B1E40);
+  background: -moz-linear-gradient(left, #1E3740, #2B1E40);
+  background: -ms-linear-gradient(left, #1E3740, #2B1E40);
+  background: -o-linear-gradient(left, #1E3740, #2B1E40);
+  
   text-align:center;
   margin:0 auto 0em auto;
   padding:0;
