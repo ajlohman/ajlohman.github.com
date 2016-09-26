@@ -175,12 +175,11 @@ h4 {
 -------------------------------------------------- */
 .header {
   /*background: #2b1e43;*/
-  background-color: #2b1e43;
-  background: -webkit-gradient(linear, 0% 0% 0% 100%, from(#1E3740), to(#2B1E40));
-  background: -webkit-linear-gradient(top, #1E3740, #2B1E40);
-  background: -moz-linear-gradient(top, #1E3740, #2B1E40);
-  background: -ms-linear-gradient(top, #1E3740, #2B1E40);
-  background: -o-linear-gradient(top, #1E3740, #2B1E40);
+  background-color: #2B1E40;
+  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40)
+  background: -moz-linear-gradient(-45deg, #1E3740, #2B1E40);
+  background: -ms-linear-gradient(-45deg, #1E3740, #2B1E40);
+  background: -o-linear-gradient(-45deg, #1E3740, #2B1E40);
   
   text-align:left;
   margin:0 auto 0em auto;
@@ -302,7 +301,7 @@ img.header-shape  {
   text-align:left;
   margin-top: 2em;
   color: #2b1e43;
-  background: -webkit-linear-gradient(#1E3740, #2b1e43);
+  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40)
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
