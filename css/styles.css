@@ -182,7 +182,7 @@ h4 {
   background: -ms-linear-gradient(top, #1E3740, #2B1E40);
   background: -o-linear-gradient(top, #1E3740, #2B1E40);
   
-  text-align:center;
+  text-align:left;
   margin:0 auto 0em auto;
   padding:0;
   height: 100vh;
