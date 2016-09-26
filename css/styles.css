@@ -301,7 +301,10 @@ img.header-shape  {
 .about-me h2 {
   text-align:left;
   margin-top: 2em;
-  background-color: #2b1e43;
+  color: #2b1e43;
+  background: -webkit-linear-gradient(#1E3740, #2b1e43);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .about-me h3 {
   text-align:center;
