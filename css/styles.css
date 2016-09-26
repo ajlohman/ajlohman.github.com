@@ -299,8 +299,8 @@ img.header-shape  {
   max-width:42em;
 }
 .about-me h2 {
-  text-align:center;
-  margin-top: 1em;
+  text-align:left;
+  margin-top: 2em;
 }
 .about-me h3 {
   text-align:center;
