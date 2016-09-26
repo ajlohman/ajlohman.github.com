@@ -554,7 +554,7 @@ li.shot-list a {
   z-index:100;
 }
 
-.footer h2 {color:#ffffff;}
+.footer h2 {color:#ffffff; font-family: 'Roboto Slab', serif;}
 
 /*.footer h2:after {
   content: "";
