@@ -576,16 +576,17 @@ ul.footer-list {
 
 ul.footer-list li {
   display:inline;
-  padding:0 0 0 0;
+  padding:0 1em 0 1em;
 }
 
+/*
 ul.footer-list li.footer-list-item:after {
   content: "/";
-  /*display: block;*/
   color: #abb2bf;
   font-size:1em;
   padding:0 1em 0 1em;
 }
+*/
 
 .footer a {
   opacity:1;
