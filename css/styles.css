@@ -350,6 +350,10 @@ img.header-shape  {
           box-sizing: border-box;
 }
 
+.project-case h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
 .project-case p {
   width:100%;
   max-width:45em;
