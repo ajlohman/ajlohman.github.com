@@ -309,6 +309,7 @@ img.header-shape  {
 .about-me h2 {
   text-align:left;
   margin-top: 2em;
+  font-family: 'Roboto Slab', serif;
   color: #2b1e43;
   background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
   -webkit-background-clip: text;
