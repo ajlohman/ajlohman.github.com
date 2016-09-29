@@ -273,14 +273,19 @@ img.header-shape  {
 .intro {
   opacity: 1;
   width:100%;
-  max-width: 62em;
+  max-width: 42em;
   display:block;
   margin:0;
   padding:0;
   position:relative;
   z-index:3;
   /*background: pink;*/
+}
 
+@media (min-width: 1500px) {
+  .intro {
+    max-width: 62em;
+  }
 }
 
 .intro p {
