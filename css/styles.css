@@ -665,7 +665,8 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   .header, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings, footer {width:100%;}
 
   .intro {
-    margin:6em auto 6em auto;
+    margin:0;
+    max-width: 24em;
   }
 
   .intro p {
@@ -699,7 +700,7 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   /*.feature-examples li {width: 100%;float:left;margin-right:0%;}*/
   /*.about-me p {padding:0 0.5em;}*/
   .intro {
-    margin:3.5em auto 3.5em auto;
+    margin:0;
   }
   .intro p {
     font-size: 1.25em;
