@@ -24,7 +24,7 @@ body {
   /*font-family: "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2",serif;*/
   /*font-family: "freight-text-pro-1","freight-text-pro-2",sans-serif;*/
   /*font-family: "roboto-mono-1","roboto-mono-2",sans-serif;*/
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 
   /*font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif;*/
 
@@ -121,7 +121,7 @@ p {margin: 0 0 2em 0;}
 h1,h2,h3,h4,h5,h6 {
   /* font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif; */
   /*font-family: "roboto-slab-1","roboto-slab-2",sans-serif;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   font-family: inherit;
   font-weight: 700;
@@ -195,7 +195,7 @@ h4 {
 }
 
 .header h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 4vw;
   line-height: 1.25em; 
   margin-bottom:1em; 
@@ -203,7 +203,7 @@ h4 {
 }
 .header h2 {
   /*font-family: "proxima-nova-1","proxima-nova-2",'Helvetica Neue', 'Helvetica', Arial, sans-serif; */
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 1.65em; 
   font-weight: 300; 
@@ -309,7 +309,7 @@ img.header-shape  {
 .about-me h2 {
   text-align:left;
   margin-top: 2em;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #2b1e43;
   background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
   -webkit-background-clip: text;
@@ -352,7 +352,7 @@ img.header-shape  {
 }
 
 .project-case h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project-case p {
@@ -368,7 +368,7 @@ img.header-shape  {
 
 a.button {
   /*font-family: "roboto-slab-1","roboto-slab-2",sans-serif;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #000000;
   border: solid 2px #000000;
   padding:8px 25px 8px 25px;
@@ -385,7 +385,7 @@ a:hover.button{
 
 p.role {
   /*font-family: "roboto-slab-1","roboto-slab-2",sans-serif;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #cccccc;
   text-transform: uppercase;
   font-size: 0.75em;
@@ -466,7 +466,7 @@ p.role {
 
 .title-projects h3 {
   /*font-family: "roboto-slab-1","roboto-slab-2",sans-serif;*/
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width:90%;
   font-weight: normal;
   display:block;
@@ -554,7 +554,7 @@ li.shot-list a {
   z-index:100;
 }
 
-.footer h2 {color:#ffffff; font-family: 'Oswald', sans-serif;}
+.footer h2 {color:#ffffff; font-family: 'Roboto', sans-serif;}
 
 /*.footer h2:after {
   content: "";
