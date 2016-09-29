@@ -319,6 +319,8 @@ img.header-shape  {
 .about-me h2 {
   text-align:left;
   margin-top: 2em;
+  text-transform: uppercase;
+  font-size: 1em;
   font-family: 'Roboto', sans-serif;
   color: #2b1e43;
   background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
@@ -326,8 +328,14 @@ img.header-shape  {
   -webkit-text-fill-color: transparent;
 }
 .about-me h3 {
-  text-align:center;
-  text-transform: uppercase; letter-spacing: 0.15em;
+  text-align:left;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: 'Roboto', sans-serif;
+  color: #2b1e43;
+  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-me p {
