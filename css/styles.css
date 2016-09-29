@@ -363,6 +363,7 @@ img.header-shape  {
 
 .project-case h3 {
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.25em;
 }
 
 .project-case p {
