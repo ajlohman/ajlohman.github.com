@@ -287,6 +287,11 @@ img.header-shape  {
     max-width: 62em;
   }
 }
+@media (max-width: 950px) {
+  .intro {
+    max-width: 32em;
+  }
+}
 
 .intro p {
   font-size: 2em;
