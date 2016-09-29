@@ -330,7 +330,7 @@ img.header-shape  {
 .about-me h3 {
   text-align:left;
   font-size: 2em;
-  margin-top: 2em;
+  margin-top: 0;
   margin-bottom: 1em;
   font-family: 'Roboto', sans-serif;
   color: #2b1e43;
