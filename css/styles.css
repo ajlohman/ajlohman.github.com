@@ -686,11 +686,6 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
     margin:0;
   }
 
-  .intro p {
-    font-size: 1.45em;
-    line-height: 1.25em;
-  }
-
 .header h1 {font-size: 2em;line-height:}
 .header h2 {font-size: 1em;line-height:}
 
@@ -718,10 +713,6 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
   /*.about-me p {padding:0 0.5em;}*/
   .intro {
     margin:0;
-  }
-  .intro p {
-    font-size: 1.25em;
-    line-height: 1.25em;
   }
 }
 
