@@ -233,99 +233,36 @@ ul.footer-list li {
 
 /* Lists
 -------------------------------------------------- */
-ul,ol {padding: 0;margin: 0 0;}
+/*ul,ol {padding: 0;margin: 0 0;}
 ul ul,ul ol,ol ol,ol ul {margin-bottom: 0;}
 ul {list-style: none;}
-/*ol {list-style: decimal;}*/
+ol {list-style: decimal;}
 li {line-height: 18px;}
 ul.unstyled,ol.unstyled {margin-left: 0;list-style: none;}
 dl {margin-bottom: 18px;}
 dt,dd {line-height: 18px;}
 dt {font-weight: bold;line-height: 17px;}
-dd {margin-left: 9px;}
+dd {margin-left: 9px;}*/
 
 /* Blockquote
 -------------------------------------------------- */
-blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #eeeeee;}
-blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.5px;}
+/*blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #eeeeee;}
+blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.5px;}*/
 
 /* Media queries
 -------------------------------------------------- */
-
-
-
 @media (max-width: 767px) {
-
-
-  .logo {margin-top: -70px;}
   .row {width: 100%;}
-
   [class*="span"], .row [class*="span"] {
     display: block;
     float: none;
     width: auto;
     margin-left: 0;
   }
-  h1 {font-size: 1em;}
-  h2 {font-size: 1.5em;}
-  h3 {font-size: 1.5em;}
-  /*h3 {font-size: 1.15em;}*/
-  h4 {padding-top:0.5em;}
-
-  .header, .projects h3, .featured-project-ac, .featured-project-eatdrink, .featured-project-nosh, .featured-project-justthings, footer {width:100%;}
-
-  .intro {
-    margin:0;
-  }
-
-.header h1 {font-size: 1.5em;}
-.header h2 {font-size: 1em;}
-.about-me h3 {font-size: 1.5em;}
-
-
-  /*.footer {width:100%; margin:0 auto 0 auto; padding:4em 0 2em 0;}*/
-  /*.projects {padding:0em 0 3em 0;}*/
-  .feature-examples {width:95%;}
-  .feature-examples li {width: 50%;}
-  /*.feature-examples li:nth-child(2n+2) {margin-right:0;}*/
-  /*.feature-examples a img {border:#E9E7DA solid 0.2em;}
-  .feature-examples a:hover img {border:#E9E7DA solid 0.2em;}*/
-  /*.about-me p {padding:0 2em;}*/
-  ul.footer-list li.footer-list-item:after {padding:0 0 0 0.25em;}
 }
 
-@media (max-width: 480px) {
-  .header {
-    margin:0 auto 0em auto;
-  }
-  .logo {margin-top: -67px;}
-  /*body {font-size: 18px;line-height: 1.25em;}*/
-  /*.intro {width:100%;;border: 0em; margin:6em auto;padding:1em 0em;}
-  .intro p {width:100%;}*/
-  /*.feature-examples li {width: 100%;float:left;margin-right:0%;}*/
-  /*.about-me p {padding:0 0.5em;}*/
-  .intro {
-    margin:0;
-  }
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .logo {margin-top: -70px;}
-  .feature-examples li:nth-child(3n+3) {margin-right:0;}
-}
-
-@media (min-width: 1200px) {
-  /*body {font-size: 125%;line-height: 1.8em;}*/
-  .logo img {margin:0em auto 0 auto;}
-  .feature-examples li:nth-child(3n+3) {margin-right:0;}
-
-  /*.plus-ac, .plus-eatdrink, .plus-nosh, .plus-justthings {
-    padding-top: 6px;
-  }*/
-}
-
+/* Link colors
+-------------------------------------------------- */
 a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
 a:hover.link-pc {opacity:0.8;}
 
