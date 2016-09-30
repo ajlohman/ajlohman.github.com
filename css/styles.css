@@ -130,7 +130,8 @@ h1,h2,h3,h4,h5,h6 {
 .intro p {color: #cccccc;}
 
 @media (min-width: 1500px) {
-  .intro {max-width: 62em;}
+  .intro {max-width: 52em;}
+  .header h1 {font-size:4em;}
 }
 @media (max-width: 950px) {
   .intro {max-width: 32em;}
