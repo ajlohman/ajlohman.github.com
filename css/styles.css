@@ -154,14 +154,8 @@ h1,h2,h3,h4,h5,h6 {
       -ms-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-.project-case p {
-  width:100%;
-  max-width:45em;
-  display: block;
-  margin:0 auto 2em auto;
-  text-align: center;
-}
+.project-case h3 {max-width:45em;margin:0 auto 2em auto;text-align: center;}
+.project-case p {max-width:45em;margin:0 auto 2em auto;text-align: center;}
 
 a.button {
   color: #000000;
@@ -170,27 +164,16 @@ a.button {
   text-transform: uppercase;
   font-size: 0.75em;
   opacity:1;
-  font-weight: 700;
   letter-spacing: 2px;
 }
-
-a:hover.button{
-  opacity:0.5;
-}
-
+a:hover.button{opacity:0.5;}
 p.role {
   color: #cccccc;
   text-transform: uppercase;
   font-size: 0.75em;
   line-height: 1.5em;
-  font-weight: 400;
   letter-spacing: 2px;
 }
-
-/*.sec-img-size {
-  max-width: 900px;
-  width:100%;
-}*/
 
 /* footer
 -------------------------------------------------- */
