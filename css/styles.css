@@ -88,6 +88,18 @@ em {font-style: italic;}*/
 .row .span3 {width: 48.93617020799999%;}
 .row .span2 {width: 31.914893614%;}
 
+/* Button
+-------------------------------------------------- */
+a.button {
+  color: #000000;
+  border: solid 2px #000000;
+  padding:8px 25px 8px 25px;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  opacity:1;
+  letter-spacing: 2px;
+}
+a:hover.button{opacity:0.5;}
 
 /* Typography
 -------------------------------------------------- */
@@ -97,7 +109,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 4vw;
   line-height: 1.25em;
   font-family: 'Roboto', sans-serif;
-  margin: 0;
+  margin: 0 0 2em 0;
   font-family: inherit;
   font-weight: 700;
   color: #000000;
@@ -150,7 +162,6 @@ h1,h2,h3,h4,h5,h6 {
 -------------------------------------------------- */
 
 .project-case {
-  background: #ffffff;
   width:100%;
   padding:6em 0;
   -webkit-box-sizing: border-box;
@@ -161,16 +172,6 @@ h1,h2,h3,h4,h5,h6 {
 .project-case h3 {max-width:45em;margin:0 auto 0 auto;text-align: center;}
 .project-case p {max-width:45em;margin:0 auto 2em auto;text-align: center;}
 
-a.button {
-  color: #000000;
-  border: solid 2px #000000;
-  padding:8px 25px 8px 25px;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  opacity:1;
-  letter-spacing: 2px;
-}
-a:hover.button{opacity:0.5;}
 p.role {
   color: #cccccc;
   text-transform: uppercase;
