@@ -53,7 +53,7 @@ a:hover {
 
 /* The grid
 -------------------------------------------------- */
-.container {padding-right: 0;padding-left: 0;width:90%; max-width:100em; margin:auto; *zoom: 1;}
+.container {padding-right: 0;padding-left: 0;width:90%; max-width:68em; margin:auto; *zoom: 1;}
 .container:before,.container:after {display: table; content: "";}
 .container:after {clear: both;}
 
