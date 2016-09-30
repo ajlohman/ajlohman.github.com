@@ -177,6 +177,10 @@ p.role {
   letter-spacing: 2px;
   margin:0 0 2em 0;
 }
+@media (max-width: 800px) {
+  .project-case h3 {text-align: left;}
+  .project-case p {text-align: left;}
+}
 
 /* footer
 -------------------------------------------------- */
