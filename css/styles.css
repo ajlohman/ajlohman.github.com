@@ -36,6 +36,12 @@ body {
     line-height: 32px;
   }
 }
+@media (max-width: 1800px) {
+  body {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
 a {
   opacity:1;
   color:#000000;
