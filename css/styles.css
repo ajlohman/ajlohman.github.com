@@ -166,8 +166,8 @@ h1,h2,h3,h4,h5,h6 {
   border-bottom: 1px solid #eeeeee;
   padding: 6em 0
 }
-.project-case h3 {max-width:45em;text-align: center;}
-.project-case p {max-width:45em;margin:0 auto 2em auto;text-align: center;}
+.project-case h3 {max-width:42em;text-align: center;}
+.project-case p {max-width:42em;margin:0 auto 2em auto;text-align: center;}
 
 p.role {
   color: #cccccc;
