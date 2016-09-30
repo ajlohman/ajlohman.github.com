@@ -212,7 +212,7 @@ ul.footer-list {
 }
 ul.footer-list li {
   display:inline;
-  padding:0 0.5em 0 0.5em;
+  padding:0 0.25em 0 0.25em;
 }
 .footer a {
   opacity:1;
