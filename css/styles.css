@@ -30,7 +30,7 @@ body {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   body {font-size: 18px;line-height: 32px;}
 }
 @media (min-width: 1800px) {
