@@ -136,30 +136,13 @@ h3 {font-size: 4em;line-height: 1.25em; text-align:center; }
 }
 .header h1 {font-size: 4vw;line-height: 1.25em;margin-bottom:0.5em;color: #ffffff;}
 
-.intro {
-  opacity: 1;
-  width:100%;
-  max-width: 42em;
-  display:block;
-  margin:0;
-  padding:0;
-  position:relative;
-  z-index:3;
-}
-
+.intro {width:100%;max-width: 42em;display:block;position:relative;}
+.intro p {color: #cccccc;}
 @media (min-width: 1500px) {
-  .intro {
-    max-width: 62em;
-  }
+  .intro {max-width: 62em;}
 }
 @media (max-width: 950px) {
-  .intro {
-    max-width: 32em;
-  }
-}
-
-.intro p {
-  color: #cccccc;
+  .intro {max-width: 32em;}
 }
 
 /* about me
