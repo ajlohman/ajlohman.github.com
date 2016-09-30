@@ -33,7 +33,7 @@ body {
 @media (max-width: 800px) {
   body {font-size: 18px;line-height: 32px;}
 }
-@media (max-width: 1800px) {
+@media (min-width: 1800px) {
   body {font-size: 26px;line-height: 40px;}
 }
 a {
