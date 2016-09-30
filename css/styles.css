@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6 {
 
 @media (min-width: 1500px) {
   .intro {max-width: 52em;}
-  .header h1 {font-size:4em;}
+  .header h1 {font-size:3em;}
 }
 @media (max-width: 950px) {
   .intro {max-width: 32em;}
