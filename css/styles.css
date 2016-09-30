@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 @media (min-width: 1400px) {
   .about-me h2 {font-size: 2em;}
-  .about-me h3 {font-size: 3em;}
+  .about-me h3 {font-size: 3em;margin-left:-20%;margin-right:-20%;}
 }
 
 /* projects
