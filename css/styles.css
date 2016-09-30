@@ -103,6 +103,11 @@ h1,h2,h3,h4,h5,h6 {
   color: #000000;
   text-rendering: optimizelegibility;
 }
+@media (max-width: 800px) {
+  h1,h2,h3,h4,h5,h6 {
+    font-size: 2em;
+  }
+}
 
 /* header
 -------------------------------------------------- */
@@ -144,6 +149,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 .about-me h2 {
   font-size: 2vw;
+}
+@media (max-width: 800px) {
+  .about-me h2 {
+    font-size: 1em;
+  }
 }
 
 /* projects
@@ -225,9 +235,3 @@ a:hover.link-github {opacity:0.5;}
 
 a.link-instagram {opacity:1; color: #E5405B; border-bottom: solid 2px #E5405B;}
 a:hover.link-instagram {opacity:0.5;}
-
-@media (max-width: 800px) {
-  h1,h2,h3,h4,h5,h6 {
-    font-size: 2em;
-  }
-}
