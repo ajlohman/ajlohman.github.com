@@ -228,32 +228,7 @@ h4 {
   opacity:0.5;
 }
 
-a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
-a:hover.link-pc {opacity:0.8;}
 
-a.link-dell {opacity:1; color: #007db8; border-bottom: solid 2px #007db8;}
-a:hover.link-dell {opacity:0.8;}
-
-a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 2px #134a9c;}
-a:hover.link-gm {opacity:0.8;}
-
-a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
-a:hover.link-ebay {opacity:0.8;}
-
-a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.8;}
-
-a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.8;}
-
-a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
-a:hover.link-dribbble {opacity:0.8;}
-
-a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
-a:hover.link-github {opacity:0.8;}
-
-a.link-instagram {opacity:1; color: #E5405B; border-bottom: solid 2px #E5405B;}
-a:hover.link-instagram {opacity:0.8;}
 
 
 
@@ -731,3 +706,30 @@ blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.
     padding-top: 6px;
   }*/
 }
+
+a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
+a:hover.link-pc {opacity:0.8;}
+
+a.link-dell {opacity:1; color: #007db8; border-bottom: solid 2px #007db8;}
+a:hover.link-dell {opacity:0.8;}
+
+a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 2px #134a9c;}
+a:hover.link-gm {opacity:0.8;}
+
+a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
+a:hover.link-ebay {opacity:0.8;}
+
+a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+a:hover.link-twitter {opacity:0.8;}
+
+a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
+a:hover.link-twitter {opacity:0.8;}
+
+a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
+a:hover.link-dribbble {opacity:0.8;}
+
+a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
+a:hover.link-github {opacity:0.8;}
+
+a.link-instagram {opacity:1; color: #E5405B; border-bottom: solid 2px #E5405B;}
+a:hover.link-instagram {opacity:0.8;}
