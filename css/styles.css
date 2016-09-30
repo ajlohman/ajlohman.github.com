@@ -103,6 +103,11 @@ h1,h2,h3,h4,h5,h6 {
   color: #000000;
   text-rendering: optimizelegibility;
 }
+@media (max-width: 800px) {
+  h1,h2,h3,h4,h5,h6 {
+    font-size: 2em;
+  }
+}
 
 /* header
 -------------------------------------------------- */
