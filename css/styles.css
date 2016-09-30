@@ -151,19 +151,12 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 2vw;
 }
 @media (max-width: 800px) {
-  .about-me h2 {
-    font-size: 1em;
-  }
-}
-@media (max-width: 800px) {
-  .about-me h3 {
-    font-size: 1.5em;
-  }
+  .about-me h2 {font-size: 1em;}
+  .about-me h3 {font-size: 1.5em;}
 }
 @media (min-width: 1400px) {
-  .about-me h3 {
-    font-size: 4em;
-  }
+  .about-me h2 {font-size: 2em;}
+  .about-me h3 {font-size: 3em;}
 }
 
 /* projects
