@@ -135,20 +135,7 @@ h3 {font-size: 4em;line-height: 1.25em; text-align:center; }
   height: 100vh;
   display: flex;
 }
-.header p {color: #abb2bf;}
-
 .header h1 {font-size: 4vw;line-height: 1.25em;margin-bottom:0.5em;}
-.header h2 {font-size: 1em;line-height: 1.65em;margin-bottom:1em;color: #abb2bf;}
-
-/*.header a {
-  color:#ffffff;
-  border-bottom: solid 1px #ffffff;
-  opacity:1;
-}
-
-.header a:hover {
-  opacity:0.5;
-}*/
 
 .intro {
   opacity: 1;
