@@ -15,8 +15,6 @@ img {
   transition: opacity .3s ease-in;
 }
 
-
-
 /* Body and globals
 -------------------------------------------------- */
 body {
@@ -32,30 +30,20 @@ body {
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-
 a {
   opacity:1;
   color:#000000;
   border-bottom: solid 2px #000000;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -o-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
-
 a:hover {
   opacity:0.5;
 }
-/*strong {font-weight: bold;}
-em {font-style: italic;}*/
-
-/*.shadow {
-  -moz-box-shadow:    0 0 10px 0 rgba(0,0,0,.3);
-  -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
-  box-shadow:         0 0 10px 0 rgba(0,0,0,.3);
-}*/
 
 /* The grid
 -------------------------------------------------- */
@@ -160,7 +148,6 @@ h1,h2,h3,h4,h5,h6 {
 
 /* projects
 -------------------------------------------------- */
-
 .project-case {
   width:100%;
   padding:6em 0;
@@ -189,103 +176,56 @@ p.role {
   background: -moz-linear-gradient(-45deg, #1E3740, #2B1E40);
   background: -ms-linear-gradient(-45deg, #1E3740, #2B1E40);
   background: -o-linear-gradient(-45deg, #1E3740, #2B1E40);
-  overflow:hidden;
   text-align:center;
   margin:0 auto;
   padding:4em 0 12em 0;
   color:#abb2bf;
-  position:relative;
-  z-index:100;
 }
-
 .footer h2 {color:#ffffff; font-family: 'Roboto', sans-serif;}
 .footer p {margin: 0 0 0em 0;}
-
 ul.footer-list {
   padding:0;
   position: relative;
   padding-bottom:3em;
 }
-
 ul.footer-list li {
   display:inline;
   padding:0 0.5em 0 0.5em;
 }
-
 .footer a {
   opacity:1;
   color:#ffffff;
   border-bottom: solid 2px #ffffff;
   font-weight:normal;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
-
-.footer a:hover {
-  opacity:0.8;
-}
-
-
-
-/* Lists
--------------------------------------------------- */
-/*ul,ol {padding: 0;margin: 0 0;}
-ul ul,ul ol,ol ol,ol ul {margin-bottom: 0;}
-ul {list-style: none;}
-ol {list-style: decimal;}
-li {line-height: 18px;}
-ul.unstyled,ol.unstyled {margin-left: 0;list-style: none;}
-dl {margin-bottom: 18px;}
-dt,dd {line-height: 18px;}
-dt {font-weight: bold;line-height: 17px;}
-dd {margin-left: 9px;}*/
-
-/* Blockquote
--------------------------------------------------- */
-/*blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #eeeeee;}
-blockquote p {margin-bottom: 0;font-size: 16px;font-weight: 300;line-height: 22.5px;}*/
-
-/* Media queries
--------------------------------------------------- */
-/*@media (max-width: 767px) {
-  .row {width: 100%;}
-  [class*="span"], .row [class*="span"] {
-    display: block;
-    float: none;
-    width: auto;
-    margin-left: 0;
-  }
-}*/
+.footer a:hover {opacity:0.5;}
 
 /* Link colors
 -------------------------------------------------- */
 a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
-a:hover.link-pc {opacity:0.8;}
+a:hover.link-pc {opacity:0.5;}
 
 a.link-dell {opacity:1; color: #007db8; border-bottom: solid 2px #007db8;}
-a:hover.link-dell {opacity:0.8;}
+a:hover.link-dell {opacity:0.5;}
 
 a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 2px #134a9c;}
-a:hover.link-gm {opacity:0.8;}
+a:hover.link-gm {opacity:0.5;}
 
 a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
-a:hover.link-ebay {opacity:0.8;}
+a:hover.link-ebay {opacity:0.5;}
 
 a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.8;}
+a:hover.link-twitter {opacity:0.5;}
 
 a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.8;}
+a:hover.link-twitter {opacity:0.5;}
 
 a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
-a:hover.link-dribbble {opacity:0.8;}
+a:hover.link-dribbble {opacity:0.5;}
 
 a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
-a:hover.link-github {opacity:0.8;}
+a:hover.link-github {opacity:0.5;}
 
 a.link-instagram {opacity:1; color: #E5405B; border-bottom: solid 2px #E5405B;}
-a:hover.link-instagram {opacity:0.8;}
+a:hover.link-instagram {opacity:0.5;}
