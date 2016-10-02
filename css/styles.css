@@ -132,8 +132,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro {max-width:42em;margin:0 auto;}
-.intro h1 {color: #ffffff; float:left;width:50%;}
-.intro p {color: #cccccc;float:left;width:50%;}
+.intro h1 {color: #ffffff; float:left;width:60%;}
+.intro p {color: #cccccc;float:left;width:40%;}
 
 /*@media (min-width: 1500px) {
   .intro {max-width: 52em;}
@@ -173,8 +173,8 @@ h1,h2,h3,h4,h5,h6 {
   padding: 6em 0
 }
 .project-case .row {max-width: 42em;margin: 0 auto 2em auto;}
-.project-case h3 {text-align: left;float:left;width:50%;}
-.project-case ul {text-align: right;float:right;width:50%;margin:0;padding:0;}
+.project-case h3 {text-align: left;float:left;width:60%;}
+.project-case ul {text-align: right;float:right;width:40%;margin:0;padding:0;}
 .project-case ul li {list-style: none;font-size: 0.75em;line-height: 1.5em;color: #cccccc;}
 .project-case p {max-width:42em;margin:0 auto 2em auto;text-align: left;}
 
