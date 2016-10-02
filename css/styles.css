@@ -175,7 +175,7 @@ h1,h2,h3,h4,h5,h6 {
 .project-case .row {max-width: 42em;margin: 0 auto 2em auto;background: pink;}
 .project-case h3 {text-align: left;float:left;width:50%;}
 .project-case ul {text-align: right;float:right;width:50%;margin:0;padding:0;}
-.project-case ul li {list-style: none;}
+.project-case ul li {list-style: none;font-size: 0.75em;line-height: 1.5em;color: #cccccc;}
 .project-case p {max-width:42em;margin:0 auto 2em auto;text-align: center;}
 
 p.role {
