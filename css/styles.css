@@ -132,7 +132,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro {max-width:42em;margin:0 auto;}
-.intro h1 {color: #ffffff; float:left;width:60%;margin-bottom: 0.5em;}
+.intro h1 {
+  color: #ffffff;
+  float:left;
+  width:60%;
+  margin-bottom: 0.5em;
+  padding-left: 2%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /*.intro ul {color: #cccccc;float:left;width:40%;}*/
 .intro ul li {list-style: none;display:inline;}
 .intro p {color: #cccccc;float:left;width:40%;}
