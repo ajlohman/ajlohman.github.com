@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro {max-width:42em;margin:0 auto;}
-.intro h1 {color: #ffffff; float:left;width:60%;}
+.intro h1 {color: #ffffff; float:left;width:60%;margin-bottom: 0.5em;}
 .intro p {color: #cccccc;float:left;width:40%;}
 
 @media (max-width: 800px) {
