@@ -1,267 +1,271 @@
-/* Reset
--------------------------------------------------- */
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section {display: block;}
-html {font-size: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
-a:focus {outline: thin dotted #333;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
-a:hover,a:active {outline: 0;}
-img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bicubic;}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Andrew Lohman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website of web designer Andrew Lohman">
+    <meta name="author" content="Andrew Lohman">
 
-.clearfix {*zoom: 1;}
-.clearfix:before,.clearfix:after {display: table;content: "";}
-.clearfix:after {clear: both;}
+    <!-- styles -->
+    <link href="css/styles.css" rel="stylesheet">
 
-img {
-  opacity: 0;
-  transition: opacity .3s ease-in;
-}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
-/* Body and globals
--------------------------------------------------- */
-body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-  line-height: 32px;
-  color: #666666;
-  background-color: #ffffff;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-@media (max-width: 767px) {
-  body {font-size: 18px;line-height: 28px;}
-}
-@media (min-width: 1800px) {
-  body {font-size: 26px;line-height: 36px;}
-}
-a {
-  opacity:1;
-  color:#000000;
-  border-bottom: solid 2px #000000;
-  text-decoration: none;
-  -webkit-transition: opacity 0.2s ease-out;
-  -moz-transition: opacity 0.2s ease-out;
-  -o-transition: opacity 0.2s ease-out;
-  -ms-transition: opacity 0.2s ease-out;
-  transition: opacity 0.2s ease-out;
-}
-a:hover {
-  opacity:0.5;
-}
+    <!-- <script src="https://use.typekit.net/dsw7oia.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
 
-/* The grid
--------------------------------------------------- */
-.container {padding-right: 0;padding-left: 0;width:90%; max-width:68em; margin:auto; *zoom: 1;}
-.container:before,.container:after {display: table; content: "";}
-.container:after {clear: both;}
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-.row {width: 100%;*zoom: 1;}
-.row:before,.row:after {display: table;content: "";}
-.row:after {clear: both;}
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/aj-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/aj-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/aj-72.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/aj-57.png">
+  </head>
 
-.row [class*="span"] {
-  display: block;
-  float: left;
-  width: 100%;
-  min-height: 28px;
-  margin-left: 2.127659574%;
-  /**margin-left: 2.0744680846382977%;*/
-  padding:0 2%;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-      -ms-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  <body>
+    <!-- header -->
+    <header class="header">
+      <section class="container">
+        <article class="intro">
+          <h1>A.J. Lohman is a designer & web builder based in Austin,TX.</h1>
+          <p>Currently at <a class="link-pc" href="https://pcpartpicker.com/">PCPartPicker</a></a>. Previously designed at Ebay, GM, and Dell.</p>
+          <ul>
+            <li><a class="link-dribbble" href="http://dribbble.com/ajlohman">Dribbble</a></li>
+            <li><a class="link-twitter" href="https://twitter.com/ajlohman">Twitter</a></li>
+            <li><a class="link-github" href="https://github.com/ajlohman">GitHub</a></li>
+            <li><a class="link-instagram" href="http://instagram.com/ajlohman">Instagram</a></li>
+          </ul>
+          <!-- <p>You can find me elsewhere on the web: view my <a class="link-dribbble" href="http://dribbble.com/ajlohman">Dribbble</a> shots, follow me on <a class="link-twitter" href="https://twitter.com/ajlohman">Twitter</a>, I write code on <a class="link-github" href="https://github.com/ajlohman">GitHub</a> and I take photos on <a class="link-instagram" href="http://instagram.com/ajlohman">Instagram</a>.</p> -->
+        </article>
+      </section>
+    </header>
 
-.row [class*="span"]:first-child {margin-left: 0;}
+    <!-- project -->
+    <section class="project-case">
+      <article class="container">
+        <div class="row">
+          <h3>Mijingo</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>Front-End Development</li>
+          </ul>
+        </div>
+        <p>I'm helping <a href="https://twitter.com/ryanirelan">Ryan Irelan</a> gradually update the look of <a href="https://mijingo.com/">Mijingo</a> starting with the cover art for each course track. Each cover incorporates a color and shape/pattern to help distinguish between course tracks. The website will keep the existing page layout but fonts, color and other style elements will be updated. This is a work in progress.</p>
+        <p class="website"><a class="button" href="https://mijingo.com/">Website</a></p>
 
-.row .span6 {width: 99.99999998999999%;}
-.row .span4 {width: 65.51724137931035%%;}
-.row .span3 {width: 48.93617020799999%;}
-.row .span2 {width: 31.914893614%;}
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-mijingo-covers.jpg" alt="Mijingo cover art layout" />
+        <img src="img/loader.gif" data-src="img/project-desktop-mijingo-hp.jpg" alt="Mijingo desktop layout" />
+        <img src="img/loader.gif" data-src="img/project-desktop-mijingo-hp-2.jpg" alt="Mijingo desktop layout" />
+        <img src="img/loader.gif" data-src="img/project-tablet-mijingo.jpg" alt="Mijingo tablet layout" />
+        <img src="img/loader.gif" data-src="img/project-mobile-mijingo.jpg" alt="Mijingo mobile layout" />
+        <!-- <img src="img/loader.gif" data-src="img/project-tablet-zen-garden.jpg" alt="CSS Zen Garden tablet layout" /> -->
+        <!-- <img src="img/project-template-ac-hero.png" /> -->
+        <!-- <img src="img/ac-lg-screen-final.jpg" /> -->
+      </article>
+    </section>
 
-/* Button
--------------------------------------------------- */
-a.button {
-  color: #000000;
-  border: solid 2px #000000;
-  padding:8px 25px 8px 25px;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  opacity:1;
-  letter-spacing: 2px;
-}
-a:hover.button{opacity:0.5;}
+    <!-- project -->
+    <section class="project-case">
+      <article class="container">
+        <div class="row">
+          <h3>CSS Zen Garden</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>Front-End Development</li>
+          </ul>
+        </div>
+        <p>Over ten years ago the CSS Zen Garden is where I first started to learn CSS.  I wanted to submit my own design to maybe inspire others as it did for me. The final design was inspired by some <a href="http://a1.dspnimg.com/data/l/418627519224_umbHhj62_l.jpg" rel="nofollow">old Herman Miller advertisements</a> and work done by <a href="http://monikersf.com/view/work/herman-miller-a-better-world-report/" rel="nofollow">Brent Couchman</a>.</p>
+        <p class="website"><a class="button" href="http://www.csszengarden.com/221/">Website</a></p>
 
-/* Typography
--------------------------------------------------- */
-p {margin: 0 0 2em 0;}
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-desktop-zen-garden.jpg" alt="CSS Zen Garden desktop layout" />
+        <img src="img/loader.gif" data-src="img/project-tablet-zen-garden.jpg" alt="CSS Zen Garden tablet layout" />
+        <img src="img/loader.gif" data-src="img/project-mobile-zen-garden.jpg" alt="CSS Zen Garden mobile layout" />
+        <!-- <img src="img/project-template-ac-hero.png" /> -->
+        <!-- <img src="img/ac-lg-screen-final.jpg" /> -->
+      </article>
+    </section>
 
-h1,h2,h3,h4,h5,h6 {
-  font-size: 4vw;
-  line-height: 1.25em;
-  font-family: 'Roboto', sans-serif;
-  margin:0;
-  font-family: inherit;
-  font-weight: 700;
-  color: #000000;
-  text-rendering: optimizelegibility;
-}
-@media (max-width: 800px) {
-  h1,h2,h3,h4,h5,h6 {
-    font-size: 2em;
-  }
-}
+    <!-- project -->
+    <section class="project-case">
+      <article class="container">
+        <div class="row">
+          <h3>Amini & Conant</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>User Experience Design</li>
+            <li>Interaction Design</li>
+          </ul>
+        </div>
+        <p>I was asked to redesign the website for Amini & Conant. A&C is a law firm based in Austin,TX. The team at A&C wanted to re-imagine the typical lawyer website experience and reach more clients with a responsive design. I had the pleasure of collaborating with <a href="http://dbln.co/">Dbln</a> and <a href="http://justinscottchildress.com/">Justin Childress</a> on this project.</p>
+        <p class="website"><a class="button" href="http://aminiconant.com/">Website</a></p>
 
-/* header
--------------------------------------------------- */
-.header {
-  background-color: #2B1E40;
-  background-image:linear-gradient(-45deg, #005087, #2B1E40);
-  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
-  background: -moz-linear-gradient(-45deg, #1E3740, #2B1E40);
-  background: -ms-linear-gradient(-45deg, #1E3740, #2B1E40);
-  background: -o-linear-gradient(-45deg, #1E3740, #2B1E40);
-  text-align:left;
-  margin:0 auto 0 auto;
-  padding:0;
-  height: 100vh;
-  display: flex;
-}
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-desktop-ac.jpg" alt="Amini & Conant desktop layout" />
+        <img src="img/loader.gif" data-src="img/project-tablet-ac.jpg" alt="Amini & Conant tablet layout" />
+        <img src="img/loader.gif" data-src="img/project-mobile-ac.jpg" alt="Amini & Conant mobile layout" />
+        <!-- <img src="img/project-template-ac-hero.png" /> -->
+        <!-- <img src="img/ac-lg-screen-final.jpg" /> -->
+      </article>
+    </section>
 
-.intro {max-width:42em;margin:0 auto;}
-.intro h1 {color: #ffffff; float:left;width:60%;margin-bottom: 0.5em;}
-.intro ul li {list-style: none;}
-.intro p {color: #cccccc;float:left;width:40%;}
+    <!-- project -->
+    <section class="project-case">
+      <div class="container">
+        <div class="row">
+          <h3>Eat Drink ATX</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>Front-End Development</li>
+          </ul>
+        </div>
+        <p>A little something to help people find great places to eat and drink in Austin,TX. Collaboration with <a href="http://dribbble.com/diggs00">David Baker</a> and <a href="http://dribbble.com/jonathanbowden">Jonathan Bowden</a>. David Baker created the logo and icons.</p>
+        <p class="website"><a class="button" href="http://eatdrinkatx.com/">Website</a></p>
 
-@media (max-width: 800px) {
-  .intro h1 {width:100%;}
-  .intro p {width:100%;}
-}
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-desktop-eat-drink.jpg" alt="Eat Drink ATX layout" />
+        <!-- <img src="img/feature-project-eatdrinkatx-v2.png" /> -->
+      </div>
+    </section>
 
-/*@media (min-width: 1500px) {
-  .intro {max-width: 52em;}
-  .header h1 {font-size:3em;}
-}
-@media (max-width: 950px) {
-  .intro {max-width: 32em;}
-}*/
 
-/* about me
--------------------------------------------------- */
-.about-container {background: #e7eff3;}
-.about-me {max-width:45em;margin:0 auto;padding:8em 0 4em 0;}
-.about-me h2, .about-me h3 {
-  color: #2b1e43;
-  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5em;
-}
-.about-me h2 {
-  font-size: 2vw;
-}
-@media (max-width: 800px) {
-  .about-me h2 {font-size: 1em;}
-  .about-me h3 {font-size: 1.5em;}
-}
-@media (min-width: 1400px) {
-  .about-me h2 {font-size: 2em;}
-  .about-me h3 {font-size: 3em;}
-}
+    <!-- project -->
+    <section class="project-case">
+      <div class="container click">
+        <div class="row">
+          <h3>Nosh catering</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>Front-End Development</li>
+            <li>WordPress Development</li>
+          </ul>
+        </div>
+        <p>Nosh is a catering company located in Wellington, New Zealand. I worked with them to build a responsive website to showcase their offerings. Some elements of the site have changed since it was first launched but my overall vision is still intact.</p>
+        <p class="website"><a class="button" href="http://nosh.co.nz/">Website</a></p>
 
-/* projects
--------------------------------------------------- */
-.project-case {
-  border-bottom: 1px solid #eeeeee;
-  padding: 6em 0
-}
-.project-case .row {max-width: 42em;margin: 0 auto 2em auto;}
-.project-case h3 {text-align: left;float:left;width:60%;}
-.project-case ul {text-align: right;float:right;width:40%;margin:0;padding:0;}
-.project-case ul li {list-style: none;font-size: 0.75em;line-height: 1.5em;color: #cccccc;}
-.project-case p {max-width:42em;margin:0 auto 2em auto;text-align: left;}
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-desktop-nosh.jpg" alt="Nosh Catering desktop layout" />
+        <!-- <img src="img/feature-project-nosh.png" /> -->
+      </div>
+    </section>
 
-@media (max-width: 800px) {
-  .project-case h3 {width:100%;}
-  .project-case ul {text-align: left;float:left;width:100%;}
-}
+    <!-- project -->
+    <section class="project-case">
+      <div class="container click">
+        <div class="row">
+          <h3>Just things</h3>
+          <ul>
+            <li>Visual Design</li>
+            <li>Front-End Development</li>
+          </ul>
+        </div>
+        <p><a href="http://typecast.com/">Typecast</a> conducted a typography contest during the <a href="http://2012.buildconf.com/">Build</a> conference. This was my entry which ended up <a href="http://typecast.com/blog/our-first-contest-winners">winning</a> best overall award for this quote. The entries were judged by <a href="http://elliotjaystocks.com/">Elliot Jay Stocks</a>, <a href="http://trentwalton.com/">Trent Walton</a>, and <a href="http://nicewebtype.com/">Tim Brown</a>.</p>
+        <p class="website"><a class="button" href="http://andrewlohman.com/just-things/">Website</a></p>
 
-/*p.role {
-  color: #cccccc;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  line-height: 1.5em;
-  letter-spacing: 2px;
-  margin:0 auto 2em auto;
-}*/
-/*@media (max-width: 800px) {
-  .project-case h3 {text-align: left;}
-  .project-case p {text-align: left;}
-  p.role {margin:0 0 2em 0;}
-}*/
+        <!-- images -->
+        <img src="img/loader.gif" data-src="img/project-desktop-just-things.jpg" alt="Just things desktop layout" />
+        <!-- <img src="img/feature-project-typecast.png" /> -->
+      </div>
+    </section>
 
-/* footer
--------------------------------------------------- */
-.footer {
-  background-color: #2B1E40;
-  background-image:linear-gradient(-45deg, #005087, #2B1E40);
-  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
-  background: -moz-linear-gradient(-45deg, #1E3740, #2B1E40);
-  background: -ms-linear-gradient(-45deg, #1E3740, #2B1E40);
-  background: -o-linear-gradient(-45deg, #1E3740, #2B1E40);
-  text-align:center;
-  margin:0 auto;
-  padding:4em 0 12em 0;
-  color:#abb2bf;
-}
-.footer h2 {color:#ffffff; font-family: 'Roboto', sans-serif;}
-.footer p {margin: 0 0 0em 0;}
-ul.footer-list {
-  padding:0;
-  position: relative;
-  padding-bottom:3em;
-}
-ul.footer-list li {
-  display:inline;
-  padding:0 0.25em 0 0.25em;
-}
-.footer a {
-  opacity:1;
-  color:#ffffff;
-  border-bottom: solid 2px #ffffff;
-  font-weight:normal;
-  text-decoration: none;
-}
-.footer a:hover {opacity:0.5;}
+    <!-- about me -->
+  <div class="about-container">
+    <section class="about-me">
 
-/* Link colors
--------------------------------------------------- */
-a.link-pc {opacity:1; color: #eea900; border-bottom: solid 2px #eea900;}
-a:hover.link-pc {opacity:0.5;}
+      <div class="container">
+        <div class="row">
+          <div class="span6">
+          <!-- <span class="icon"><i class="icon-eye-open"></i></span> -->
+          <h2>More about me</h2>
+        </div>
 
-a.link-dell {opacity:1; color: #007db8; border-bottom: solid 2px #007db8;}
-a:hover.link-dell {opacity:0.5;}
+        <div class="row">
+          <div class="span6">
+            <h3>Currently I'm a Sr. Designer for PCPartPicker. Previously I worked at GM, where I helped develop a front-end design system of interface guidelines.</h3>
+            <p>For the past twenty years I've been designing experiences for the web. I specialize in responsive front-end design, HTML/CSS and web typography.</p>
+            <p>Some other areas of expertise are creative direction/art direction, interface design, prototyping, concepting, mobile/app design and more. Most days I work with pixels, grids, typography, colors and lines of code. Currently I design at PCPartPicker. Previously at eBay, GM and Dell.</p>
+            <p>I'm always interested in freelance opportunities, so don't hesitate to <a href="mailto:ajlohman@gmail.com?subject=Contact-me">contact me</a> if you are looking to fill a spot or need help with a project.</p>
+            <p>You can find me elsewhere on the web: view my <a href="http://dribbble.com/ajlohman">Dribbble</a> shots, follow me on <a href="https://twitter.com/ajlohman">Twitter</a>, I write code on <a href="https://github.com/ajlohman">GitHub</a> and I take photos on <a href="http://instagram.com/ajlohman">Instagram</a>. I don't post much because I'd rather hang out with my wife and three boys.</p>
 
-a.link-gm {opacity:1; color: #134a9c; border-bottom: solid 2px #134a9c;}
-a:hover.link-gm {opacity:0.5;}
+            <!--<p>Life outside of work is spent with my beautiful wife, three boys and crazy pug. When I'm not thinking about the future of the internet I enjoy the outdoors, playing many different sports (especially golf) but wish I could snow ski or surf more often. I live in Texas, but used to live in Indiana, Massachusetts, Ohio and California.</p>-->
+          </div>
+        </div>
 
-a.link-ebay {opacity:1; color: #06c; border-bottom: solid 2px #06c;}
-a:hover.link-ebay {opacity:0.5;}
+        <div class="row">
+          <div class="span6">
+            <h2>About this site</h2>
+          </div>
+        </div>
 
-a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.5;}
+        <div>
+          <div class="span6">
+            <p>I use this site as an experimental space, trying and testing things so it might not work properly from time to time. If you have questions on how or why I did something or have tips to improve something don't hesitate to <a href="mailto:ajlohman@gmail.com?subject=Contact-me">contact me</a>.</p>
+            <p>Hosted by <a href="https://github.com/">Github</a> and built using <a href="https://atom.io/">Atom</a>. The current font used is <a href="https://fonts.google.com/specimen/Roboto">Roboto</a>, but I tend to change it a lot. Fonts served up via <a href="https://fonts.google.com/">Google</a>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-a.link-twitter {opacity:1; color: #59adeb; border-bottom: solid 2px #59adeb;}
-a:hover.link-twitter {opacity:0.5;}
+<!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <!-- <span class="icon white"><i class="icon-globe"></i></span> -->
+        <h2>Elsewhere</h2>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a class="link-dribbble" href="http://dribbble.com/ajlohman">Dribbble</a></li>
+          <li class="footer-list-item"><a class="link-twitter"href="https://twitter.com/ajlohman">Twitter</a></li>
+          <li><a class="link-github" href="https://github.com/ajlohman">GitHub</a></li>
+          <li><a class="link-instagram" href="http://instagram.com/ajlohman">Instagram</a></li>
+          <!-- <li><a href="http://www.rdio.com/people/ajlohman/">Rdio</a></li> -->
+        </ul>
 
-a.link-dribbble {opacity:1; color: #ea4c89; border-bottom: solid 2px #ea4c89;}
-a:hover.link-dribbble {opacity:0.5;}
+        <p>Contact me by <a href="mailto:ajlohman@gmail.com?subject=Contact-me">email</a></p>
+        <p><em>Made by hand</em> by Andrew Lohman</p>
+        <p>Thanks for visiting</p>
+        <p>&#169; Copyright 2000 - &#x221e;</p>
+      </div>
+    </footer>
 
-a.link-github {opacity:1; color: #4078c0; border-bottom: solid 2px #4078c0;}
-a:hover.link-github {opacity:0.5;}
 
-a.link-instagram {opacity:1; color: #E5405B; border-bottom: solid 2px #E5405B;}
-a:hover.link-instagram {opacity:0.5;}
+    <!-- javascript
+    ================================================== -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jribbble.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.unveil.js"></script>
+
+    <script>
+    $(function() {
+        $("img").unveil(200);
+    });
+    $("img").unveil(200, function() {
+      $(this).load(function() {
+        this.style.opacity = 1;
+      });
+    });
+    </script>
+
+<!-- Google analytics -->
+    <script>
+      var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-19365954-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+  </body>
+</html>
