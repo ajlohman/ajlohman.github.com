@@ -133,13 +133,13 @@ h1,h2,h3,h4,h5,h6 {
 
 .intro {max-width:42em;margin:0 auto;}
 .intro h1 {color: #ffffff; float:left;width:60%;margin-bottom: 0.5em;}
-.intro ul {color: #cccccc;float:left;width:40%;}
+/*.intro ul {color: #cccccc;float:left;width:40%;}*/
 .intro ul li {list-style: none;display:inline;}
 .intro p {color: #cccccc;float:left;width:40%;}
 
 @media (max-width: 800px) {
   .intro h1 {width:100%;}
-  .intro ul {width:100%;}
+  /*.intro ul {width:100%;}*/
   .intro p {width:100%;}
 }
 
