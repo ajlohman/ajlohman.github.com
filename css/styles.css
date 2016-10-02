@@ -135,6 +135,11 @@ h1,h2,h3,h4,h5,h6 {
 .intro h1 {color: #ffffff; float:left;width:60%;}
 .intro p {color: #cccccc;float:left;width:40%;}
 
+@media (max-width: 800px) {
+  .intro h1 {width:100%;}
+  .intro p {width:100%;}
+}
+
 /*@media (min-width: 1500px) {
   .intro {max-width: 52em;}
   .header h1 {font-size:3em;}
