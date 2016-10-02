@@ -183,11 +183,11 @@ p.role {
   letter-spacing: 2px;
   margin:0 auto 2em auto;
 }
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
   .project-case h3 {text-align: left;}
   .project-case p {text-align: left;}
   p.role {margin:0 0 2em 0;}
-}
+}*/
 
 /* footer
 -------------------------------------------------- */
