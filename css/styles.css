@@ -178,6 +178,11 @@ h1,h2,h3,h4,h5,h6 {
 .project-case ul li {list-style: none;font-size: 0.75em;line-height: 1.5em;color: #cccccc;}
 .project-case p {max-width:42em;margin:0 auto 2em auto;text-align: left;}
 
+@media (max-width: 800px) {
+  .project-case h3 {width:100%;}
+  .project-case ul {text-align: left;float:left;width:100%;}
+}
+
 /*p.role {
   color: #cccccc;
   text-transform: uppercase;
