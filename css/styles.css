@@ -217,6 +217,10 @@ ul.header-list {
   color: #ffffff;
   padding: 2em 1em;
   border-left: 2px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .header-list li a:hover {
   opacity: 1;
@@ -224,9 +228,28 @@ ul.header-list {
 }
 @media (max-width: 800px) {
   .header-list li a {
-    float:none;
+    float:left;
     border-left:none;
-    padding: 1em;
+    padding: 0;
+    width:25%;
+  }
+  .header-list li:nth-child(2) a, .header-list li:nth-child(3) a, .header-list li:nth-child(4) a  {
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+  }
+}
+@media (max-width: 600px) {
+  .header-list li a {
+    float:left;
+    border-left:none;
+    padding: 0;
+    width:50%;
+  }
+  .header-list li:nth-child(3) a {
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  .header-list li:nth-child(2) a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
   }
 }
 
