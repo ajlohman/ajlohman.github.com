@@ -138,6 +138,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .intro {max-width:42em;margin:0 auto;}
 .intro h1 {
+  font-family: 'Lora', serif;
   color: #ffffff;
   float:left;
   width:60%;
