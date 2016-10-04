@@ -155,7 +155,10 @@ p {margin: 0 0 2em 0;}
 }
 .header h1 {
   font-size: 5vw;
-  color: #ffffff;
+  color: #FF8181;
+  background: -webkit-linear-gradient(-45deg, #ffffff, #FF8181);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin:1em 0 0.5em 0;
 }
 @media (max-width: 800px) {
