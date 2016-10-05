@@ -262,7 +262,7 @@ ul.header-list {
   border-bottom: 1px solid #eeeeee;
   padding: 6em 0;
 }
-.project-case h3 {text-align: left;float:left;width:60%;}
+.project-case h3 {text-align: left;float:left;width:60%;margin-bottom:0.5em;}
 .project-case ul {text-align: right;float:right;width:40%;margin:0;padding:0;}
 .project-case ul li {list-style: none;font-size: 0.75em;line-height: 1.5em;color: #cccccc;}
 
