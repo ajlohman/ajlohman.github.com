@@ -274,7 +274,7 @@ ul.header-list {
 /* about me
 -------------------------------------------------- */
 /*.about-container {background: #e7eff3;}*/
-.about-me {padding: 6em 0;}
+.about-me {padding: 6em 0;background:#e7eff3;}
 .about-me h2, .about-me h3 {
   color: #2b1e43;
   background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
