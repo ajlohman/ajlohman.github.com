@@ -275,15 +275,17 @@ ul.header-list {
 -------------------------------------------------- */
 /*.about-container {background: #e7eff3;}*/
 .about-me {padding: 6em 0;background:#e7eff3;}
-.about-me h2, .about-me h3 {
-  color: #2b1e43;
-  background: -webkit-linear-gradient(-45deg, #005087, #2B1E40);
+.about-me h2 {
+  font-size: 2vw;
+  color: #2B1E40;
+  margin-bottom: 0.5em;
+}
+.about-me h3 {
+  color: #2B1E40;
+  background: -webkit-linear-gradient(-45deg, #2B1E40, #2B1E40);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0.5em;
-}
-.about-me h2 {
-  font-size: 2vw;
 }
 @media (max-width: 800px) {
   .about-me h2 {font-size: 1em;}
