@@ -136,12 +136,12 @@ p {margin: 0 0 2em 0;}
 /* header
 -------------------------------------------------- */
 .header {
-  background-color: #2B1E40;
-  background-image:linear-gradient(-45deg, #000000, #2B1E40);
-  background: -webkit-linear-gradient(-45deg, #000000, #2B1E40);
-  background: -moz-linear-gradient(-45deg, #000000, #2B1E40);
-  background: -ms-linear-gradient(-45deg, #000000, #2B1E40);
-  background: -o-linear-gradient(-45deg, #000000, #2B1E40);
+  background-color: #ffae8b;
+  background-image:linear-gradient(-45deg, #ffae8b, #ffcfb7);
+  background: -webkit-linear-gradient(-45deg, #ffae8b, #ffcfb7);
+  background: -moz-linear-gradient(-45deg, #ffae8b, #ffcfb7);
+  background: -ms-linear-gradient(-45deg, #ffae8b, #ffcfb7);
+  background: -o-linear-gradient(-45deg, #ffae8b, #ffcfb7);
   text-align:left;
   margin:0 auto 0 auto;
   padding:0;
@@ -156,7 +156,7 @@ p {margin: 0 0 2em 0;}
 .header h1 {
   font-size: 5vw;
   color: #FF8181;
-  background: -webkit-linear-gradient(-45deg, #ffffff, #FF8181);
+  background: -webkit-linear-gradient(-45deg, #000000, #3A3A39);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin:1em 0 0.5em 0;
