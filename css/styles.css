@@ -10,10 +10,10 @@ img {max-width: 100%;vertical-align: middle;border: 0;-ms-interpolation-mode: bi
 .clearfix:before,.clearfix:after {display: table;content: "";}
 .clearfix:after {clear: both;}
 
-img {
+/*img {
   opacity: 0;
   transition: opacity .3s ease-in;
-}
+}*/
 
 /* Body and globals
 -------------------------------------------------- */
@@ -306,22 +306,39 @@ ul.header-list {
   /*color: #2B1E40;
   margin-bottom: 0.5em;*/
 }
+
 .about-me h3 {
-  color: #357edd;
-  background: -webkit-linear-gradient(-45deg, #357edd, #2B1E40);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2B1E40;
   padding-bottom: 40px;
-  /*margin-bottom: 0.5em;*/
+  margin: 0 10%;
+  font-size: 35px;
+  line-height: 55px;
 }
-/*@media (max-width: 800px) {
-  .about-me h2 {font-size: 1em;}
-  .about-me h3 {font-size: 1.5em;}
+@media (max-width: 800px) {
+  .about-me h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
 }
-@media (min-width: 1400px) {
-  .about-me h2 {font-size: 2em;}
-  .about-me h3 {font-size: 3em;}
-}*/
+@media (max-width: 960px) {
+  .about-me h3 {
+    margin: 0;
+    /*margin-bottom: 0.5em;*/
+  }
+}
+@media (min-width: 1500px) {
+  .about-me h3 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+}
+
+.about-me a {
+  color: #2B1E40;
+}
+.about-me a:hover {
+  opacity:0.5;
+}
 
 
 
