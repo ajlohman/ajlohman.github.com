@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 35px;
   line-height: 45px;
   font-family: 'tofino_bold';
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
   margin:0;
   color: #000000;
