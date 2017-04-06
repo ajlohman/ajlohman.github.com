@@ -198,7 +198,7 @@ p {margin: 0 0 40px 0;}
 }
 @media (max-width: 960px) {
   .header h1 {
-    padding: 40px 0;
+    padding: 40px 10%;
   }
 }
 @media (max-width: 767px) {
