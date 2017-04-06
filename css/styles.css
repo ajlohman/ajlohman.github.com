@@ -53,13 +53,13 @@ a:hover {
 
 /* Fonts
 -------------------------------------------------- */
-/*@font-face {
-    font-family: 'tofino_personalblack';
+@font-face {
+    font-family: 'tofino_black';
     src: url('../fonts/tofino-black-webfont.woff2') format('woff2'),
          url('../fonts/tofino-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 @font-face {
     font-family: 'tofino_bold';
     src: url('../fonts/tofino-bold-webfont.woff2') format('woff2'),
@@ -73,7 +73,13 @@ a:hover {
          url('../fonts/tofino-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'tofino_light';
+    src: url('../fonts/tofino-light-webfont.woff2') format('woff2'),
+         url('../fonts/tofino-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* The grid
@@ -125,11 +131,9 @@ a:hover {
 -------------------------------------------------- */
 a.button {
   color: #000000;
-  font-family: 'tofino_bold', sans-serif;
   border: solid 2px #000000;
   padding:7px 25px 8px 25px;
   text-transform: uppercase;
-  font-weight: 700;
   font-size: 12px;
   opacity:1;
   /*letter-spacing: 2px;*/
@@ -143,9 +147,7 @@ a:hover.button{opacity:0.5;}
 h1,h2,h3,h4,h5,h6 {
   font-size: 35px;
   line-height: 45px;
-  font-family: 'tofino_bold', sans-serif;
   margin:0;
-  font-weight: 700;
   color: #000000;
   text-rendering: optimizelegibility;
 }
@@ -270,7 +272,6 @@ ul.header-list {
   border-bottom: 1px solid rgba(0,0,0,0.1);
   margin:0;
   padding:5px 0;
-  font-family: 'tofino_bold', sans-serif;
   font-weight: 700;
   /*font-family:'Helvetica Neau', sans-serif !important;*/
 }
