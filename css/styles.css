@@ -21,7 +21,7 @@ body {
   margin: 0;
   /*font-family: 'Roboto', sans-serif;*/
   /*font-family: Georgia, serif;*/
-  font-family: 'tofino_personal_regularRg', sans-serif !important;
+  font-family: 'tofino_regularRg', sans-serif;
   font-size: 20px;
   line-height: 35px;
   /*letter-spacing: 0.2px;*/
@@ -61,14 +61,14 @@ a:hover {
     font-style: normal;
 }*/
 @font-face {
-    font-family: 'tofino_personalbold';
+    font-family: 'tofino_bold';
     src: url('../fonts/tofino-bold-webfont.woff2') format('woff2'),
          url('../fonts/tofino-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'tofino_personal_regularRg';
+    font-family: 'tofino_regularRg';
     src: url('../fonts/tofino-regular-webfont.woff2') format('woff2'),
          url('../fonts/tofino-regular-webfont.woff') format('woff');
     font-weight: normal;
@@ -125,7 +125,7 @@ a:hover {
 -------------------------------------------------- */
 a.button {
   color: #000000;
-  font-family: 'tofino_personalbold', sans-serif !important;
+  font-family: 'tofino_bold', sans-serif;
   border: solid 2px #000000;
   padding:7px 25px 8px 25px;
   text-transform: uppercase;
@@ -143,7 +143,7 @@ a:hover.button{opacity:0.5;}
 h1,h2,h3,h4,h5,h6 {
   font-size: 35px;
   line-height: 45px;
-  font-family: 'tofino_personalbold', sans-serif !important;
+  font-family: 'tofino_bold', sans-serif;
   margin:0;
   font-weight: 700;
   color: #000000;
@@ -186,7 +186,6 @@ p {margin: 0 0 40px 0;}
 }
 .header h1 {
   color: #ffffff;
-  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding: 40px 10%;
   width:50%;
 }
@@ -206,13 +205,8 @@ p {margin: 0 0 40px 0;}
 
 .header .nav {
   overflow: hidden;
-  border-bottom: 8px solid rgba(255, 255, 255, 1);
+  border-bottom: 4px solid rgba(255, 255, 255, 1);
   text-transform: uppercase;
-}
-@media (max-width: 960px) {
-  .header .nav {
-    border-bottom: 4px solid rgba(255, 255, 255, 1);
-  }
 }
 ul.header-list {
   text-align: left;
@@ -232,7 +226,7 @@ ul.header-list {
 .header .profile {
   position: absolute;
   z-index: 1;
-  top:10%;
+  top:5%;
   right:10%;
   display: block;
   width:400px;
@@ -265,7 +259,6 @@ ul.header-list {
   padding: 6em 0;
 }
 .project-case h3 {
-  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding:40px 0 20px 0;
 }
 @media (max-width: 800px) {
@@ -277,7 +270,7 @@ ul.header-list {
   border-bottom: 1px solid rgba(0,0,0,0.1);
   margin:0;
   padding:5px 0;
-  font-family: 'tofino_personalbold', sans-serif !important;
+  font-family: 'tofino_bold', sans-serif;
   font-weight: 700;
   /*font-family:'Helvetica Neau', sans-serif !important;*/
 }
@@ -317,7 +310,6 @@ ul.header-list {
 
 .about-me h3 {
   color: #2B1E40;
-  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding-bottom: 40px;
   margin: 0 10%;
   font-size: 35px;
@@ -394,12 +386,7 @@ ul.footer-list li {
 
 .footer .nav {
   overflow: hidden;
-  border-top: 8px solid rgba(255, 255, 255, 1);
-}
-@media (max-width: 960px) {
-  .footer .nav {
-    border-top: 4px solid rgba(255, 255, 255, 1);
-  }
+  border-top: 4px solid rgba(255, 255, 255, 1);
 }
 
 /* Link colors
