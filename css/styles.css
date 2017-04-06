@@ -186,6 +186,7 @@ p {margin: 0 0 40px 0;}
 }
 .header h1 {
   color: #ffffff;
+  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding: 40px 10%;
   width:50%;
 }
@@ -264,9 +265,8 @@ ul.header-list {
   padding: 6em 0;
 }
 .project-case h3 {
+  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding:40px 0 20px 0;
-  font-size: 55px;
-  line-height: 65px;
 }
 @media (max-width: 800px) {
   .project-case h3 {
@@ -317,6 +317,7 @@ ul.header-list {
 
 .about-me h3 {
   color: #2B1E40;
+  font-family: 'tofino_personal_regularRg', sans-serif !important;
   padding-bottom: 40px;
   margin: 0 10%;
   font-size: 35px;
