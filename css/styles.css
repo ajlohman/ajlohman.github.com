@@ -265,6 +265,8 @@ ul.header-list {
 }
 .project-case h3 {
   padding:40px 0 20px 0;
+  font-size: 55px;
+  line-height: 65px;
 }
 @media (max-width: 800px) {
   .project-case h3 {
