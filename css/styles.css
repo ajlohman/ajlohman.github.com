@@ -150,20 +150,20 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 700;
   color: #000000;
   text-rendering: optimizelegibility;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
 }
 @media (max-width: 800px) {
   h1,h2,h3,h4,h5,h6 {
     font-size: 25px;
     line-height: 35px;
-    letter-spacing: 0;
+    /*letter-spacing: 0;*/
   }
 }
 @media (min-width: 1500px) {
   h1,h2,h3,h4,h5,h6 {
     font-size: 45px;
     line-height: 55px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
   }
 }
 
