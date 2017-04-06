@@ -143,27 +143,22 @@ a:hover.button{opacity:0.5;}
 h1,h2,h3,h4,h5,h6 {
   font-size: 35px;
   line-height: 45px;
-  /*font-family: 'Lora', serif !important;*/
   font-family: 'tofino_personalbold', sans-serif !important;
   margin:0;
-  font-family: inherit;
   font-weight: 700;
   color: #000000;
   text-rendering: optimizelegibility;
-  /*letter-spacing: 1px;*/
 }
 @media (max-width: 800px) {
   h1,h2,h3,h4,h5,h6 {
     font-size: 25px;
     line-height: 35px;
-    /*letter-spacing: 0;*/
   }
 }
 @media (min-width: 1500px) {
   h1,h2,h3,h4,h5,h6 {
     font-size: 45px;
     line-height: 55px;
-    /*letter-spacing: 2px;*/
   }
 }
 
@@ -192,7 +187,6 @@ p {margin: 0 0 40px 0;}
 .header h1 {
   color: #ffffff;
   padding: 40px 10%;
-  /*text-transform: uppercase;*/
   width:50%;
 }
 @media (max-width: 960px) {
@@ -220,7 +214,6 @@ p {margin: 0 0 40px 0;}
   }
 }
 ul.header-list {
-  /*font-family:'Helvetica Neau', sans-serif !important;*/
   text-align: left;
   font-size: 12px;
   line-height: 22px;
@@ -281,7 +274,7 @@ ul.header-list {
 .project-case ul {
   border-bottom: 1px solid rgba(0,0,0,0.1);
   margin:0;
-  padding:20px 0;
+  padding:5px 0;
   font-family: 'tofino_personalbold', sans-serif !important;
   font-weight: 700;
   /*font-family:'Helvetica Neau', sans-serif !important;*/
